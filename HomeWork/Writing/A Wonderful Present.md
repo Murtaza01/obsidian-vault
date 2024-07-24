@@ -1,0 +1,3 @@
+It was my birthday, December 20, when i received a present from my sister, i do not celebrate birthdays, and people normally do not get me presents on my birthday, i was shocked at that day when my sister surprised me with a package that was nicely wrapped by a magazine wrapper, i said to myself "it must be something i will not like", because i hardly like any present.
+
+I started opening the present and i was astonished, it was my favorite book, Epictetus discourses, holding the book felt amazing as i always wanted the physical  copy but could not find it locally, i said to her "this is what presents should look like"

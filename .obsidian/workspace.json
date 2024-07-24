@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "b77fb489522eca6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bef3894c4f57a35",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "836d82603ab91a30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Node/Express/app structure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0cf422f2941d245e",
+    "type": "split",
+    "children": [
+      {
+        "id": "48e9451fed63c061",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ea476fbf039ae41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad46cc86a19ddc25",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "effect",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6f4dbdf8eeb92f9e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 242.5
+  },
+  "right": {
+    "id": "b24c9bd0397ad133",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fd55a3896f118bf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f06bcf73b64e0e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Node/Express/app structure.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c7acac0603d318db",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Node/Express/app structure.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e416c8511b94e7cb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "688da6237d068dad",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Node/Express/app structure.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "836d82603ab91a30",
+  "lastOpenFiles": [
+    "Node/Express/Routing.md",
+    "Node/Express/app structure.md",
+    "Node/Express/Cookies & Sessions.md",
+    "Rest Api.md",
+    "Attachments/What-is-an-API.png",
+    "What-is-an-API.png.crdownload",
+    "Projects/bestpic.md",
+    "backend/mongoDB 1.md",
+    "3rd party libraries/Swiper.md",
+    "3rd party libraries/Swiper 2.md",
+    "3rd party libraries/AOS.md",
+    "3rd party libraries/Swiper 1.md",
+    "3rd party libraries/i18next.md",
+    "backend/mongoDB.md",
+    "Projects/surveyApp.md",
+    "Projects/bestpic 1.md",
+    "Projects/Birdman Portfolio.md",
+    "Projects/Birdman Portfolio 1.md",
+    "backend/Node.md",
+    "backend/Express.md",
+    "Node/TypeScript.md",
+    "TypeScript.md",
+    "backend/EJS.md",
+    "CSS/Responsiveness/Flexbox.md",
+    "3rd party libraries",
+    "CSS/Responsiveness/Display.md",
+    "Absolute vs Relative Path.md",
+    "Authentication Route Example.md",
+    "Emails.md",
+    "Attachments/__dirname.png",
+    "Node/Express/Untitled",
+    "Node/Express",
+    "Node",
+    "Attachments/ts.config for node.png",
+    "Attachments/ts output.png",
+    "Attachments/node and  v8.png",
+    "Attachments/Route Error Handling.png",
+    "Attachments/Pasted image 20240604184119.png",
+    "Attachments/Pasted image 20240604183722.png",
+    "Attachments/Pasted image 20240604183030.png",
+    "Attachments/Pasted image 20240604182952.png",
+    "SQL",
+    "Attachments/refactering UI",
+    "Attachments/New folder",
+    "backend",
+    "HomeWork/Literature",
+    "Untitled.canvas"
+  ]
+}
