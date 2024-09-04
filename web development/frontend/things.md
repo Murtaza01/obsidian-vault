@@ -50,6 +50,9 @@ http://localhost:4000/graphql
 -H == header 
 -d == data(body)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> ba9c149 (removed the auth token from some file after git warning me about it (thank you git :)))
+=======
+>>>>>>> 9d4616a (still errors)
