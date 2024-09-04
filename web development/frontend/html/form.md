@@ -1,4 +1,4 @@
-why use the form element ? for [_semantic markup_ !](https://stackoverflow.com/questions/31066693/what-is-the-purpose-of-the-html-form-tag) 
+why use the form element ? for [_semantic markup_ !](https://stackoverflow.com/questions/31066693/what-is-the-purpose-of-the-html-form-tag), also because it sends requests to the backend of choice automatically
 
 to use input and label together, consider the code below:
 

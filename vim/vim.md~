@@ -1,0 +1,116 @@
+# finding 
+
+you can find text using the `/` and enter the text, you can move around of the same text using N or n
+
+you can quickly find stuff with the normal mode and using f and then the charactor for example:
+f+. will show you the first `.`
+you can find the second or third using a number:
+2 + f + charactor
+
+to find same word under curser we use:
+
+* === shift + 8 
+
+# insert 
+
+to insert in new line or before we use:
+
+o = insert after line
+O = instert before line
+
+# delete 
+
+you can delete using the `d` button
+you can delete one word by using
+
+d + w == delete the first word 
+
+d + number == will delete lines based on the number
+
+d + d == delete the whole line
+
+# others 
+
+u == undo 
+Ctrl + r = redo 
+y == copy
+d == cut (while in viusal mode)
+gx == open links
+
+> record mode 
+
+you can recode what you did in a line with:
+
+qq == record
+
+and past or do this using 
+
+@q 
+# buffers
+
+buffers are like windows, we can open mulitple files and they will be repreasented by a buffer, we can go back and go next in the files we opend using:
+
+:buffer filename
+:bnext,:bprevious
+:buffer number
+
+to see list of buffers we can use:
+
+:ls
+:buffers
+
+# windows
+
+to open mulitple windows we can use:
+
+:split filename
+
+:vsplit filename == opens virtically
+
+we can close a window by using:
+
+:quit
+or 
+ctrl-w + c 
+
+to switch between windows if we split them we can use:
+
+ctrl-w k == upper window
+ctrl-w j == lower window
+ctrl-w h == left window
+ctrl-w o == closes all other windows and keep current
+w= window, h= is using the same keys to move
+
+
+
+# tabs 
+
+you can open a new tab using:
+
+:tabnew filename
+
+to exit
+
+:tabclose
+
+
+you can naivagate through tabs using:
+
+:tabnext or gt
+:tabpervious or gT
+3gt === go to 3rd tab 
+
+# netrw 
+using netrw, we can open a whole diractory, to view the file structure, we can open it using the edit option
+
+:edit .
+:edit src/utils
+
+while in netrw we can 
+
+% == to create a new file
+d == to create a new diractory
+D == to delete
+R == to rename
+
+

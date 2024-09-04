@@ -10,3 +10,4 @@
 # present perfect vs past simple
 
 ![[perfect simple vs past.png]]
+![](../Attachments/past_simple.png)

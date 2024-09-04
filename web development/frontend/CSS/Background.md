@@ -56,3 +56,17 @@ linear-gradient(90deg, red 75%, green, blue)
 this will make the red takes up 75% of the background color
 
 if no `gradientDirection` argument is provided to the `linear-gradient` function, it arranges colors from top to bottom, or along a 180 degree line, by default.
+
+
+> multiple background property
+
+you can put multiple background images using the `,` to separate between them, see syntax below:
+
+```CSS
+.header{
+	background-image:
+	linear-gradient(rgba(255,255,255,0.7)),
+	url('./images/house.png')
+}
+```
+

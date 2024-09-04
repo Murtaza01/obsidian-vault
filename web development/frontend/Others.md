@@ -1,3 +1,4 @@
+# chaining classes
 you can use Chaining to apply a specific style to an element consider the code below
 
 h1.heading{
@@ -75,13 +76,4 @@ you can do that by adding the attribute target to you anchor tag, it would look 
 <a href="https://freecatphotoapp.com" target='_blank'>cat photos</a>
 ```
 
-# Combining Selectors Using The DOM
-
-you can combine class and elements using the querySelector in the DOM, example:
-
-```javascript
-document.querySelectorAll('a.new-window')
-```
-
-where a is a an *element* and new-window is a *class*
 

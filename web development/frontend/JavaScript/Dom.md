@@ -1,3 +1,13 @@
+# Combining Selectors Using The DOM
+
+you can combine class and elements using the querySelector in the DOM, example:
+
+```javascript
+document.querySelectorAll('a.new-window')
+```
+
+where a is a an *element* and new-window is a *class*
+
 # Adding CSS
 
 to Add CSS using The DOM, there is a really good way of doing so, in JavaScript we write this function:
