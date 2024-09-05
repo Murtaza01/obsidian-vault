@@ -13,3 +13,17 @@ color:transparent;
 in the above code, we give a gradient background and then we make the image clipped as the text, then i need to make the color transparent so that the background appears
 
 *this works for images too!*
+
+# [ellipsis](https://developer.mozilla.org/en-US/docs/Web/CSS/text-overflow) ...
+
+we can set a minmal size of the text so that we show ellipsis in the end,
+instead of showing the actual text, it is done by using three properties:
+
+```css
+p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+```
+

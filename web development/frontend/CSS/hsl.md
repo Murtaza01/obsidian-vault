@@ -1,6 +1,6 @@
 there is three properties to `hsl`
 
-# Hue
+# hue
 
 is the color wheel, it ranges from 0 to 360
 0 being red
