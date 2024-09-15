@@ -1,4 +1,3 @@
-
 > border radios 
 
 small border radios is natural, doesn't communicate much
@@ -33,17 +32,3 @@ the main action should have the color (it should be clear and vivid)
 the secondary action should have a outline (no color or reduced color)
 the third action (the least important) should have the least styles 
 
-
-![[hierarchy2.png]]
-
-![[text alighmnet.png]]
-
-![[Pasted image 20240327002603.png]]
-![[Pasted image 20240327002832.png]]
-![[Pasted image 20240327003046.png]]
-![[Pasted image 20240327181427.png]]![[Pasted image 20240327181759.png]]
-![[Pasted image 20240327181852.png]]
-![[Pasted image 20240327182347.png]]
-
-![[Pasted image 20240328002334.png]]
-![[Pasted image 20240328003542.png]]

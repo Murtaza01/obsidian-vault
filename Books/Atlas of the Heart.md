@@ -1,4 +1,3 @@
-
 “Anxiety is contagious. Intensity and reactivity only
 breed more of the same. Calm is also contagious. Nothing
 is more important than getting a grip on your own
@@ -13,7 +12,6 @@ for approval and acceptance." p.225
 our most authentic selves with people, our sense of belonging can
 never be greater than our level of self-acceptance."
 
-![[Belonging.png]]
 
 # Connection
 
