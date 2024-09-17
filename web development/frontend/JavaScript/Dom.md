@@ -42,17 +42,6 @@ is a method that you can use it to remove/add class to a specific element, if th
 element.classList.toggle('the class name')
 ```
 
-# this
-
-a good way to use this is to find out what button got clicked an array of button that has an event listener, consider the code below:
-
-![[this.png]]
-
-this will show you the exact button that is clicked, because this will refer to the element that the event listener invoked !
-
-**NOTE** that you need to use the keyword function and not the arrow function, because arrow function doesn't have a *this* 
-
-
 # Change the opacity in one element
 
 im trying to figure out the best way to do this, maybe i add a function that will get rid of the  nested loops, but so far this is what I've done:

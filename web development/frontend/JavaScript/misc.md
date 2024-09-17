@@ -2,8 +2,6 @@
 
 consider having an array, that you want to check to do a specific action depending on the element, you can use *else if* but it is better to use the switch statement, here is an example:
 
-![[Switch Statement.png]]
-
 in the above example we have an array, and we are using a for loop to access each element and giving it and event listener, we are taking the `innerHTML` of the element that gets clicked, and using `switch` we are checking for what button got clicked and making an action likewise
 
 note that we need the `break;` after every case, and inside the switch parentheses, we button the value that we wanna check, and the `case` is to check whether this is the value, if it is do the this !
@@ -60,4 +58,19 @@ we can easily do that using the `+` operator in-front of the variable:
 let num1 = '1'
 
 +num1 + 1 // 2
+```
+
+# calling an inner function
+
+we can do that just by adding a second parentheses to the end:
+
+```javascript
+
+function hello(){
+    return function(){
+    console.log('hello world');
+    }
+}
+
+hello()() // hello world
 ```

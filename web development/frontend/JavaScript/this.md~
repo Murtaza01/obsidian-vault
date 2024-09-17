@@ -1,0 +1,46 @@
+# implict binding
+
+this keyword is a way to refer to the original object of a method function:
+
+```javascript
+const obj = {
+ fn(){
+    console.log(this) // obj 
+ }
+}
+```
+
+if used on a standalone function, it will refer to the global scope:
+
+```javascript
+function hello(){
+    console.log(this) // window
+}
+```
+
+if it was in the browser then its the window object.
+
+# explict binding
+
+we can refernce an object that would have the `this` key, instead of
+the function own `this` key:
+
+```javascript
+function greet(){
+    console.log(this.name,'says hi');
+}
+
+const person = {
+    name:"ali"
+    age:21
+}
+
+greet() // undefined says hi
+greet.call(person) // ali says hi
+```
+
+> fn.apply 
+
+does the same thing but it can take an array as a second argument.
+
+# hard binding 
