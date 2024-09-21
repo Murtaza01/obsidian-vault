@@ -7,9 +7,12 @@ To create an SVG you need to give it a height and a width
 </svg>
 there is few things we could give to our property that would define it, for example:
 
+```javascript
 <svg height='250' width='250'>
 <circle r='120' cx='125' cy='125' fill='green' stroke='white' stroke-width=5px />
 </svg>
+```
+
 r= radios
 cx= center on the X axis 
 cy= center on the Y axis

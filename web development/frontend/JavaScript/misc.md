@@ -74,3 +74,11 @@ function hello(){
 
 hello()() // hello world
 ```
+
+# typeof with ternary
+
+you can type check something with ternary like this:
+
+```js
+typeof icon === "string" ? do something
+```

@@ -1,12 +1,3 @@
-
-- [x] learn how to do a responsive navBar
-- [x] learn how to use font Awesome
-- [x] build the nav component 
-- [x] style the navBar
-- [x] make the navBar work
-
-# navBar
-
 the simple markup for a navBar is:
 
 ```Html
@@ -64,6 +55,29 @@ to add a way to display it and remove it, we can use the same state of our icons
 
 with the `CSS` above, we can hide show the navBar with our the icon that we can click
 
-# font awesome
 
-to change the size of an icon we simply change the `font-size` 
+# show/hide nav on scroll 
+
+we can do that using the following [code](https://stackoverflow.com/a/71356027/20940799):
+
+```jsx
+
+const [showHeader, setShowHeader] = useState(true);
+const [lastScrolledY, setLastScrolledY] = useState(0);
+
+function onScroll() {
+    if (window.scrollY > lastScrolledY) {
+      setShowHeader(false);
+    } else {
+      setShowHeader(true);
+    }
+    setLastScrolledY(window.scrollY);
+  }
+  useEffect(() => {
+    addEventListener("scroll", onScroll);
+
+    return () => {
+      removeEventListener("scroll", onScroll);
+    };
+  });
+```

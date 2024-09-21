@@ -1,4 +1,3 @@
-
 is a programming language built on top of JavaScript as a way to have a better JavaScript, because JavaScript runs only on the browser, it doesn't show you any errors unless you use the browser, with typescript you can see errors before hand because it doesn't depend on the browser
 
 you can add types to your variables and functions, instead of declaring a variable without any type, the type option will save more memory and will prevent errors, this is also called *static typing*
@@ -49,6 +48,7 @@ age:number
 
 
 you can change the type of a string into a number using the `+` sign 
+
 # Type Inference
 
 `TypeScript` will try to guess the variable you used, without the need of you explicitly assigning it:
@@ -117,8 +117,6 @@ when we want to generically add types to functions, so that the two parameter ta
 function add<T>(a:T,b:T){}
 ```
 
-![[Typescript generics.png]]
-
 if we didn't define a generic on the function, typescript wouldn't type our `updatedArray` into a number of array, rather it would type it as any, the same with the `stringArry` thus losing the safety of typescript
 
 
@@ -141,6 +139,7 @@ function onSubmit(event:React.SynthaticEvent){
 ```
 
 in the code above i cant use `event.target.value` because typescript doesn't know what is the target. this is why i need to type it first then use it.
+
 # React
 
 when using it with react i simply define the props parameter:
@@ -253,4 +252,10 @@ button.addEventListener(...)
 ```
 
 if we didn't add the `!` typescript will raise an error saying that this button might not exist, because it doesn't really look into html, it just sees this line and evaluate it
+
+# disable 'is declared but value never read'
+
+to stop this from happening you can simply add _ before the variable name:
+
+app.get((req,res,_next)=>{})
 

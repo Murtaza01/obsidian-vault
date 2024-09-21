@@ -1,20 +1,3 @@
-there is three components i need to know before i build this site
-
-1. Carousel
-2. navbar
-3. Drop-down menu
-
-
-# 1. Carousel 
-
-- [x] Using Bootstrap
-- [x] Using Slick 
-- [x] Using React Slick
-
-Fail !
-
->  **Building it from the ground**
-
 using React, im going to build it from the ground up, there is few steps to this:
 
 1. i need to make the Carousel in CSS.
@@ -68,53 +51,3 @@ function prevSlide(){
 ```
 in the code above, am checking if the slider is not on the first slide, then i can go back to the previous slide, if its is on the first slide, then i would give it the last index which is (data.length)
 
-# 2. Accordion
-
-for accordion, i simply create a class that by default is hidden (by height) and show it when i add an active class:
-
-```JSX
-const [showAcc,setShowAcc]=useState(false)
-
-<button onClick={()=>setShowAcc(!showAcc)}>
-</button>
-
-<ul className={showAcc ? "content show": "content"}></ul>
-```
-
-the following CSS is needed to show the effect desired:
-
-```CSS
-  .content {
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
-  }
-
-  .content .show{
-    height: auto;
-    max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
-  }
-```
-
->lowering the opacity of a background image
-
-when we have an background image and we have text on it, and the text is not clear, we can add a pseudo element which will represent a new background, and we reduce that pseudo element opacity
-
-```CSS
-.background{
-	position:relative;
-	isolation:isolate;
-}
-
-.background::after{
-	content:"";
-	position:absoulte;
-	background-color:pink;
-	opacity: .3;
-	inset:0;
-	z-index:-1;
-}
-```
-
-isolation will create a stacking content, where the pseudo element will be on top of the image, where the z-index will put it in the background, yet not hide it because it has a position of absolute and the isolate property.

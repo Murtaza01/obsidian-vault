@@ -27,3 +27,13 @@ p{
 }
 ```
 
+# adding background effect with shadows
+
+you can add text background effect using the box-shadow property, with the inset value, see code:
+
+```CSS
+.Header{
+	box-shadow:inset 0 -0.5em 0 0 rgba(0,0,0,0.7);
+}
+```
+

@@ -2,7 +2,7 @@
 you can add await at the top level of your javascript file, instead of 
 using a function
 
-# import a diractry
+# import a directory
 
 if we have a folder which contains all the header components
 
@@ -29,12 +29,6 @@ in the first line we are exporting everyhing that inside the folder to be avaibl
 
 import {headerItems} from "./header"
 
-# disable 'is declared but value never read'
-
-to stop this from happening you can simply add _ before the variable name:
-
-app.get((req,res,_next)=>{})
-
 # curl to request
 
 we can use curl to do request to the server from the bash command:
@@ -46,13 +40,3 @@ curl -X POST \
 http://localhost:4000/graphql
 ```
 
--X == request method
--H == header 
--d == data(body)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> ba9c149 (removed the auth token from some file after git warning me about it (thank you git :)))
-=======
->>>>>>> 9d4616a (still errors)
