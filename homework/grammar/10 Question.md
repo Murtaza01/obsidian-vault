@@ -1,4 +1,3 @@
-
 # 1- what is the purpose of learning grammar ?
 
 In order to speak clearly and efficiently, but in my opinion its more than that, its to communicate exactly what we are thinking and feeling, to be able to describe your experiences to the other person, this is the essence of language, grammar offers us a richer way of expressing ourselves, it offers us transparent communication.
