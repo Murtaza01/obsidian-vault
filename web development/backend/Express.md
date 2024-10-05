@@ -119,3 +119,9 @@ All requests made from the front end of a different origin or to a back end of a
 `cors` helps us bypass an error that occurs when we try to reach our server from a domain, because the browser default will not accept that, so `cors` helps us with that, it will make it possible to fetch data from any domain
 
 it is a third party *Middleware* 
+
+# morgan 
+
+is an HTTP request logger that is helpful to know which person visited your site and at what time.
+
+[basic usage](https://github.com/expressjs/morgan?tab=readme-ov-file#single-file)

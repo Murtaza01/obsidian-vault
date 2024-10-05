@@ -82,6 +82,32 @@ we can use it to run a lockscreen app, for example xscreensaver like this:
  xatuolock -time 10 -locker xscreensaver -activie
 ```
 
+# wget
+
+is a package for donwloading files using a url, it is similar to curl, you can
+use it to download things.
+
+> wget2
+
+the better and faster version 
+
+# timeshift
+
+a tool that takes snapshots of the file system so that you can roll back to an earlier 
+version
+
+# pandoc
+
+a tool that can convert file types, such as pdf epub and md.
+
+it needs lots of [tex_live](https://wiki.archlinux.org/title/TeX_Live) dependences
+in order to work
+
+> convert md to pdf
+
+``` zsh
+pandoc MANUAL.md -o example13.pdf
+```
 # yay: error fetching object file is empty 
 
 this problem happens when the yay package crashes while installing a package or updating
@@ -91,3 +117,38 @@ to fix this we would first remove the package from the yay folder manually from
 
 this folder is where yay download packages from, so it would keep a .git folder that
 will give us this problem
+
+# cloudflare [Warp](https://developers.cloudflare.com/warp-client/get-started/linux/)
+
+a tool to change your that hides your DNS, it is similar to a vpn.
+
+in arch you need the [AUR](https://aur.archlinux.org/packages/cloudflare-warp-bin)
+
+we also need to enable or lunch the service 
+
+```zsh
+sudo systemctl enable --now warp-svc.service
+```
+
+this however will keep it running in the background so you need to disable it later
+
+
+# show disk usage
+
+we can do that with the command
+
+```zsh
+du --summarize --human-readable *
+// OR
+du -sh *
+```
+
+du == disk usage
+
+# libreoffice
+
+we can use the libreoffice command to convert odt to pdf
+
+``` zsh
+libreoffice --convert-to pdf *.odt
+```

@@ -31,3 +31,14 @@ we can indent the whole file using
 
 gg=G
 
+# open file/links 
+
+we can `click` to another file if we have a path using:
+
+gf == open file
+ctrl+w ctrl+f == open file in a new window
+ctrl+6 == jump to previous buffer
+
+to a link using:
+
+gx == open link (using xdg)

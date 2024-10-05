@@ -102,3 +102,14 @@ forking a repository makes another copy of that repository that you can do some 
 when you do that *(fork a repository)* and add some changes, you can request a pull into the main repository, so that the owner of that repository might decided to *(pull)* that request
 
 its different from push because its not coming from the owner, but rather from another person requesting a push *(pull)*
+
+# gh 
+
+a tool that help authenticate and verify your token with other useful things
+
+```zsh
+gh auth token // shows saved token
+gh auth status // shows info
+```
+
+
