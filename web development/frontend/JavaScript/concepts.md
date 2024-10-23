@@ -60,3 +60,20 @@ console.log(name) // undifiend
 ```
 
 you can say that let binds to the local scope 
+
+# Model Windows in Browser
+
+We can use three things to show pop up windows:
+
++ alert: shows a message to the user.
++ prompt: similar to alert but with input.
++ confirm: returns true or false, used to ask questions.
+
+# Type Conversion
+
+We can type convert using three functions:
+
++ String()
++ Number(): shorter version is `+` before the string
++ Boolean()
+

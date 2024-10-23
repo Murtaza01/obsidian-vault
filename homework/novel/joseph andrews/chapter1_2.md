@@ -1,4 +1,4 @@
-# wrtier jffers greater services
+# Wrtiers Offers Greater Services
 
 Henry says that a writer often offers a greater service than great men
 who lived a great life, because those people often unknown by thier peers

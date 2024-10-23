@@ -1,6 +1,0 @@
-- [x] zainb clothing site (abandoned)
-- [x] dirasat-gat remake
-- [ ] API of last year results
-- [ ] a count down app
-- [ ] gymRat app
-- [ ] get location and show content based on that location

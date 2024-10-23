@@ -66,5 +66,3 @@ I sent her a message.
 ```
 
 The verb `sent` need the object message to complete its meaning.
-
-

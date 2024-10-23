@@ -96,18 +96,6 @@ the better and faster version
 a tool that takes snapshots of the file system so that you can roll back to an earlier 
 version
 
-# pandoc
-
-a tool that can convert file types, such as pdf epub and md.
-
-it needs lots of [tex_live](https://wiki.archlinux.org/title/TeX_Live) dependences
-in order to work
-
-> convert md to pdf
-
-``` zsh
-pandoc MANUAL.md -o example13.pdf
-```
 # yay: error fetching object file is empty 
 
 this problem happens when the yay package crashes while installing a package or updating
