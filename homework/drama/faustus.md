@@ -63,10 +63,49 @@ When he was waiting for Valdes and Cornelius.
 Faustus is saying his 4 noble purposes when he gets his 
 magic powers which are:
 
-- building a wall around Germany to protect it.
-- Make the river Rhine circle Wittenberg university.
-- give money to students in public schools.
+- Build a wall around Germany to protect it.
+- Make the river *Rhine* circle around Wittenberg university.
+- Enrich public schools with resources. 
 - Make a campaign of military to kick the Prince of Parma.
 
 Though when Faustus got his power he pursued physical 
 desires and trivial things.
+
+Both law and physic are for petty wits;
+Divinity is basest of the three,
+unpleasant, harsh, contemptible, and vile:
+'Tis magic, magic that hath ravish'd [^1] me.
+-
+
+Said By: Faustus.
+Scene 1
+when he was talking to Valdes and Cornelius.
+
+Faustus says that both law and physics are useless, and that 
+divinity are even more inferior of the three, its magic that 
+interest him and give him delight.
+
+The repetition of the word "**magic**" mark his definite decision to pursue
+necromancy (black magic).
+
+[^1]:  Fill someone with intense delight.
+
+I charge thee to return and change thy shape;
+Thou art too ugly to attend on me:
+Go and return an old Franciscan friar;
+That holy shape becomes a devil best.
+-
+
+Said by: Faustus.
+Scene 3
+after Faustus preformed necromancy.
+
+Faustus tells these lines to Mephistophilis (the devil),
+at his first appearance, he was too ugly so Faustus ordered
+him to change his appearance and take the shape of a **priest**.
+
+This is symbolic to the fact that some clergymen (priests)
+are hypocrites (pretending goodness while they are evil inside).
+
+
+
