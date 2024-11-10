@@ -2,7 +2,7 @@
 title: Doctor Faustus
 author: Christopher Marlowe
 documentclass: extarticle
-fontsize: 14pt
+fontsize: 16pt
 date: 2024-11-6
 lang: en-Us
 ---
@@ -42,15 +42,15 @@ in one place it says that the reward of sin is death,
 and in another it says that everyone will sin, so Faustus 
 abandon the Bible too.
 
-**Comment 1/ The reward of sin is death: that's hard**\.
+### Q/ Comment on the following lines critically.
 
-Said by Faustus when he was discussing the uselessness of
-all branches of knowledge and he arrives at theology.
+**Comment 1/ O, this cheers my soul!**\.
 
-Faustus reads the bible and finds a contradiction, in one
-place it says the reward of sin is death, in another that
-we all sin, Faustus wonders why god created us to go to 
-hell,because of this he abandons theology.
+Faustus says this line to Valdes and Cornelius, after
+they told him on what black magic can do, that he no longer
+need to study anything else and enrich him 
+with all branches of knowledge, this is a reference to the
+Renaissance the age of the hunger for knowledge.
 
 **Comment 2/ A sound magician is a demigod**\.
 
@@ -59,13 +59,21 @@ saying that a magician is like a god, who can do anything,
 this was the turning point of Faustus from scholar 
 to sorcerer.
 
-**Comment 3/ O, this cheers my soul!**\.
+**Comment 3/ O, by aspiring pride and insolence**\.
 
-Faustus says this line to Valdes and Cornelius, after
-they told him on what black magic can do, that he no longer
-need to study anything else and enrich him 
-with all branches of knowledge, this is a reference to the
-Renaissance the age of the hunger for knowledge.
+Mephistophilis says this line to Faustus about Lucifer,
+how he was an angel once and was kicked from heaven because
+he challenged God, his arrogance and insolence caused
+him to be sent to hell.
+
+**Comment 4/ This word "damnation" terrifies not him**\.
+
+Faustus says this line to Mephistophilis after he abjure
+god and the holy book, he tells Mephistophilis that he is not 
+afraid to be damned (sent to hell) and willing to continue 
+to sell his soul to Lucifer.
+
+### Q/ Identify, comment and give the dramatic value of the following extract (quotation).
 
 **Quote 1/ These metaphysics of magicians**\
 **And necromantic books are heavenly;**\
@@ -86,7 +94,7 @@ and that they are what interest him the most.
 **Read, read the scriptures: that is blasphemy**\.
 
 Said by: Good Angel\
-Scene 1\.
+Scene 1\
 After Faustus interest in black magic. 
 
 Good angel warn Faustus to leave necromantic books aside,
@@ -101,7 +109,7 @@ Good Angel is an abstract character that represent the good in Faustus
 **Lord and commander of these elements**\.
 
 Said by: Evil Angel\
-Scene 1\.
+Scene 1\
 After Faustus interest in black magic. 
  
 
