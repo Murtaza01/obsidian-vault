@@ -55,7 +55,7 @@ By the end of the Middle Ages many thought the catholic church
 needed reformation, because of the growing wealth of the clergy and the 
 moral shortcomings to some of them.
 
-### **Q/** What The Reformation included?
+**Q/ What The Reformation included**\?
 
 * Humanism and the Renaissance.
 * The invention of printing.
@@ -71,13 +71,13 @@ in the language and literature of the classical worlds of Greece and Roman.
 
 ## Characteristics of the Renaissance 
 
-## 1. Humanism 
+1. Humanism\:
 
 The believe that Humans is the most important being on earth,
 it focuses on the human element rather than the supernatural or
 divine (like the medieval), it relies on science rather than superstition.
 
-## 2. Secularism
+2. Secularism\:
 
 The principle of separation between the state and religion.
 
@@ -85,7 +85,7 @@ This was a major thing in the 16th, before that (in the Middle Ages)
 the church was in control of everything, from the state to art and 
 literature.
 
-## 3. Naturalism.
+3. Naturalism\:
 
 The believe that everything happens in the world is natural and 
 can be tested with science.
@@ -94,13 +94,13 @@ This helped shift the emphasis from the supernatural to the here and now,
 it helped people to seek means to achieve their goals instead of relaying on
 god and superstition.
 
-## 4. The Revival of Platonism.
+4. The Revival of Platonism\:
 
 The belief in man's ability to increase through wisdom and virtue
 his power and knowledge with which to control the non-human element
 (the supernatural spirit).
 
-## 5. Classic Translations and Standards.
+5. Classic Translations and Standards\:
 
 The renaissance offered many great translations of classics Greek 
 and Latin works, it also promoted classical standards to literature.
@@ -118,6 +118,11 @@ who were popular in that time:
 
 Before that (The Middle Ages) there was **Geoffrey Chaucer**, which was one of
 the greatest poets in the Middle Ages, he influenced 16th poets.
+
+**Q/ How did Chaucer influence the 16th century poets**\?
+
+* His employment of rhyme and regular metre.
+* 
 
 ### Lyric or Lyrical Poetry 
 A type of poetry that express personal feelings in a short way with rhymes,
@@ -189,38 +194,35 @@ fear of death, there were two reaction from poets about it:
 Dreams and sleep were also one of the themes the poets used 
 in the 16th century.
 
-# Poetic Devices of the 16th Century 
+**Q/ What are The Poetic Devices of the 16th Century**\?
 
-## 1. Metaphor 
-
-Is a figure of speech that compare between two things that isn't
+1. Metaphor: Is a figure of speech that compare between two things that isn't
 literally true in order to make a resemblance.
 
 Ex: She is flower.
 
-## 2. Metonymy
-
-Is a figure of speech where an object name is replaced 
+2. Metonymy:Is a figure of speech where an object name is replaced 
 by another closely connected to it.
 
 Ex: What is your favourite **dish**?
 
 Here dish means food.
 
-## 3. Synecdoche
-
-A figure of speech that uses a part of something to refer 
+3. Synecdoche:A figure of speech that uses a part of something to refer 
 to the whole.
 
 Ex: We Need more **hands** to finish the job.
 
-Here hand refers to men.
+Here hands refers to men.
 
-## 4. Use of Sea Images
+**Q/ What are The Images of the 16th Century**\?
 
-The use Sea images were popular in the 16th century poet, because
-of the discovers of the new world, such uses included ships,shipwreck,
-stars,journey, sail and so on.
+* Images of the sea: like shipwreck, galley, sail, sea.
+* Life as a stage
+* Stars
+* War
+* Diseases
+* Imprisonment
 
 # Sir Thomas Wyatt
 
