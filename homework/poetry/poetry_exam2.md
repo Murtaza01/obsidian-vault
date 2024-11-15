@@ -8,12 +8,16 @@ in a single line.
 
 Ex:"Who list her hunt, I put him out of doubt".
 
-# The Hind
+# The Hind By Thomas Wyatt 
 
 Thomas refers to his beloved as Hind (female deer) who he is
 tired of pursuing her "hunting",he no longer wants to do it,
 because she is already married to Caesar, which is a king, and that
 this pursuit "hunt" is pointless.
+
+* Images: Hunting.
+* Style: Metaphoric.
+* Tone: Helpless,sad,depressed.
 
 **Q/ Why did Thomas used Hind as a Metaphor**\?
 
@@ -24,14 +28,71 @@ and because they used to hunt them in his time.
 
 That we shouldn't waste our time on pointless things.
 
-**Q/ What are the images and style of The Hind**\?
+# To His Lady By Henry Howard
 
-* Images: Hunting.
-* Style: Metaphoric.
-* Tone: Helpless,sad,depressed.
+In this Poem Howard says that he will be to his beloved
+no matter the condition, good or bad, he give list of options
+that are contradictory (in youth or in old age, in heaven or in hell..).
 
+* Style: Direct.
+* Tone: Romantic.
 
+**Q/ What is the meaning of To His Lady by Henry Howard**\?
 
+That he belongs to his beloved no matter the situation good or bad.
 
+# Spring By Henry Howard
 
+In this Poem Henry describes spring and summer, two renewal 
+seasons, everything comes to life in these seasons, Henry describe
+how beautiful they are, then in the couplet he compares them to himself
+saying that even though all this beauty surround him he still feel sorrow.
+
+* Images: Nature.
+* Style: Descriptive.
+* Tone: Helpless, sad.
+
+**Q/ What is the strcutre of "To his Lady" By Henry Howard**\?
+**Q/ What is the strcutre of "Spring" By Henry Howard**\?
+
+Henry Makes the first 3 quatrains as subject,
+and the couplet as the predicate, the whole sonnet serve as 
+one statement.
+
+# Edmund Spenser
+
+Spenserian Stanza: A nine-line stanza invited by Edmund,the
+rhyme scheme (abab bcbc c), the lines were pentameter,
+expect for the last one, which was hexameter.
+
+Edmund used the Spenserian stanza in his epic poem The Faerie 
+Queene.
+
+Spenserian Sonnet: Is a poem of fourteen lines of iambic pentameter
+rhyming (abab bcbc cdcd ee), this sonnet is made of 3 Quatrains that
+are interlocking in rhyme and a concluding couplet.
+
+Iambic Pentameter: A line of a poem composed of 10 syllables (five iambic feet).
+Iambic Hexameter (Alexandrine): A line of a poem composed of 12 syllables (six iambic feet).
+
+# Sonnet 1 By Edmund Spenser 
+
+AMORETTI: Is a sonnet sequence dedicated to one person.
+
+AMORETTI means little love message or little cupid,
+He wrote these sonnets for his wife Elizabeth.
+
+In Sonnet 1 Edmund talks about how he would happy if
+his beloved reads his poems, he envy the pages that 
+are touched by her soft hands, and the lines that
+are looked at by her eyes.
+
+**Q/ How does Spenser describe his beloved in Sonnet 1**\?
+
+He Describes:
+
+* Her hands: As delicate and mighty (because it holds his life)
+saying "lilly hands" and "dead doing might".
+* Her eyes: As flashing and deigne saying "lamping eyes".
+* Her look: As blessed saying "Angels blessed looke".
 
