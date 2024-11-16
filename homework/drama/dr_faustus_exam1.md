@@ -12,16 +12,16 @@ he was an orphan and was raised by kinsman, he mastered
 four branches of knowledge (theology, medicine, logic,
 philosophy)
 
-#### Q/ Discuss the view that Dr.Faustus represents the man who lived in the Renaissance.
-\
+**Q/ Discuss the view that Dr.Faustus represents the man who lived in the Renaissance**\?
+
 Faustus sells his soul to the devil in order to get more
 knowledge, he craved knowledge beyond the limits of 
 humanity,this is the major theme of the Renaissance; 
 that humans are the greatest thing in the universe
 and they can achieve anything.
 
-#### Q/ Define the chorus and what does it say about the play in the opening speech?
-\
+**Q/ Define the chorus and what does it say about the play in the opening speech**\?
+
 The Chorus: Group of people that provides information and  
 set the scene to the audience about the play, they are 
 usually not part of the play.
@@ -29,7 +29,7 @@ usually not part of the play.
 In Dr.Faustus it mentions where he is from and what school
 he went and his interest in black magic.
 
-#### Q/ Show how Faustus left all Branches of knowledge and decided to follow black magic?
+**Q/ Show how Faustus left all Branches of knowledge and decided to follow black magic?**
 * Logic And Philosophy: The aim of logic is to be a good 
 debater, thus it offers no greater miracle.
 
@@ -41,6 +41,25 @@ so he says goodbye to medicine too.
 in one place it says that the reward of sin is death, 
 and in another it says that everyone will sin, so Faustus 
 abandon the Bible too.
+
+**Q/ What do good and evil angels stands for**\?
+
+They are abstract characters that represent the inner
+conflict of Faustus, good angel tries to make him follow 
+the path of god, bad angel tries to make him follow black 
+magic.
+
+
+**Q/ What was Mephistophilis first description of hell and give its dramatic value**\?
+
+After Faustus asks Mephistophilis about hell,
+Mephistophilis tells him about Lucifer, how he 
+was a favorite angel to god once but because of his 
+pride and insolence he was dismissed from heaven and 
+had become eternally damned in hell with the fallen angels.
+
+Mephistophilis says that being deprived of gods presence is
+more tormenting than thousand hells.
 
 ### Q/ Comment on the following lines critically.
 
@@ -72,6 +91,23 @@ Faustus says this line to Mephistophilis after he abjure
 god and the holy book, he tells Mephistophilis that he is not 
 afraid to be damned (sent to hell) and willing to continue 
 to sell his soul to Lucifer.
+
+**Comment 5/ The reward of sin is death: that's hard**\.
+
+Said by Faustus when he was discussing the uselessness of
+all branches of knowledge and he arrives at theology.
+
+Faustus reads the bible and finds a contradiction, in one
+place it says the reward of sin is death, in another that
+we all sin, Faustus wonders why god created us to go to 
+hell,because of this he abandons theology.
+
+**Comment 6/ The god thou serv'st is thine own apatite**\.
+
+Faustus says this line after he hears a voice that tells 
+him to abandon black magic and turn to god, Faustus says that
+god doesn't love him, and that the god he serve is his own desires
+and pleasures.
 
 ### Q/ Identify, comment and give the dramatic value of the following extract (quotation).
 
@@ -120,13 +156,6 @@ a name for Roman god).
 
 Evil Angel is an abstract character that represent the evil in Faustus.
 
-#### Q/ What do good and evil angels stands for ?
-\
-They are abstract characters that represent the inner
-conflict of Faustus, good angel tries to make him follow 
-the path of god, bad angel tries to make him follow black 
-magic.
-
 **Quote 4/ I'll have them wall all Germany with brass,**\
 **And make swift Rhine circle fair Wittenberg;**\
 **I'll have them fill the public schools with silk,**\
@@ -159,8 +188,7 @@ Scene 1\
 When he was talking to Valdes and Cornelius.
 
 Faustus says that both law and physics are useless, and that 
-divinity are even more inferior of the three, its magic that 
-interest him and give him delight.
+theology are even more useless, its magic that interest him and give him delight.
 
 The repetition of the word "magic" mark his definite decision to pursue
 necromancy (black magic).

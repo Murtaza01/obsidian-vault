@@ -52,8 +52,8 @@ saying that even though all this beauty surround him he still feel sorrow.
 * Style: Descriptive.
 * Tone: Helpless, sad.
 
-**Q/ What is the strcutre of "To his Lady" By Henry Howard**\?
-**Q/ What is the strcutre of "Spring" By Henry Howard**\?
+**Q/ What is the structure of "To his Lady" By Henry Howard**\?
+**Q/ What is the structure of "Spring" By Henry Howard**\?
 
 Henry Makes the first 3 quatrains as subject,
 and the couplet as the predicate, the whole sonnet serve as 
@@ -75,12 +75,16 @@ are interlocking in rhyme and a concluding couplet.
 Iambic Pentameter: A line of a poem composed of 10 syllables (five iambic feet).
 Iambic Hexameter (Alexandrine): A line of a poem composed of 12 syllables (six iambic feet).
 
-# Sonnet 1 By Edmund Spenser 
+# AMORETTI By Edmund Spenser
 
 AMORETTI: Is a sonnet sequence dedicated to one person.
 
 AMORETTI means little love message or little cupid,
-He wrote these sonnets for his wife Elizabeth.
+Edmund wrote these sonnets for his wife Elizabeth.
+
+In sonnet sequence the sonnets are numbered not named.
+
+# Sonnet 1
 
 In Sonnet 1 Edmund talks about how he would happy if
 his beloved reads his poems, he envy the pages that 
@@ -95,4 +99,31 @@ He Describes:
 saying "lilly hands" and "dead doing might".
 * Her eyes: As flashing and deigne saying "lamping eyes".
 * Her look: As blessed saying "Angels blessed looke".
+
+Apostrophe: A figure of speech that is used to address
+a non human entity (object).
+
+In Sonnet 1 Edmund uses Apostrophe to describe the pages 
+and rhymes.
+
+# Sonnet 34
+
+In this sonnet Edmund uses a simile to compare his life
+to a ship and his beloved as the guiding star, the star
+that guide the ship.
+
+In the sonnet a storm hit and hides the star, this symbolise
+the problems between Edmund and his beloved, he hope that 
+one day the storm will end and he sees the star again.
+
+Tone: Hopeful.
+Style: Descriptive.
+Images: Life as a sea journey.
+
+**Q/ Give one common image of the 16th with an example**\?
+
+1. Life as a sea journey\
+Example: "Like as a ship through the ocean wide\
+By conduct of some star doth make her way"
+
 
