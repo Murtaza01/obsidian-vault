@@ -1,10 +1,6 @@
 ---
 title: Doctor Faustus
 author: Christopher Marlowe
-documentclass: extarticle
-fontsize: 16pt
-date: 2024-11-6
-lang: en-Us
 ---
 **Doctor Faustus**: Was born in Germany in Rhodes town,
 from a humble origin, he Studied in Wittenberg university,

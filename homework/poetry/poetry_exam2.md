@@ -75,6 +75,8 @@ are interlocking in rhyme and a concluding couplet.
 Iambic Pentameter: A line of a poem composed of 10 syllables (five iambic feet).
 Iambic Hexameter (Alexandrine): A line of a poem composed of 12 syllables (six iambic feet).
 
+Allegory: Is a story with two levels of meaning, a suerface one and a hidden (deep) one.
+
 # AMORETTI By Edmund Spenser
 
 AMORETTI: Is a sonnet sequence dedicated to one person.
@@ -84,12 +86,20 @@ Edmund wrote these sonnets for his wife Elizabeth.
 
 In sonnet sequence the sonnets are numbered not named.
 
-# Sonnet 1
+# Sonnet 1 By Edmund Spenser 
 
-In Sonnet 1 Edmund talks about how he would happy if
-his beloved reads his poems, he envy the pages that 
-are touched by her soft hands, and the lines that
-are looked at by her eyes.
+In Sonnet 1 Edmund talks about how happy he would be if
+his beloved reads his poems, employing the three sense:
+
++ Touch: That his beloved will touch the pages of his poem.
++ Sight: That his beloved will see the lines of his poem.
++ Hearing: That his beloved will hear the rhymes of his poem.
+
+He envy the pages, the lines and the rhymes, and he say to them
+"please her alone, i care for no other thing".
+
+Tone: Longing,sad.
+Style: Descriptive.
 
 **Q/ How does Spenser describe his beloved in Sonnet 1**\?
 
@@ -106,24 +116,52 @@ a non human entity (object).
 In Sonnet 1 Edmund uses Apostrophe to describe the pages 
 and rhymes.
 
-# Sonnet 34
+Oxymoron: A figure of speech that combines contradictory words with opposing meanings.
+
+Example: Bitter sweet.
+
+# Sonnet 34 By Edmund Spenser 
 
 In this sonnet Edmund uses a simile to compare his life
-to a ship and his beloved as the guiding star, the star
+to a ship and his beloved to a star, the star
 that guide the ship.
 
 In the sonnet a storm hit and hides the star, this symbolise
 the problems between Edmund and his beloved, he hope that 
 one day the storm will end and he sees the star again.
 
-Tone: Hopeful.
+Tone: Hopeful, Optimistic.
 Style: Descriptive.
 Images: Life as a sea journey.
 
 **Q/ Give one common image of the 16th with an example**\?
 
-1. Life as a sea journey\
-Example: "Like as a ship through the ocean wide\
-By conduct of some star doth make her way"
+1. Life as a sea journey\.
 
+Edmund Spenser Sonnet 34\.
+
+In this sonnet Edmund uses the sea images he uses simile to compare life 
+to a sea himself to a ship and his beloved to a star , the star
+that guide the ship, he uses storm to symbolize the trouble
+between him and his beloved.
+
+He hopes that one day the storm will end and he will see 
+the star (his beloved).
+
+# Sonnet 54 By Edmund Spenser
+
+Edmund uses the stage image in this poem describing life 
+as a theatre, his love is the audience, and he is the actor.
+
+He describe his love as a harsh and cold (senseless stone), because
+when he preforms comedy she mocks him, when he preforms tragedy
+she laughs at him.
+
+Style: Descriptive.
+Tone: Depressed.
+
+# What is our Life By Walter Ralegh
+
+
+# The Passionate Shepherd to his Love By Christopher Marlowe
 
