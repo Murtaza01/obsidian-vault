@@ -62,6 +62,7 @@ We can use the gU/u operator:
 guw = lowercase the word.
 gU$ = uppercase the rest of the line.
 gUl = uppercase current letter
+~ = to toggle between cases.
 
 # num%
 
@@ -92,6 +93,32 @@ Note: they are in quotes because its markdown.
 f = search for letter
 
 we can continue search for letters using `;`
+
+```
+/[1-5]
+```
+
+to search number between 1 and 5.
+
+
+```
+:s/oldword/newword
+```
+
+s stands for substitution.
+
+```
+:%s/old/new
+```
+
+this will do substitution for all the file.
+
+```
+:s/\<./\U&/g
+```
+
+to capitalize a whole line.
+
 
 # Using Mark
 
@@ -162,5 +189,86 @@ This will only allow one command.
 # dot command
 
 We can repeat actions using the `.` command.
+
+# numbered Register 
+
+"+num+p = get to the history of yanked or deleted items.
+
+Ex: "1p
+
+# copy to a named Register
+
+We can do that using the following command
+
+"+letter+yank = yank to a specific letter.
+
+Ex: "ayy
+
+
+Then to use that yanked word we use `"a`, or under
+insert mode CTRL+R a.
+
+"%p = get the name of the file 
+
+```
+set clipboard=unnamed
+```
+this allow copying from and out to vim.
+
+```
+"_dd
+```
+delete without saving to register.
+
+```
+:register
+```
+
+to view all the register.
+
+```
+:register 1 a
+```
+
+to view register with that letter/number.
+
+
+```
+:put 1 a
+```
+
+to paste from register using a number/letter.
+
+while in Insert mode you can delete before the cursor words with
+```
+Ctrl+w
+```
+
+```
+Ctrl+u
+```
+for deleting a whole line before the cursor 
+
+# External Commands
+
+you can use `:r` to excute commands from your linux system.
+
+```
+:r file.txt
+```
+
+Will print the file.txt contact.
+
+```
+:r !ls
+```
+
+Will print the result of ls.
+
+```
+:10r !cat file.txt
+```
+
+Will print the 10th line of file.txt
 
 

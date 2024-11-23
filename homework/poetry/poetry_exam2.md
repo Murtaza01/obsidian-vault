@@ -62,8 +62,8 @@ one statement.
 # Edmund Spenser
 
 Spenserian Stanza: A nine-line stanza invited by Edmund,the
-rhyme scheme (abab bcbc c), the lines were pentameter,
-expect for the last one, which was hexameter.
+rhyme scheme is (abab bcbc c), the first 8 lines are pentameter,
+and the last one is hexameter.
 
 Edmund used the Spenserian stanza in his epic poem The Faerie 
 Queene.
@@ -98,12 +98,12 @@ his beloved reads his poems, employing the three sense:
 He envy the pages, the lines and the rhymes, and he say to them
 "please her alone, i care for no other thing".
 
-Tone: Longing,sad.
+Tone: Longing, Sad.
 Style: Descriptive.
 
 **Q/ How does Spenser describe his beloved in Sonnet 1**\?
 
-He Describes:
+He Describes\:
 
 * Her hands: As delicate and mighty (because it holds his life)
 saying "lilly hands" and "dead doing might".
@@ -132,7 +132,7 @@ one day the storm will end and he sees the star again.
 
 Tone: Hopeful, Optimistic.
 Style: Descriptive.
-Images: Life as a sea journey.
+Image: Life as a Sea Journey.
 
 **Q/ Give one common image of the 16th with an example**\?
 
@@ -158,10 +158,48 @@ when he preforms comedy she mocks him, when he preforms tragedy
 she laughs at him.
 
 Style: Descriptive.
+Image: Life as a Sea Journey.
 Tone: Depressed.
 
 # What is our Life By Walter Ralegh
 
+In this poem Walter compares life to a theatre, it is a full 
+depiction of stage life, where he depicts life to a comedy, our
+mothers womb is the changing room, the happy times is the music
+that happens between scenes, god is the wise and fair spectator (audience),
+the grave is the curtains when the play is done.
+
+This poem is not about courtly love unlike other poems in the 16th country,
+it is a philosophical poem that describes life.
+
+Walter describes life as a ridicules play, happiness comes at short intervals,
+and we are marching to one thing; death which is the only serious thing.
+
+Parody: Is a poem which gives a comic imitation of another
+work for a satirical purposes.
+
+Theme: Philosophical.
+Style: Metaphorical.
+Tone: Pessimistic, Desperate.
+Image: Life as a Stage.
 
 # The Passionate Shepherd to his Love By Christopher Marlowe
+
+In this poem the Shepherd invites his love to come live with him,
+he tries to convince her with an idealized picture of the country side,
+given an unrealistic offers.
+
+Tone: Dreamy.
+Theme: Courtly Love.
+Style: Simple,Direct.
+
+This poem was written in blank verse, meaning it has no rhymes, Christopher
+Marlowe was the earliest to use blank verse in the 16th country.
+
+Blank verse: Poetry written with regular metrical but unrhymed lines,
+usually in iambic pentameter.
+
+Pastoral Poetry: Poetry which focuses on the simple country
+side life of shepherds and rustic people.
+
 
