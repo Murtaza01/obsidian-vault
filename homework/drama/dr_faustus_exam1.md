@@ -1,6 +1,7 @@
 ---
 title: Doctor Faustus
 author: Christopher Marlowe
+geometry: "left=4cm,right=4cm"
 ---
 **Doctor Faustus**: Was born in Germany in Rhodes town,
 from a humble origin, he Studied in Wittenberg university,
@@ -25,18 +26,21 @@ usually not part of the play.
 In Dr.Faustus it mentions where he is from and what school
 he went and his interest in black magic.
 
-**Q/ Show how Faustus left all Branches of knowledge and decided to follow black magic?**
-* Logic And Philosophy: The aim of logic is to be a good 
-debater, thus it offers no greater miracle.
+**Q/ Show how Faustus left all Branches of knowledge and decided to follow black magic**\?
 
-* Medicine: The aim of of medicine is body health,
-and humans cannot live eternally or give dead people life,
-so he says goodbye to medicine too.
-
-* Theology: In the Bible there is contradiction, because 
+In the first scene we see Faustus inside his private 
+room discussing his mastery of all the branches of 
+knowledge, First he begins with logic,he says that
+The aim of logic is to be a good debater, thus it offers 
+no greater miracle. Secondly he turns to medicine, 
+he says that the aim of medicine is health,
+and humans cannot live eternally or raise the dead,
+so he says goodbye to medicine too. Thirdly theology
+In the Bible there is contradiction, because 
 in one place it says that the reward of sin is death, 
 and in another it says that everyone will sin, so Faustus 
-abandon the Bible too.
+abandon the Bible too. Fourthly law, he say it is useless as
+well, and after that he chooses black magic.
 
 **Q/ What do good and evil angels stands for**\?
 
@@ -56,6 +60,16 @@ had become eternally damned in hell with the fallen angels.
 
 Mephistophilis says that being deprived of gods presence is
 more tormenting than thousand hells.
+
+**Q/ What was Mephistophilis second description of hell and give its dramatic value**\?
+
+When Faustus asked Mephistophilis about hell for the second
+time, Mephistophilis describe to him hell telling him 
+that hell has no limits nor it is 
+circumscribed to any place rather it is a state of 
+being, which you experience when you are deprived of 
+the presence of god, and that any place except heaven is
+hell.
 
 ### Q/ Comment on the following lines critically.
 
@@ -112,26 +126,23 @@ and pleasures.
 **Lines, circles, scenes, letters, and characters;**\
 **Ay, these are those that Faustus most desires**\.
 
-Said by: Faustus.\
-Scene 1\
-After Faustus realizes that all branches of knowledge are useless. 
 
-Faustus takes interest in necromantic books saying that those
-books are heavenly (an irony because they are devilish),
-and that they are what interest him the most.
+These lines are said by Faustus after Faustus realizes 
+that all branches of knowledge are useless, Faustus 
+takes interest in necromantic books saying that 
+those books are heavenly which is an irony because 
+they are devilish.
 
 **Quote 2/ O Faustus lay that damned book aside**\
 **And Gaze not on it lest it tempt they soul**\
 **and heap god's heavy wrath upon they head**\
 **Read, read the scriptures: that is blasphemy**\.
 
-Said by: Good Angel\
-Scene 1\
-After Faustus interest in black magic. 
-
-Good angel warn Faustus to leave necromantic books aside,
-because it corrupts the soul and that god will punish
-him for it, and read the holy books instead.
+These lines are said by Good Angel after Faustus 
+interest in black magic,Good angel warn Faustus to leave 
+necromantic books aside,because it corrupts the soul 
+and that god will punish him for it, and read the holy 
+books instead.
 
 Good Angel is an abstract character that represent the good in Faustus
 
@@ -140,12 +151,8 @@ Good Angel is an abstract character that represent the good in Faustus
 **Be thou on earth as Jove is in the sky,**\
 **Lord and commander of these elements**\.
 
-Said by: Evil Angel\
-Scene 1\
-After Faustus interest in black magic. 
- 
-
-Evil Angel encourages Faustus to take black magic,
+These lines are said by Evil Angel after Faustus gets interested
+in black magic, Evil Angel encourages Faustus to take black magic,
 he seduced him with the great that comes from it,
 telling him he will become like a god (like Jove, which is
 a name for Roman god).
@@ -159,17 +166,12 @@ Evil Angel is an abstract character that represent the evil in Faustus.
 **I'll levy soldiers with the coin they bring,**\
 **And chase the Prince of Parma from our land,**\.
 
-Said by: Faustus\
-Scene 1\
-When he was waiting for Valdes and Cornelius.
-
+These lines are said by Faustus when he was waiting for Valdes and Cornelius,
 Faustus is saying his 4 noble purposes when he gets his 
-magic powers which are:
-
-- Build a wall around Germany to protect it.
-- Make the river *Rhine* circle around Wittenberg university.
-- Make the students wear silk in public schools.
-- Make a campaign of military to kick the Prince of Parma.
+magic powers; First he will build a wall around Germany to protect it.
+Second he will make the river *Rhine* circle around Wittenberg university.
+Third he will make the students wear silk in public schools.
+Fourth he will make a campaign of military to kick the Prince of Parma.
 
 Though when Faustus got his power he pursued physical 
 desires and trivial things.
@@ -177,33 +179,22 @@ desires and trivial things.
 **Quote 5/ Both law and physic are for petty wits;**\
 **Divinity is basest of the three,**\
 **unpleasant, harsh, contemptible, and vile:**\
-**'Tis magic, magic that hath ravish'd [^1] me**\.
+**'Tis magic, magic that hath ravish'd me**\.
 
-Said By: Faustus.\
-Scene 1\
-When he was talking to Valdes and Cornelius.
-
-Faustus says that both law and physics are useless, and that 
-theology are even more useless, its magic that interest him and give him delight.
-
-The repetition of the word "magic" mark his definite decision to pursue
-necromancy (black magic).
-
-[^1]:  Fill someone with intense delight.
+These lines are said by Faustus, when he was talking to Valdes and Cornelius,
+Faustus says that both law and physics is useless, and that 
+theology is even more useless, its magic that interest him and give him delight, 
+the repetition of the word "magic" mark his definite decision to pursue necromancy.
 
 **Quote 6/ I charge thee to return and change thy shape;**\
 **Thou art too ugly to attend on me:**\
 **Go and return an old Franciscan friar;**\
 **That holy shape becomes a devil best**\.
 
-Said by: Faustus.\
-Scene 3\
-After Faustus preformed necromancy.
-
-Faustus tells these lines to Mephistophilis (the devil),
+These lines are said by Faustus, after Faustus preformed necromancy, 
+Faustus tells these lines to Mephistophilis,
 at his first appearance, he was too ugly so Faustus ordered
-him to change his appearance and take the shape of a priest.
-
+him to change his appearance and take the shape of a priest,
 This is symbolic to the fact that some clergymen (priests)
 are hypocrites (pretending goodness while they are evil inside).
 
@@ -213,12 +204,8 @@ are hypocrites (pretending goodness while they are evil inside).
 **We fly, in hope to get his glorious soul;**\
 **Nor will we come, unless he use such means**\.
 
-
-Said by: Mephistophilis.\
-Scene 3\
-After Faustus asked if he was the one who conjured him.
-
-Mephistophilis answers that when devils hear someone
+These lines are said by Mephistophilis, after Faustus asked if he was the
+one who conjured him, Mephistophilis answers that when devils hear someone
 curse the name of god and abjure him, they fly to him
 happily to get his "glorious soul", an irony because 
 the person soul will be damned.
@@ -229,26 +216,20 @@ the person soul will be damned.
 **What God can hurt thee, Faustus? Thou art safe.**\
 **Cast no more doubts--come, Mephistophilis**\.
 
-Said by: Faustus\
-Scene 5\
-After Faustus doubts to leave black magic.
-
-Faustus are convinced by Evil Angel, leaving his spirit
-and turning to his physical desires, wanting to rule over
-Emden city, and having Mephistophilis in his side
-he is safe from any god's harm.
+These lines are said by Faustus, after Faustus had an inner 
+conflict to leave black magic, Faustus is convinced by 
+Evil Angel to stay in necromancy, leaving his spirit and turning to his 
+physical desires, wanting to rule over Emden city, and having Mephistophilis 
+in his side he is safe from any god's harm.
 
 **Quote 9/ Then, Faustus stab thine arm courageously**\
 **And bind thy soul, that at some certain day**\
 **Great Lucifer may claim it as his own**\
 **And then be thou as great as Lucifer**\.
 
-Said By: Mephistophilis\
-Scene 5\
-After Faustus agrees to give his soul to Lucifer.
-
-Mephistophilis tells Faustus that in order to gain Lucifer's
-powers he has to give his soul to Lucifer, and sign using blood,
+These lines are said by Mephistophilis, after Faustus agrees to give 
+his soul to Lucifer, Mephistophilis tells Faustus that in order to gain Lucifer's
+powers he has to give his soul to Lucifer, and sign a contract  using his blood
 that he will get from stabbing his arm.
 
 
@@ -259,13 +240,30 @@ that he will get from stabbing his arm.
 **I see it plain; here in this place is writ,**\
 **Homo, fuge: yet shall not Faustus fly.**\
 
-Said by: Faustus\
-Scene 5\
-After Faustus blood congeals and Mephistophilis helps him clear it.
-
-Faustus sees an inscription on his arm "Home,fuge"
-which means "flee", he acknowledge that if he tries to
-flee to God, God will throw him in hell, so he ignore this
+These lines are said by Faustus,after Faustus blood congeals 
+and Mephistophilis helps him clear it, Faustus sees an inscription on 
+his arm that says "Home,fuge" which means "flee", at first he thinks that his eyes
+are deceiving him, but then he looks again and sees the inscription clearly,
+he acknowledge that if he tries to flee to God, God will throw him in hell, so he ignore this
 and continue to sign the contract with his blood.
 
+
+**Quote 11/ Marriage is but a ceremonial toy,**\
+**And if thou lov'st me think no more of it.**\
+**I'll cull thee out the fairest courtesans,**\
+**And bring them every morning to thy bed.**\
+**She whom thine eye shall like, they heart shall have,**\
+**Were she as chaste as was Penelope,**\
+**As wise as Saba, or as beautiful**\
+**As was bright Lucifer before his fall**\.
+
+These lines are said by Mephistophilis, after Faustus 
+commands Mephistophilis to fetch (bring) him a wife.
+Mephistophilis refuses because marriage is sacred, 
+it is a union blessed by god, and he as a devil doesn't 
+accept that, instead of a wife  Mephistophilis tells 
+Faustus that he can bring him any woman his heart desires,
+be it Penelope which is a woman from Greek mythology 
+who was known for her chastity, or the wise queen Saba,
+or Lucifer himself when he was an angel.
 
