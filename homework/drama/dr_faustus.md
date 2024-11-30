@@ -2,12 +2,13 @@
 title: Doctor Faustus
 author: Christopher Marlowe
 geometry: "left=4cm,right=4cm"
+fontsize: 13pt
 ---
 **Doctor Faustus**: Was born in Germany in Rhodes town,
 from a humble origin, he Studied in Wittenberg university,
 he was an orphan and was raised by kinsman, he mastered 
 four branches of knowledge (theology, medicine, logic,
-philosophy)
+law)
 
 **Q/ Discuss the view that Dr.Faustus represents the man who lived in the Renaissance**\?
 
@@ -31,10 +32,10 @@ he went and his interest in black magic.
 In the first scene we see Faustus inside his private 
 room discussing his mastery of all the branches of 
 knowledge, First he begins with logic,he says that
-The aim of logic is to be a good debater, thus it offers 
-no greater miracle. Secondly he turns to medicine, 
+The aim of logic is to be a good debater, thus it is useless.
+Secondly he turns to medicine, 
 he says that the aim of medicine is health,
-and humans cannot live eternally or raise the dead,
+and humans cannot live eternally or bring back dead people,
 so he says goodbye to medicine too. Thirdly theology
 In the Bible there is contradiction, because 
 in one place it says that the reward of sin is death, 
@@ -49,7 +50,6 @@ conflict of Faustus, good angel tries to make him follow
 the path of god, bad angel tries to make him follow black 
 magic.
 
-
 **Q/ What was Mephistophilis first description of hell and give its dramatic value**\?
 
 After Faustus asks Mephistophilis about hell,
@@ -60,16 +60,6 @@ had become eternally damned in hell with the fallen angels.
 
 Mephistophilis says that being deprived of gods presence is
 more tormenting than thousand hells.
-
-**Q/ What was Mephistophilis second description of hell and give its dramatic value**\?
-
-When Faustus asked Mephistophilis about hell for the second
-time, Mephistophilis describe to him hell telling him 
-that hell has no limits nor it is 
-circumscribed to any place rather it is a state of 
-being, which you experience when you are deprived of 
-the presence of god, and that any place except heaven is
-hell.
 
 ### Q/ Comment on the following lines critically.
 
@@ -119,13 +109,13 @@ him to abandon black magic and turn to god, Faustus says that
 god doesn't love him, and that the god he serve is his own desires
 and pleasures.
 
+
 ### Q/ Identify, comment and give the dramatic value of the following extract (quotation).
 
 **Quote 1/ These metaphysics of magicians**\
 **And necromantic books are heavenly;**\
 **Lines, circles, scenes, letters, and characters;**\
 **Ay, these are those that Faustus most desires**\.
-
 
 These lines are said by Faustus after Faustus realizes 
 that all branches of knowledge are useless, Faustus 
@@ -232,7 +222,6 @@ his soul to Lucifer, Mephistophilis tells Faustus that in order to gain Lucifer'
 powers he has to give his soul to Lucifer, and sign a contract  using his blood
 that he will get from stabbing his arm.
 
-
 **Quote 10/ But what is this inscription on mine arm?**\
 **Homo, fuge:whither should i fly?**\
 **If unto God, he'll throw me down to hell.**\
@@ -244,26 +233,6 @@ These lines are said by Faustus,after Faustus blood congeals
 and Mephistophilis helps him clear it, Faustus sees an inscription on 
 his arm that says "Home,fuge" which means "flee", at first he thinks that his eyes
 are deceiving him, but then he looks again and sees the inscription clearly,
-he acknowledge that if he tries to flee to God, God will throw him in hell, so he ignore this
+he acknowledges that if he tries to flee to God, God will throw him in hell, so he ignore this
 and continue to sign the contract with his blood.
-
-
-**Quote 11/ Marriage is but a ceremonial toy,**\
-**And if thou lov'st me think no more of it.**\
-**I'll cull thee out the fairest courtesans,**\
-**And bring them every morning to thy bed.**\
-**She whom thine eye shall like, they heart shall have,**\
-**Were she as chaste as was Penelope,**\
-**As wise as Saba, or as beautiful**\
-**As was bright Lucifer before his fall**\.
-
-These lines are said by Mephistophilis, after Faustus 
-commands Mephistophilis to fetch (bring) him a wife.
-Mephistophilis refuses because marriage is sacred, 
-it is a union blessed by god, and he as a devil doesn't 
-accept that, instead of a wife  Mephistophilis tells 
-Faustus that he can bring him any woman his heart desires,
-be it Penelope which is a woman from Greek mythology 
-who was known for her chastity, or the wise queen Saba,
-or Lucifer himself when he was an angel.
 
