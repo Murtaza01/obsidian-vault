@@ -30,3 +30,53 @@ as a toggle, its useful for keymaps for example this:
 
 this will toggle on and off spell check
 
+# :w 
+
+we can excute a command using the :w for example with node:
+
+```
+:w !node
+```
+
+this will excute a command on the whole current buffer using node.
+
+```
+:37w !node
+```
+
+this will execute a command only on the 37 line of the current buffer.
+
+# execute a command
+
+we can easily execute any command using this synatx
+
+```
+:!ls 
+```
+
+will print us the list of files inside vim.
+
+# Folds
+
+we can fold a text or a paragraph using:
+
+```
+zfj
+```
+
+this will fold two lines
+
+```
+zf10j
+```
+
+ten lines below
+
+we can open and close the folds
+
+```
+zo
+zc
+```
+
+

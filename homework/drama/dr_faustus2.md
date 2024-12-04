@@ -1,7 +1,7 @@
 ---
 title: Doctor Faustus
 author: Christopher Marlowe
-geometry: "left=4cm,right=4cm"
+geometry: "left=3cm,right=3cm"
 fontsize: 13pt
 ---
 **Q/ What was Mephistophilis second description of hell and give its dramatic value**\?

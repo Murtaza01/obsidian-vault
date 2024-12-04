@@ -140,3 +140,13 @@ we can use the libreoffice command to convert odt to pdf
 ``` zsh
 libreoffice --convert-to pdf *.odt
 ```
+
+>execting a command in the background
+
+we do that by using disown
+
+```zsh
+mpv 8.mp4 & disown 
+```
+
+
