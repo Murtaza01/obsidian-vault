@@ -3,6 +3,33 @@ title: 16th Century Poetry
 geometry: "left=3cm,right=3cm"
 fontsize: 13pt
 ---
+## The Galley
+
+In this poem Thomas uses a metaphor of the sea to 
+describe his love, he uses shipwreck to describe his feeling of rejection,
+love as being the journey of the dangerous sea, filled 
+with hardships and obstacles, and he is the ship that is lost in the 
+sea without his beloved, the harsh winds ruin the sail, he 
+thinks that death is mercy because of the intense pain he feels,
+in the couplet he says that his mind is drowned by pain and he 
+cannot have comfort.
+
++ **Theme**: Courtly Love.
++ **Tone**: Sad, Depressed, Helpless
++ **Style**: Metaphoric.
++ **Image**: Life as a sea journey.
+
+## The Hind By Thomas Wyatt 
+
+Thomas refers to his beloved as Hind (female deer) who he is
+tired of pursuing her "hunting",he no longer wants to do it,
+because she is already married to Caesar, which is a king, and that
+this pursuit "hunt" is pointless.
+
+* **Image**: Hunting.
+* **Style**: Metaphoric.
+* **Tone**: Helpless,sad,depressed.
+
 **Alliteration**: The repetition of the same letter in the beginning 
 of words in a single line.
 
@@ -12,17 +39,6 @@ Ex:"Yet may I, by no means, my wearied mind".
 in a single line.
 
 Ex:"Who list her hunt, I put him out of doubt".
-
-## The Hind By Thomas Wyatt 
-
-Thomas refers to his beloved as Hind (female deer) who he is
-tired of pursuing her "hunting",he no longer wants to do it,
-because she is already married to Caesar, which is a king, and that
-this pursuit "hunt" is pointless.
-
-* **Images**: Hunting.
-* **Style**: Metaphoric.
-* **Tone**: Helpless,sad,depressed.
 
 **Q/ Why did Thomas used Hind as a Metaphor**\?
 
@@ -53,7 +69,7 @@ seasons, everything comes to life in these seasons, Henry describe
 how beautiful they are, then in the couplet he compares them to himself
 saying that even though all this beauty surround him he still feel sorrow.
 
-* **Images**: Nature.
+* **Image**: Nature.
 * **Style**: Descriptive.
 * **Tone**: Helpless, sad.
 
@@ -80,7 +96,7 @@ are interlocking in rhyme and a concluding couplet.
 **Iambic Pentameter**: A line of a poem composed of 10 syllables (five iambic feet).
 **Iambic Hexameter (Alexandrine)**: A line of a poem composed of 12 syllables (six iambic feet).
 
-**Allegory**: Is a story with two levels of meaning, a suerface one and a hidden (deep) one.
+**Allegory**: Is a story with two levels of meaning, a surface one and a hidden (deep) one.
 
 ## AMORETTI By Edmund Spenser
 
@@ -141,17 +157,18 @@ one day the storm will end and he sees the star again.
 
 **Q/ Give one common image of the 16th with an example**\?
 
-Life as a sea journey\.
+1. Life as a sea journey\.
 
-Edmund Spenser Sonnet 34\.
+Sonnet 34 by Edmund Spenser\.
 
-In this sonnet Edmund uses the sea images he uses simile to compare life 
-to a sea himself to a ship and his beloved to a star , the star
-that guide the ship, he uses storm to symbolize the trouble
-between him and his beloved.
+2. Life as a stage\.
 
-He hopes that one day the storm will end and he will see 
-the star (his beloved).
+Sonnet 54 by Edmund Spenser\.
+
+3. Nature\.
+
+Spring By Henry Howard\.
+
 
 ## Sonnet 54 By Edmund Spenser
 
@@ -165,68 +182,3 @@ she laughs at him.
 + **Style**: Descriptive.
 + **Image**: Life as a Sea Journey.
 + **Tone**: Depressed.
-
-## What is our Life By Walter Ralegh
-
-In this poem Walter compares life to a theatre, it is a full 
-depiction of stage life, where he depicts life to a comedy, our
-mothers womb is the changing room, the happy times is the music
-that happens between scenes, god is the wise and fair spectator (audience),
-the grave is the curtains when the play is done.
-
-This poem is not about courtly love unlike other poems in the 16th country,
-it is a philosophical poem that describes life.
-
-Walter describes life as a ridicules play, happiness comes at short intervals,
-and we are marching to one thing; death which is the only serious thing.
-
-**Parody**: Is a poem which gives a comic imitation of another
-work for a satirical purposes.
-
-When poets uses Parody to critique another poem, 
-they use the same rhyme, the same stanza lines, and the same metre.
-
-+ **Theme**: Philosophical.
-+ **Style**: Metaphorical.
-+ **Tone**: Pessimistic, Desperate.
-+ **Image**: Life as a Stage.
-
-## The Passionate Shepherd to his Love By Christopher Marlowe
-
-In this poem the Shepherd invites his love to come live with him,
-he tries to convince her with an idealized picture of the country side,
-given an unrealistic offers.
-
-+ **Tone**: Dreamy.
-+ **Theme**: Courtly Love.
-+ **Style**: Simple,Direct.
-
-This poem was written in blank verse, meaning it has no rhymes, Christopher
-Marlowe was the earliest to use blank verse in the 16th country.
-
-**Blank verse**: Poetry written with regular metrical but unrhymed lines,
-usually in iambic pentameter.
-
-**Pastoral Poetry**: Poetry which focuses on the simple country
-side life of shepherds and rustic people.
-
-## The Nymph's Reply to the Shepherd By Walter Ralegh
-
-In this poem Walter replies to Marlowe's poem The 
-Passionate Shepherd to his love, he gives a realistic
-view of the country side, saying that when the night comes
-the cold and the cares comes with it, the birds hide,
-the gown, shoes, cap, and the bed of roses will all be broken and forgotten.
-
-Walter tries to paint an image of the real life of 
-the country side, speaking through a nymph,
-replying to each description of Marlow's poem,
-in the couplet the Nymph conclude that if youth and happiness 
-is eternal then *maybe* she might love him.
-
-**Q\ Difference between Nature poetry and Pastoral poetry**\?
-
-Nature Poetry: Talks about the nature that is not touched by man.
-
-Pastoral Poetry: Talks about man made nature.
-
