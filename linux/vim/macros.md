@@ -1,32 +1,16 @@
 We can use Macros to do repetitive things, for example creating 
 a react component function.
 
-To record macros we use
-```
-qa
-```
-where a is any letter
+> qa
 
-then `q` to end it
+To record macros, where a is any letter, then `q` to end it
 
-to excute macros we use:
 
-```
-@a
-```
+> @a
 
-Where a is the corresponding letter.
+to excute macros, where a is the corresponding letter.
 
-```
-~
-```
-
-to upper case letters.
-
-```
-:let @z = @a
-```
+> :let @z = @a
 
 to copy a macro from a to z.
-
 

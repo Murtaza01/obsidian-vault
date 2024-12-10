@@ -1,22 +1,43 @@
-# finding 
+/ = search for text
+? = search backwards
 
-you can find text using the `/` and enter the text, you can move around of the same text using N or n
+'*' = search the text under cursor
+'#' = search text under cursor backwards
 
-you can quickly find stuff with the normal mode and using f and then the charactor for example:
-f+. Will show you the first `.`
-you can find the second or third using a number:
-2 + f + character
+Note: they are in quotes because its markdown.
 
-To find same word under cursor we use:
+f = search for letter
 
-* === shift + 8 
+we can continue search for letters using `;`
 
-# find and replace
-
-to find and replace multiple words you can use the following code:
-
-```vim
-:%s/word/wordto
+```
+/[1-5]
 ```
 
-then hit enter 
+to search number between 1 and 5.
+
+```
+:s/oldword/newword
+```
+
+> substitution (find and replace)
+
+```vim
+:%s/old/new
+```
+
+this will do substitution for all the file.
+
+s stands for substitution.
+
+```
+:s/\<./\U&/g
+```
+
+to capitalize a whole line.
+
+```vim
+/\vhello|hola
+```
+
+to search for either hello or hola.

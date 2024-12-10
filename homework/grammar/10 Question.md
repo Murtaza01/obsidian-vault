@@ -50,5 +50,3 @@ present perfect simple and past simple
 
 present perfect continuous 
 
-# 13- what is the key difference between simple tense and continuous tense ?
-

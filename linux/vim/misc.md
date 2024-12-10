@@ -26,35 +26,6 @@ you can combine Operator and Motions:
 y$ = yank from cursor to end of the line.
 d{ = cut paragraph.
 
-# Text Objects 
-
-Text objects are a way to group text, they include "",'',(),<>,{}...
-
-We can target them and do an operation to them using:
-
-Operator + i/a + Text Object.
-
-i = inner (inside parentheses).
-a = outer (parentheses included).
-
-ci) = cut text inside parentheses and enter insert mode.
-
-Note_1:The same applies for [],{},"",'',``
-
-Note_2: we can use this command in the same line where the parentheses exist
-it will just jump to the place of the parentheses.
-
-### dat/dit
-
-To do operations on html elements:
-
-```html
-<h1>header<h1>
-```
-
-dit = cut inside the element.
-dat = cut the whole element.
-
 # Uppercase/Lowercase
 
 We can use the gU/u operator:
@@ -63,62 +34,6 @@ guw = lowercase the word.
 gU$ = uppercase the rest of the line.
 gUl = uppercase current letter
 ~ = to toggle between cases.
-
-# num%
-
-we can go to different places of our current window using:
-
-50% == goes to the middle.
-
-# Window Jumps
-
-H = jumps to top of current window
-L = jumps to bottom of current window
-
-Ctrl+d = jumps some lines (not sure how many)
-Ctrl+u = jumps backwards.
-
-[[ == goes to the next section (h1 in Markdown).
-
-# search
-
-/ = search for text
-? = search backwards
-
-'*' = search the text under cursor
-'#' = search text under cursor backwards
-
-Note: they are in quotes because its markdown.
-
-f = search for letter
-
-we can continue search for letters using `;`
-
-```
-/[1-5]
-```
-
-to search number between 1 and 5.
-
-
-```
-:s/oldword/newword
-```
-
-s stands for substitution.
-
-```
-:%s/old/new
-```
-
-this will do substitution for all the file.
-
-```
-:s/\<./\U&/g
-```
-
-to capitalize a whole line.
-
 
 # Using Mark
 
@@ -131,23 +46,6 @@ to go to the marked line:
 '$letter
 ```
 
-# insert
-
-A = insert mode in the end of the line.
-s = delete charactor under cursor and enter insert mode.
-
-10o = will insert the same text to the next 10 lines.
-
-This is only possible when you exist with Esc or Ctrl+[ 
-
-# mapping
-
-We can map the Esc key using:
-
-```vim
-inoremap jj <Esc>
-```
-
 # copy to register
 
 "ay$ = copies the whole line to register
@@ -158,117 +56,78 @@ Then in insert mode:
 
 Ctrl+R $letter = paste the copied line
 
-# sub mode
+# write a external command to a file
 
-you can enter sub mode in insert mode using:
+We can do that using double Exclamation mark `!!` while in **normal mode**.
 
-Ctrl+x
+>!!pwd
 
-### autocomplete
-
-You can autocomplete with sub mode using:
-
-Ctrl+p
-
-# execting terminal command
-
-We can do that using double Exclamation mark `!!` while in normal mode.
-
-for example:
-
-!!pwd = would print the current directory
-
-# sub-normal mode
-
-We can enter normal mode while in insert mode with:
-
-> Ctrl+o
-
-This will only allow one command.
+would write the current directory in the file.
 
 # dot command
 
 We can repeat actions using the `.` command.
 
-# numbered Register 
+# Global command
 
-"+num+p = get to the history of yanked or deleted items.
+The global command is designed to do `:` commands to your file
 
-Ex: "1p
-
-# copy to a named Register
-
-We can do that using the following command
-
-"+letter+yank = yank to a specific letter.
-
-Ex: "ayy
-
-
-Then to use that yanked word we use `"a`, or under
-insert mode CTRL+R a.
-
-"%p = get the name of the file 
+for example you can delete a word using:
 
 ```
-set clipboard=unnamed
-```
-this allow copying from and out to vim.
-
-```
-"_dd
-```
-delete without saving to register.
-
-```
-:register
+:g/consloe/d
 ```
 
-to view all the register.
+g = line
+console = the word that you want to target
+d = delete
+
+This command will delete all lines with the world console
 
 ```
-:register 1 a
+:g/word/m $
 ```
 
-to view register with that letter/number.
+This command will move all the lines with the containing words
+to the end of the file, you can use `t` instead of `m` to copy.
+
+# tabs 
+
+you can open a new tab using:
+
+:tabnew filename
+
+to exit
+
+:tabclose
 
 
-```
-:put 1 a
-```
+you can naivagate through tabs using:
 
-to paste from register using a number/letter.
+:tabnext or gt
+:tabpervious or gT
+3gt === go to 3rd tab 
 
-while in Insert mode you can delete before the cursor words with
-```
-Ctrl+w
-```
+# windows
 
-```
-Ctrl+u
-```
-for deleting a whole line before the cursor 
+to open mulitple windows we can use:
 
-# External Commands
+:split filename
 
-you can use `:r` to excute commands from your linux system.
+:vsplit filename == opens virtically
 
-```
-:r file.txt
-```
+we can close a window by using:
 
-Will print the file.txt contact.
+:quit
+or 
+ctrl-w + c 
 
-```
-:r !ls
-```
+to switch between windows if we split them we can use:
 
-Will print the result of ls.
+ctrl-w k == upper window
+ctrl-w j == lower window
+ctrl-w h == left window
 
-```
-:10r !cat file.txt
-```
+> ctrl-w o
 
-Will print the 10th line of file.txt
-
-
+closes all other windows and keep current.

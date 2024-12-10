@@ -25,11 +25,3 @@ In visual block you can press `o` to go back and fotrth between the selection.
 
 CRTL+A increment number.
 CTRL+X decrement number.
-
-```set ignorecase```
-
-to ignore case while searching.
-
-```/\vhello|hola```
-
-to search for either hello or hola.
