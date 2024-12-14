@@ -244,7 +244,7 @@ forms of poetry:
 
 **stanza**: A group of lines separated from others in a poem.
 
-# To His Lady By Thomas Wyatt
+## To His Lady By Thomas Wyatt
 
 In this poem Thomas asks his love a simple question: yes or no.
 He is asking her if she wants him or not, expressing this in
@@ -254,7 +254,7 @@ a very simple and direct way.
 * **Tone**: Practical, Rational.
 * **Style**: Simple, Direct.
 
-# Farewell By Thomas Wyatt 
+## Farewell By Thomas Wyatt 
 
 In this poem Thomas says goodbye to his beloved because of her betrayal,
 and not keeping her promises to him, he calls her a hypocrite 
@@ -264,7 +264,7 @@ and not keeping her promises to him, he calls her a hypocrite
 * **Tone**: Sad, Angry, Betrayed
 * **Style**: Simple, Direct.
 
-# An Appeal By Thomas Wyatt 
+## An Appeal By Thomas Wyatt 
 
 In this poem Thomas ask a rhetorical question, saying:
 after all, you leave me like this? to express his wonder and surprise.
