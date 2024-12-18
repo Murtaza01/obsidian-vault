@@ -131,3 +131,46 @@ ctrl-w h == left window
 > ctrl-w o
 
 closes all other windows and keep current.
+
+# Views 
+
+We can save our folds and local settings in a particular file
+using a view
+
+> mkview
+
+To create a new view.
+
+> loadview
+
+To load a view with.
+
+> set viewoptions?
+
+To see what is saved in the view with.
+
+you can save different views and load different ones
+
+> mkview 1
+
+> loadview 1 
+
+You can automate this process with these commands
+
+```
+autocmd BufWinLeave *.txt mkview
+```
+
+To mkview before leaving the buffer.
+
+```
+autocmd BufWinEnter *.txt silent loadview
+```
+
+To loadview when you enter a buffer.
+
+# viminfo
+
+Vim saves all the registers and other stuff in viminfo by 
+default, we can create multiple viminfo for use cases.
+
