@@ -320,6 +320,12 @@ soul, then he says "O, spare me Lucifer" which causes the
 anger of God, despite God's anger, God still offers his hand
 to Faustus for repentance, yet Faustus doesn't.
 
+**Line 11/ But mercy, Faustus, of thy Saviour sweet**\
+**Whose blood alone must wash away thy guilt**\.
+
+Theis line is said by the old man when he was trying
+to guide Faustus into repentance, he tells him that Christ is merciful
+and that his blood can wash away his sins and saves his soul.
 
 ***Q/ Identify, comment and give the dramatic value of the following extract (quotation).***
 
@@ -411,7 +417,23 @@ curse the name of God and abjure him, they fly to him
 happily to get his "glorious soul", an irony because 
 the person soul will be damned.
 
-**Quote 8/ Of wealth !**\
+**Quote 8/ Why this is hell, nor am I out of it:**\
+**Think'st thou that I, who saw the face of God,**\
+**And tasted the eternal joys of heaven,**\
+**Am not tormented with ten thousands hells,**\
+**In being depriv'd of everlasting bliss?**\
+**Oh Faustus, leave these frivolous demands**\
+**Which strike a terror to my fainting soul**\!
+
+These lines are said by Mephistophilis to Faustus, when
+Faustus asks him why he consider himself in hell 
+when he can move freely, Mephistophilis answers him that 
+when he was an angel once he tasted God's presence, 
+but he was kicked out with Satan, and he feels its
+more tormenting than a thousand hells. We can conclude
+that every place which is not heaven is hell.
+
+**Quote 9/ Of wealth !**\
 **Why, the signiory of Emden shall be mine.**\
 **When Mephistophilis shall stand by me**\
 **What God can hurt thee, Faustus? Thou art safe.**\
@@ -423,7 +445,7 @@ Evil Angel to stay in necromancy, leaving his spirit and turning to his
 physical desires, wanting to rule over Emden city, and having Mephistophilis 
 in his side he is safe from any God's harm.
 
-**Quote 9/ Then, Faustus stab thine arm courageously**\
+**Quote 10/ Then, Faustus stab thine arm courageously**\
 **And bind thy soul, that at some certain day**\
 **Great Lucifer may claim it as his own**\
 **And then be thou as great as Lucifer**\.
@@ -433,7 +455,7 @@ his soul to Lucifer, Mephistophilis tells Faustus that in order to gain Lucifer'
 powers he has to give his soul to Lucifer, and sign a contract  using his blood
 that he will get from stabbing his arm.
 
-**Quote 10/ But what is this inscription on mine arm?**\
+**Quote 11/ But what is this inscription on mine arm?**\
 **Homo, fuge:whither should i fly?**\
 **If unto God, he'll throw me down to hell.**\
 **My senses are deceiv'd, here's nothing writ:-**\
@@ -447,7 +469,7 @@ are deceiving him, but then he looks again and sees the inscription clearly,
 he acknowledges that if he tries to flee to God, God will throw him in hell, so he ignore this
 and continue to sign the contract with his blood.
 
-**Quote 11/ Within the bowels of these elements,**\
+**Quote 12/ Within the bowels of these elements,**\
 **Where we are tortur'd and remain for ever:**\
 **Hell hath no limits, nor is circumscrib'd**\
 **in of self place; for where we are is hell**\
@@ -459,7 +481,7 @@ hell has no limit nor it is circumscribed to any place,
 rather it is a state of being where one is deprived of God's
 presence, and any place that is not heaven is hell.
 
-**Quote 12/ Marriage is but a ceremonial toy,**\
+**Quote 13/ Marriage is but a ceremonial toy,**\
 **And if thou lov'st me think no more of it.**\
 **I'll cull thee out the fairest courtesans,**\
 **And bring them every morning to thy bed.**\
@@ -478,7 +500,7 @@ be it Penelope which is a woman from Greek mythology
 who was known for her chastity, or the wise queen Saba,
 or Lucifer himself when he was an angel.
 
-**Quote 13/ His faith is great, I cannot touch his soul;**\
+**Quote 14/ His faith is great, I cannot touch his soul;**\
 **But what I may afflict his body with**\
 **I will attempt, which is but little worth**\.
 
@@ -489,7 +511,7 @@ that he cannot hurt the old man pure spirit because
 he has a deep faith, he can only hurt his body which 
 is insignificant.
 
-**Quote 14/ Ay, stay, good Faustus, stay thy desperate steps!**\
+**Quote 15/ Ay, stay, good Faustus, stay thy desperate steps!**\
 **I see an angel hovers o'er thy head,**\
 **And, with a vial full of precious grace,**\
 **Offers to pour the same into thy soul:**\
@@ -501,7 +523,7 @@ the old man represent God's infinite mercy. However Faustus
 refuses his help and instead tells Mephistophilis to attack
 him and summon up Helen of Troy to distract him.
 
-**Quote 15/ Cut is the branch that might have grown full straight,**\
+**Quote 16/ Cut is the branch that might have grown full straight,**\
 **And burned is Apollo's laurel-bough,**\
 **That sometime grew within this learned man.**\
 **Faustus is gone: regard his hellish fall,**\
@@ -535,7 +557,7 @@ Icarus and Daedalus.
 
 **Q/ What was Lucifer before the fall?**
 
-A beautiful fallen angel.
+A beautiful angel.
 
 **Q/ What was Lucifer Condition for Faustus?**
 
@@ -617,3 +639,7 @@ Helen of Troy.
 **Q/ What does the old man represent?**
 
 Faustus's foil.
+
+**Q/ Who was with Faustus in the last hour of his life?**
+
+Three Scholars.
