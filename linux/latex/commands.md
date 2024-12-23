@@ -33,3 +33,14 @@ Written all with a begin and end command:
 \end{enumerate}
 ```
 
+# \newcommand
+
+To make a new command that you can use repeatedly:
+
+```
+\newcommand{\bolden}[1]{\emph\,\textbf{#1}}
+```
+
+We just use the `\,` to sepreate commands.
+
+

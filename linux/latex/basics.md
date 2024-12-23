@@ -21,6 +21,10 @@ The two backward slashes are used to give space.
 this is normal text\\and this is another
 ```
 
+> %\usepackage
+
+To comment a command we use the `%`
+
 # Body
 
 Every document has a body, and to begin a body we need the 
