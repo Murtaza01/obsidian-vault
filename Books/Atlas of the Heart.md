@@ -2,6 +2,7 @@
 breed more of the same. Calm is also contagious. Nothing
 is more important than getting a grip on your own
 reactivity.”
+
 # Belonging 
 
 "Our yearning for belonging is so hardwired that we often try to
@@ -11,7 +12,6 @@ for approval and acceptance." p.225
 "Because we can feel belonging only if we have the courage to share
 our most authentic selves with people, our sense of belonging can
 never be greater than our level of self-acceptance."
-
 
 # Connection
 
@@ -57,7 +57,6 @@ judgment. We can ask each other for help without judgment.
 possible to the intentions, words, and actions of others.
 
 # defensiveness 
-
 
 our self-esteem is considered fragile when our failures, mistakes,
 and imperfections decrease our self-worth.

@@ -17,7 +17,7 @@ law)
 
 Faustus sells his soul to the devil in order to get more
 knowledge, he craved knowledge beyond the limits of 
-humanity,this is the major theme of the Renaissance; 
+humanity,this is the major theme of the renaissance; 
 that humans are the greatest thing in the universe
 and they can achieve anything.
 
@@ -105,7 +105,7 @@ purposes and pursue physical desires and trivial things.
 **Q/ Show the dramatic significance of at the court
 of Emperor Carolus the fifth**\?
 
-The emperor Carolus asks Faustus to raise one of the  
+The emperor Carolus asks Faustus to raise one of the
 emperor's ancestor; Alexander the great and his Paramour,
 Faustus tells him he cannot raise their actual bodies,
 but spirits that resembles them, the emperor's knight makes
@@ -222,7 +222,7 @@ while he was still alive.
 
 **Short answer (with less marks)**\:
 
-In the last hour of his life Faustus wishes that time will stop
+In the last hour of his life Faustus wishes that if time could stop
 so that he can save his soul, and that may God throw him
 in hell for a thousand or hundred thousand years but not eternally,
 and that the mountains could fall on him to hide him from God's anger.
@@ -232,8 +232,7 @@ do not hear him and the devils take him away, this scene shows
 Marlowe's play to be more tragic than Christian, because in Christianity
 you would be forgiven even in the last moment.
 
-
-***Q/ Comment on the following lines critically.***
+## Q/ Comment on the following lines critically.
 
 **Line 1/ O, this cheers my soul!**\.
 
@@ -327,7 +326,7 @@ Theis line is said by the old man when he was trying
 to guide Faustus into repentance, he tells him that Christ is merciful
 and that his blood can wash away his sins and saves his soul.
 
-***Q/ Identify, comment and give the dramatic value of the following extract (quotation).***
+## Q/ Identify, comment and give the dramatic value of the following extract (quotation).
 
 **Quote 1/ These metaphysics of magicians**\
 **And necromantic books are heavenly;**\
@@ -540,7 +539,7 @@ to learn from Faustus and respect the limits of things, and
 to express the medieval idea that Faustus fall was a result 
 of his pride and ambition.
 
-***Q/ Give very short answers to the following question:***
+## Q/ Give very short answers to the following question
 
 **Q/ What did Faustus asked Mephistophilis to do when 
 the latter appeared to him for the first time?**
@@ -575,10 +574,6 @@ Because marriage is a union blessed by God.
 **Q/ Name four names for Lucifer?**
 
 Satan,Prince of Darkness, Belzebub, The Devil.
-
-**Q/ What did Faustus did to the pope?**
-
-He made fun of him.
 
 **Q/ What is the name of the ceremony when Faustus went to Rome?**
 
@@ -620,7 +615,7 @@ To enlarge his kingdom.
 He became young and handsome.
 
 **Q/ Why does Mephistophilis refuse to answer 
-Faustus when he asks him about the world?**
+Faustus when he asks him about who made the world?**
 
 Because it would show God's miracle.
 
@@ -642,4 +637,59 @@ Faustus's foil.
 
 **Q/ Who was with Faustus in the last hour of his life?**
 
-Three Scholars.
+His Colleagues (Three Scholars).
+
+**Q/ Marlowe's play, Doctor Faustus, reflects the debate 
+of Renaissance theologians over what opposing ideas?**
+
+Fate versus free will.
+
+**Q/ When he first summons Mephastophilis, how does Faustus ask him to appear?**
+
+In the shape of Franciscan Friar.
+
+**Q/ In the last scene of the play ,The Blood of Christ 
+disappeared from the sky because?**
+
+Because Faustus invoked Lucifer to spare him.
+
+**Q/ What is the common thing that Lucifer, Faustus and Icarus share?**
+
+Pride.
+
+**Q/ What trick does Faustus, while invisible, play on the pope?**
+
+He steals dishes of food and disrupts the pope’s banquet.
+
+**Q/ What is the significance of the line, “Why, this is hell, nor am I out of it”?**
+
+It reflects Mephistopheles’ regret over losing his soul.
+
+**Q/ The old man asked Faustus to?**
+
+Forget about suicide.
+
+**Q/ According to the Christian creed, Christ sacrificed 
+himself when crucified in order to?**
+
+To remove the original sin from human being.
+
+**Q/ According to Mephistophilis "hell" is simply?**
+
+The deprivation of the presence of God.
+
+**Q/ How many years was Faustus promised with black magic?**
+
+24 years.
+
+**Q/ Why did Faustus sold his soul to the devil?**
+
+Because of his hunger for knowledge.
+
+**Q/ What did Faustus do with his power?**
+
+He pursued physical desires and trivial things.
+
+**Q/ What does Mephistophilis do when Faustus want to repent?**
+
+He distract him with physical pleasures.

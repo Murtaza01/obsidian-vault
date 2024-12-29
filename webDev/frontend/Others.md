@@ -57,7 +57,8 @@ which is to use an **empty object** that will serve as a container, then we can 
 
 # Refreshing the Page
 
-you can refresh the page via JavaScript using this [code](https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/):
+you can refresh the page via JavaScript using this 
+[code](https://www.freecodecamp.org/news/refresh-the-page-in-javascript-js-reload-window-tutorial/):
 
 ```js
 window.location.reload();
@@ -76,4 +77,22 @@ you can do that by adding the attribute target to you anchor tag, it would look 
 <a href="https://freecatphotoapp.com" target='_blank'>cat photos</a>
 ```
 
+# Window.open()
+
+We can open links pragmatically using the open method on
+the window object:
+
+```Javascript
+Window.open(url)
+```
+
+# Button as link
+
+We can create a button that will act as a link using 
+[this](https://stackoverflow.com/a/2906611):
+
+```html
+<button onclick="location.href='http://www.example.com'" type="button">
+         www.example.com</button>
+```
 

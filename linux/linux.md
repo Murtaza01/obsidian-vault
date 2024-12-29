@@ -106,21 +106,6 @@ to fix this we would first remove the package from the yay folder manually from
 this folder is where yay download packages from, so it would keep a .git folder that
 will give us this problem
 
-# cloudflare [Warp](https://developers.cloudflare.com/warp-client/get-started/linux/)
-
-a tool to change your that hides your DNS, it is similar to a vpn.
-
-in arch you need the [AUR](https://aur.archlinux.org/packages/cloudflare-warp-bin)
-
-we also need to enable or lunch the service 
-
-```zsh
-sudo systemctl enable --now warp-svc.service
-```
-
-this however will keep it running in the background so you need to disable it later
-
-
 # show disk usage
 
 we can do that with the command
@@ -141,7 +126,7 @@ we can use the libreoffice command to convert odt to pdf
 libreoffice --convert-to pdf *.odt
 ```
 
->execting a command in the background
+> execting a command in the background
 
 we do that by using disown
 
@@ -149,4 +134,8 @@ we do that by using disown
 mpv 8.mp4 & disown 
 ```
 
+# Primary clipboard
+
+Sometimes when you copy something using vim or terminal or zathura
+it will be on the pirmary clipborad, we can paste it using the `middle mouse`
 

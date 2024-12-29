@@ -1,4 +1,3 @@
-
 # favicon
 
 to add favicon (the tab icon) we simply put an image inside the public folder then use a <link> tag that target it, example:
@@ -13,7 +12,7 @@ note you can add an image or svg or a favicon extension
 
 is a method that turns an object into an array, it takes the object and returns a new array of that object
 
-```js
+```javaScript
 const obj = {name:"mertda",age:"age"}
 
 object.key(obj) // [name,age]
