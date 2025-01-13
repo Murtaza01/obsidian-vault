@@ -174,3 +174,7 @@ To loadview when you enter a buffer.
 Vim saves all the registers and other stuff in viminfo by 
 default, we can create multiple viminfo for use cases.
 
+> 1+Ctrl+g 
+
+to display full path of the current file
+

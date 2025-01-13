@@ -26,8 +26,6 @@ footer)
 
 > hierarchy 
 
-![[hierarchy.png]]
-
 the main action should have the color (it should be clear and vivid)
 the secondary action should have a outline (no color or reduced color)
 the third action (the least important) should have the least styles 

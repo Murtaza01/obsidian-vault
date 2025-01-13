@@ -139,3 +139,29 @@ mpv 8.mp4 & disown
 Sometimes when you copy something using vim or terminal or zathura
 it will be on the pirmary clipborad, we can paste it using the `middle mouse`
 
+# Adding fonts
+
+We can add fonts in our system by simply moving a `.ttf`,`.otf` in
+~/.local/share/fonts
+
+# ffmpeg to cut audio
+
+> ffmpeg -i inputfile --ss 00:10:03 -to 00:15:00 outputfile
+
+--ss => start from.
+
+-to => end to.
+
+# solaar 
+
+A package for legtech keyboard management
+
+# gparted 
+
+A package for disk management (for format mainly).
+
+# pipx 
+
+To install python packages using pip but system wide install.
+
+
