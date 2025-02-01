@@ -1,11 +1,13 @@
-\documentclass[12pt, a4paper]{memoir}
+\documentclass[12pt, a4paper]{article}
 \usepackage{polyglossia}
 \usepackage{geometry}
+\usepackage{tipa}
+\usepackage{lua-ul}
+\usepackage{color,soul}
 
 \geometry{top=0.6in}
 \setlength\parindent{0pt}
 
-\newfontfamily\englishfont{Philosopher}
 \setmainfont{Philosopher}
 \newfontfamily\fontpar{BespokeSerif}
 
@@ -22,12 +24,13 @@
 
 {\fontpar
 \textbf{Syllable}: Is a unit consisting of one vowel which may be 
-proceeded or followed by one or more consonant.\bigbreak
+proceeded or followed by one or more consonant. However there is 
+one syllable without a vowel called \textbf{syllablic consonant}.\medbreak
 
 Before we understand syllables, we need to understand the 
 difference between vowels and consonants. \textbf{Vowels} produce none to 
 little obstruction in the air flow. \textbf{Consonants} produce 
-complete or partial obstruction in the air flow.\bigbreak
+complete or partial obstruction in the air flow.\medbreak
 
 We also need to understand the difference between phonetics and phonology.
 \textbf{Phonetics} studies the production of the speech sound, (whether
@@ -47,7 +50,7 @@ So phonetically we divide words by the amount of obstruction they have
   \item[1. Minimum syllable:]Is a single vowel in isolation, which has
     the least amount of obstruction:\medbreak
 
-    \centerline{are /a:/ \hspace{2cm} err /3:/ }
+    \centerline{are \textipa{/A:/} \hspace{2cm} err \textipa{/3:/} }
 
   \item[2. Onset:]One or more consonant proceeding the centre of
     the syllable:\medbreak
@@ -60,39 +63,59 @@ So phonetically we divide words by the amount of obstruction they have
     \centerline{am /æm/ \hspace{2cm} ease /i:z/}
 
   \item[4. Onset and Code:]Syllable that has proceeding and following
-    consonant which has the most obstruction:\medbreak
+    consonant,\\and it has the most obstruction:\medbreak
 
     \centerline{ran /ræn/ \hspace{2cm} sat /sæt/}
   
 \end{description}
 
 \section*{Syllable Phonologically}
-
-Can be described as the possible combinations 
-of English phonemes.\medbreak
-\textbf{Phonotactics} is the study of the possible phoneme combinations
-of a language.\bigbreak
+Can be described as the possible combinations of English phonemes,
+what sounds can occur in the beginning and ending of words.
+\textbf{Phonotactics} is the study of the possible phoneme combinations of a language.
 
 \subsection*{Consonant Cluster}
-Can be described as two or more consonant come together without a vowel
-in between them.\medbreak
+Can be described as two or more consonants that follow each other without 
+a vowel in between them.\medbreak
 
 We divide consonant clusters (or sequences) based on their position:\medbreak
 
 \textbf{Initial position}: In initial position a word can start with one,
-two or three consonant, \underline{3 consonant sequence words only start 
-with \textbf{/s/}} ex: \underline{Spr}ay , \underline{Str}ing.
-\underline{There is no word that start with 
+two or three consonant, \underLine{3 consonant sequence words only start 
+with \textbf{/s/}} ex: \underLine{spr}ay , \underline{str}ing.
+\hl{There is no words that start with 
 4 consonant}.\medbreak 
 
-\textbf{Zero Onset} is when a word doesn't start with consonant 
-(are /a:/).\bigbreak
+\textbf{Zero Onset}: When there is no inital consonant in a word ex:
+are \textipa{/A:/}.\medbreak
+
+Any vowel can occur in initial position, although \textipa{/U/} is 
+rare. As for consonant \underLine{\textipa{/N/ and /3/} do not come
+in initial position}.\bigbreak
 
 \textbf{Final Position}: In final position a word can start with one,
-two, three or four consonant, for example the word (pro\underline{mpts})
-ends with 4 consonants \underline{no words ends with 5 consonant}.\medbreak
+two, three or four consonant, for example the word (texts
+\textipa{/teksts/}) ends with 4 consonants. \hl{No words ends with 5 consonant}.\medbreak
 
-\textbf{Zero Coda} is When a word doesn't end with consonant.
+Most consonants can occur in final position expect for a few, for example
+\hl{there is no word that ends with \textbf{h, j, w}}. 
+The consonant \underLine{\textbf{/r/} does not come in final position in
+rhotic accents (BBC) }, however in non-rhotic accents (American Eglish) 
+\textbf{/r/} can occur at the end. As for vowels, 
+\underLine{\textipa{(I, e, æ, U, 2, 6)} these vowels does not come at the
+end of a syllable}.\medbreak
+
+
+\textbf{Zero Coda}: When there is no final consonant in a word, ex:
+more \textipa{/mO:/}.\medbreak
+
+\textbf{Ambisyllabic}: A term that is used to describe a consonant 
+that belong to both syllables. For example the word better and carry 
+should be written like this:\medbreak
+
+\centerline{better \textipa{/bet.@/}\hspace{2cm}carry \textipa{/kær.i/}}
+\medbreak
+
 }
 \end{document}
 

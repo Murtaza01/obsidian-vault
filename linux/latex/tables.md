@@ -68,4 +68,29 @@ Dog & Flower & Jack\\
 Here Plants  is centered where Humans and Animals 
 are left aligned.
 
+# Lists
+
+There is three different types of lists that you can make
+
+* enumerate
+* itemize
+* description
+
+Written all with a begin and end command:
+
+```tex
+\begin{enumerate}
+\item text here.
+\end{enumerate}
+```
+
+We can control how our list are numbered, for example
+if we want roman numbers we use:
+
+```tex
+\begin{enumerate}[i.]
+% renders i. text
+\end{enumerate}
+```
+
 

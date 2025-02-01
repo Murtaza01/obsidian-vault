@@ -1,0 +1,36 @@
+\documentclass[12pt, a4paper]{memoir}
+\usepackage{polyglossia}
+\usepackage{geometry}
+\usepackage{lua-ul}
+\usepackage{color,soul}
+\usepackage{verse}
+
+\geometry{top=0.6in}
+\setlength\parindent{0pt}
+
+\newfontfamily\englishfont{Philosopher}
+\setmainfont{Philosopher}
+\newfontfamily\fontverse{BespokeSerif}
+\newfontfamily\fontpar{Synonym}
+
+\begin{document}
+
+\begin{center}
+\huge{Poetry Second Course}\\[0.5cm]
+\Large{By: Birdman}\\[1cm]
+\end{center}
+
+\poemtitle{Sonnet 116}
+\settowidth{\versewidth}{Let me not to the marriage of true minds}
+\begin{verse}[\versewidth]
+{\fontverse
+  Let me not to the marriage of true minds \\
+Admit impediments. Love is not love \\
+Which alters when it alteration finds,\\ 
+Or bends with the remover to remove.
+}
+\end{verse}
+{\fontpar
+}
+
+\end{document}

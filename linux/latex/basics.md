@@ -22,6 +22,10 @@ only use it in very speical cases.
 this is normal text\\and this is another
 ```
 
+> \medbreak , \smallbreak , \bigbreak
+
+Used to make line breaks, we should use this instead of `\\` 
+
 > %\usepackage
 
 To comment a command we use the `%`
@@ -111,5 +115,50 @@ space using `\\` or use normal space, we can end paragraphs
 using:
 
 > \par
+
+# Using lualatex engine
+
+Lualatex is the modren engine for latex, it supports using multiple fonts
+from your local device, it has many features, to use it we first need
+to add this line to our config located in `~\.latexmkrc`
+
+```
+$pdf_mode = 4; ## sets lualatex to default engine.
+$dvi_mode = 0;
+$postscript_mode = 0;
+```
+
+# maketitle
+
+You can make a title inside your document by using the `\maketitle` which
+goes only inside the document, however you need 3 **mandatory** commands:
+
+```
+\title{}
+\author{}
+\date{}
+```
+
+If date is not set the current date will be set.
+
+> \usepackage{xcolor}
+
+To color our text, the command takes two argument one 
+for the color and the other for the text.
+
+```
+this is normal colored text
+\textcolor{blue}{and this is blue}
+```
+
+# \newcommand
+
+To make a new command that you can use repeatedly:
+
+```
+\newcommand{\bolden}[1]{\emph\,\textbf{#1}}
+```
+
+We just use the `\,` to sepreate commands.
 
 
