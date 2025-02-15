@@ -164,4 +164,14 @@ A package for disk management (for format mainly).
 
 To install python packages using pip but system wide install.
 
+# Redshift 
 
+To change the screen temperature:
+
+```zsh
+redshift -O -P 3000 -b 0.8
+```
+
+O = is the temperature.
+P = is an argument that rest the previous temperature added.
+b = Brightness.

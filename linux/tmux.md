@@ -30,4 +30,10 @@ List window ==> Ctrl+b+w
 exit session without saving ==> Ctrl+d
 Detach from session ==> Ctrl+b+d
 
+# Add Tpm (plegin manager)
+
+* clone the rep and add the recommended commands
+* then Prefix+I for update.
+
+
 
