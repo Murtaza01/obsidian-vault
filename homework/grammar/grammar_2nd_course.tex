@@ -4,12 +4,33 @@
 \usepackage{lua-ul}
 \usepackage{color,soul}
 
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{mathdots}
+\usepackage{yhmath}
+\usepackage{cancel}
+\usepackage{color}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{amssymb}
+%\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{extarrows}
+\usepackage{booktabs}
+\usetikzlibrary{fadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes}
+
+
+
 \geometry{top=0.6in}
 \setlength\parindent{0pt}
 
 \newfontfamily\englishfont{Recia}
 \setmainfont{Recia}
-\newfontfamily\fontpar{Synonym}
+\newfontfamily\fontpar{Open Sans}
 
 \newcommand{\exarrow}{{\Large{$\Rightarrow$}\,}}
 
@@ -19,58 +40,53 @@
 \Large{By: Birdman}\\[1cm]
 \end{center}
 
-\section*{\centering{\LARGE{Reporting\\[0.5cm]}}}
+\section*{\centering{Reporting\\[0.5cm]}}
 
-\subsection*{Converting to Indirect}
 {\fontpar
-When we convert from direct to indirect we need to follow 
-few things:
 
-\begin{enumerate}
-\item We keep the expression "she said, he says, they asked..." untouched.
-\item We change the pronoun, example:
 
-  She said "i did my homework." 
+\begin{center}
+  \large{She asked "Where is the key?"}\medbreak
 
- \exarrow She said \textbf{she} did \textbf{her} homework.
+\exarrow \large{She asked where the key was.}
+\end{center}
 
-\item We make the tense past, if its already past we can either
-  leave it or make it past perfect, both are right, example:
 
-  She said "Its a strange story?"\\
-\exarrow  she said It \textbf{was} a strange story.
-\item We pay attention to time expression, because we do not have 
-  future with past, example:
+\begin{itemize}
+  \item We keep the first expression the same (she asked, they said...).
+  \item We remove the question mark and quotes.
+  \item We change the tense to past.
+  \item We change the order of subject/verb when 
+    necessary.
+\end{itemize}
 
-  "It rained yesterday and last week"
+\begin{center}
+\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
-\exarrow He said that it rained the \textbf{day before} and the 
-  \textbf{previous week}.
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,215); %set diagram left start at 0, and has height of 215
 
-Because it might have been two days after or week after and 
-im reporting his speech.
+%Straight Lines [id:da04102511271135678] 
+\draw    (337.5,36.5) -- (407.21,119.32) ;
+\draw [shift={(408.5,120.85)}, rotate = 229.91] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8651657478990151] 
+\draw    (311,36.35) -- (242.79,117.32) ;
+\draw [shift={(241.5,118.85)}, rotate = 310.11] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
+%Straight Lines [id:da8672755351479453] 
+\draw    (324.9,36.7) -- (324.7,122.1) ;
+\draw [shift={(324.7,124.1)}, rotate = 270.13] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-3.29) .. controls (6.95,-1.4) and (3.31,-0.3) .. (0,0) .. controls (3.31,0.3) and (6.95,1.4) .. (10.93,3.29)   ;
 
-\item If we have a question that is started by an auxiliary we
-  use if/whether in our indirect speech, example:
+% Text Node
+\draw (295,12) node [anchor=north west][inner sep=0.75pt]   [align=left] {Reporting};
+% Text Node
+\draw (197,121.5) node [anchor=north west][inner sep=0.75pt]   [align=left] {Statement\\(That)};
+% Text Node
+\draw (302.5,129) node [anchor=north west][inner sep=0.75pt]   [align=left] {Wh-Q};
+% Text Node
+\draw (382.5,124) node [anchor=north west][inner sep=0.75pt]   [align=left] {Yes/No-Q\\Whether/If};
 
- "Is she a doctor or a nurse?"
+\end{tikzpicture}
+\end{center}
 
-\exarrow She asked \textbf{whether/if} she was a doctor 
-  or a nurse
-
-\item If the sentence is continous (expresses an on going event,
-  or a current event, or something that is generally true) we keep the
-  tense, example:
-
-  "I go to the gym everyday"
-
-  \exarrow He said he goes to the gym everyday.
-
-  "Im going to study tomorrow"
-
-  \exarrow She said she is going to study the day after
-\end{enumerate}
 }
-
- 
 \end{document}
