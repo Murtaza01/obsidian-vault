@@ -6,197 +6,68 @@
 \usepackage{verse}
 \usepackage{tipa}
 \usepackage{xcolor}
+\usepackage{hyperref}
 
-\geometry{top=0.6in}
+\geometry{bottom=1in, top=1in}
 \setlength\parindent{0pt}
-
-\setmainfont{Erode}
-\newfontfamily\fontverse{BespokeSerif}
-%\newfontfamily\fontpar{Erode}
-\newfontfamily\fonthead{Philosopher}
-
 \newcommand{\attrib}[1]{\nopagebreak{\raggedleft\footnotesize #1\par}}
 
-\begin{document}
+%fonts
+\setmainfont{Erode}
+\newfontfamily\fontverse{BespokeSerif}
+\newfontfamily\fonthead{Philosopher}
 
+
+%sections
+\newcommand{\head}[1]{
+  \phantomsection
+  \section*{\centering{#1}}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\subhead}[1]{
+  \phantomsection
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\newcommand{\subsubhead}[1]{
+  \phantomsection
+  \subsubsection*{#1}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+\newcommand{\poemhead}[1]{
+  \phantomsection
+  \subsubsection*{\centering{\large{#1}}}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+\begin{document}
+\newgeometry{top=0.4in,bottom=1in}
 {\fonthead
 \begin{center}
 \huge{Poetry Second Course}\\[0.5cm]
 \Large{By: Birdman \& Fried Potato \& Mơ\textipa{h\r{a}m@\!d}}\\[1cm]
 \end{center}
 }
+\head{Historical Background of the Seventeen Century}
 
-\section*{\centering{William Shakespeare}}
-Was an English playwright, poet and actor. His work consisted
-of 39 plays, \hl{154 sonnets}, 3 narrative poems. His sonnet sequence were
-the most popular. The subject of his sonnets were about \hl{the dark lady} and his \hl{patron}.
-William was \underLine{influenced by Christopher Marlowe} and his use of blank verse. His 
-sonnets consisted of 3 quatrains and a couplet which he 
-took from Henry Howard.
-
-
-\poemtitle{Sonnet 116}
-\settowidth{\versewidth}{let me not to the marriage of true minds}
-\begin{verse}[\versewidth]
-{\fontverse
-Let me not to the \underLine{m}arriage of true \underLine{m}inds\\
-Admit impediments. Love is not love \\
-Which \underLine{a}lters when it \underLine{a}lteration finds,\\ 
-Or bends with the \underLine{r}emover to \underLine{r}emove.
-}
-\end{verse}
-I do not accept that anything can come between 
-true lovers. Its not true love that changes when bad things
-happen.\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration}\footnote{
-The repetition of the same letter in the beginning of words} 
-in first line (repetition of m) the third line (repetition of a) and 
-fourth line (repetition of r).  \textbf{Metaphor}\footnote{ comparing between
-two things that isn't literally true in order to make a resemblance.}  
-in \textit{"marriage of true minds"} compares physical union 
-(marriage) to deep connection.
-
-\begin{verse}[\versewidth]
-{\fontverse
-O no! it is an ever-fixed mark\\
-That looks on tempests and is never shaken;\\
-It is the star to every \underLine{w}and'ring bark,\\
-\underLine{W}hose \underLine{w}orth's unknown, although his height be taken.
-}
-\end{verse}
-No, instead love is constant and never changing,
-like a lighthouse who is not moved by storms.
-It is the star that guides ships. Its value 
-is unmeasured. Here Shakespeare uses the images of the 
-sea and the star to describe love.\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration} in third and
-four line (repetition of w). \textbf{Hyperbole}\footnote{exaggeration for the sake of emphasis.}
-in \textit{"ever-fixed"} and \textit{"never shaken"} 
-exaggerate love.
-
-\begin{verse}[\versewidth]
-{\fontverse
-Love's not Time's fool, though rosy lips and cheeks\\
-Within his bending sickle's compass come; \\
-Love alters not with his brief hours and weeks,\\
-But bears it out ev'n to the edge of doom
-}
-\end{verse}
-Love is not a waste of time or a game. It is not only physical
-because youth is diminished by time. Love does not change or alter
-it stays to end of time. Shakespeare tries to separate between physical
-love which is temporary and spiritual love which is eternal.\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Personification}\footnote{
-describing a non-human entity with human attribute.} 
-in \textit{"Love's not time's fool"} love rejects the wasting of time, fool here means 
-jester (clown). \textbf{Hyperbole} in \textit{"edge of doom"} 
-exaggerate the eternal and unchanging nature of love.
-
-\begin{verse}[\versewidth]
-{\fontverse
-If this be error and upon me prov'd,\\
-I never writ, nor no man ever lov'd.
-}
-\end{verse}
-If I'm wrong and it was proved, then i have 
-never written a poem, nor anyone had ever loved.Shakespeare shows his 
-confidence about the message of this poem.
-
-\subsubsection*{Sonnet 116 Summary}
-Shakespeare tries to separate between two kinds of love:
-physical (temporary) love, spiritual
-(eternal) love. He uses the images of the sea to describe love
-saying its like a lighthouse, constant and never moved by hardships.
-He also uses the star image to say that love is like a guide to people.
-He conclude by expressing his strong belief about this message.
-
-\poemtitle{Sonnet 18}
-\settowidth{\versewidth}{Shall I compare thee to a summer’s day?}
-\begin{verse}[\versewidth]
-{\fontverse
-Shall I compare thee to a summer’s day?\\
-Thou art more lovely and more temperate: \\
-Rough winds do shake the darling buds of May, \\
-And summer’s lease hath all too short a date; 
-}
-\end{verse}
-Here Shakespeare asks a rhetorical question to 
-express his wonder. He compares his beloved to a lovelier and
-more mild summer day. He says that summer does not last too long.\medbreak
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Personification} in \textit{"Rough winds do shake the darling buds"}.
-
-
-\begin{verse}[\versewidth]
-{\fontverse
-Sometime too \underLine{h}ot the eye of \underLine{h}eaven shines, \\
-And often is his gold complexion dimm'd; \\
-And every fair from fair sometime declines, \\
-By \underLine{ch}ance or nature’s \underLine{ch}anging course untrimm'd
-}
-\end{verse}
-
-Shakespeare says that sometimes the sun is too hot in summer and his beloved 
-golden face is dimmed. Beauty disappears in time either by 
-chance (accidents) or by nature (age).\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration} in first line
-(the repetition of h) and fourth line (the repetition of ch). \textbf{Metaphor} in 
-\textit{"eye of the heaven"} meaning the sun. 
-
-\begin{verse}[\versewidth]
-{\fontverse
-But thy eternal summer shall not \underLine{f}ade, \\
-Nor lose possession of that \underLine{f}air thou ow’st; \\
-Nor \underLine{sh}all death brag thou wander’st in his \underLine{sh}ade, \\
-When in eternal lines to time thou grow’st:
-}
-\end{verse}
-But your beauty and glow will not fade, not even death can
-kill your memory, you will live eternally because of these
-lines (poem).\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration} in first and second line
-(repetition  of f) and third line (repetition of sh). \textbf{Personification} in
-\textit{"nor shall death brag"}. \textbf{Metaphor} in \textit{"thy eternal summer"} his 
-beloved compared to eternal summer. \textbf{Hyperbole} in \textit{"eternal summer shall not fade"}
-exaggerate the eternity of his beloved's beauty.
-
-\begin{verse}[\versewidth]
-{\fontverse
-So long as men can breathe or eyes can see,\\
-So long \underLine{l}ives this, and this gives \underLine{l}ife to thee.
-}
-\end{verse}
-As long as there is humans and they can see and read,
-you will live eternally through this poem.
-
-
-\subsubsection*{Sonnet 18 Summary}
-In this sonnet Shakespeare compares between summer and his beloved, saying that summer is lovely and temperate
-but short and sometimes too hot. His beloved however is 
-lovelier and more temperate and does not fade, as long as 
-people can see and read, this sonnet will make his beloved eternal. The 
-sonnet is \underLine{about Shakespeare patron}.
-
-\section*{\centering{Historical Background of the Seventeen Century}}
-\subsection*{King x Parliament}
+\subhead{King x Parliament}
 
 Both \textit{James I} and his son \textit{Charles I} thought that kings ruled 
 by \underLine{Divine Right}. They abused the power of ruling, made illegal taxes
 on working people. They were in constant disputes with the Parliament and tried 
 many times to rule without them which lead to the civil war.
 
-\subsection*{Civil War (1642-1649)}
+\subhead{Civil War (1642-1649)}
 
 The civil war happened between \textit{Charles I} and his supporters 
 (\underLine{the Royalist}) against the Parliament and their supporters which were
 merchants and tradesmen, they were of the common people and were called (\underLine{the Roundheads}). 
 With the help of Scotland the Parliament defeated the king and executed him on 1649.
 
-\subsection*{The Puritans}
+\subhead{The Puritans}
 
 In the seventeen century there were two major religious groups: the
 \textit{Puritans} who were very strict and thought that all entertainment is
@@ -208,44 +79,47 @@ theaters and other entertainments because he thought they were distraction
 from the Bible. In the Restoration period people started to be more vulgar and 
 indulgent as a reaction to the Puritans strict rules.
 
-
-\section*{\centering{School of Ben Jonson}}
+\head{School of Ben Jonson}
 
 The school of Ben or the \textit{Tribe of Ben} were group of poets who imitated
-Ben Jonson style. They were Royalist and were called \textbf{Cavalier Poets} because they
+Ben Jonson style. They were Royalist and were called \underLine{Cavalier Poets} because they
 supported king \textit{Charles I} against the Parliament. This group included: 
 \underLine{Thomas Carew}, \underLine{Richard Lovelace}, 
-\underLine{John Suckling}, \underLine{Robert Herrick}.
+\underLine{John Suckling}, \underLine{Robert Herrick}. \hl{Ben and his followers often wrote 
+carpe diem poems}.\medbreak
 
-\subsection*{Ben Jonson}
+\textbf{Carpe diem:} A philosophy that recognizes the brevity of life
+and the need to live in the moment.
+
+\subhead{Ben Jonson}
 
 Playwright, critic and poet. Was part of the Royalist who supported 
 king Charles I. He lived in the city, 
 so most of \underLine{his work were about 
 the city side} (urban side). He was influenced by classical 
-literature (Greek and Roman) and imitated their work. He used
+literature (Greek and Roman) and imitated their style. He used
 \textbf{classicism}\footnote{the following of Greek and Roman style and 
 principles in literature.} 
-in his form. His work were characterised by:
+in his form. \underLine{\textbf{John Donne} was his rival-artist}, his 
+form was complex, scientific and included metaphysical elements unlike
+Ben's form which was simple and plain.
+
+\restoregeometry
+
+\subsubhead{Characteristics of Ben's poetry}
 
 \begin{itemize}
-  \item Clarity, order, simplicity, and plainness.
-  \item Logic and wit.
-  \item Realism and the use of controlled feelings
-    \footnote{describing things in realistic  manner and staying away 
+  \item Clarity, brevity, simplicity and order.
+  \item Realism and the use of controlled feelings.\footnote{describing things in realistic  manner and staying away 
     from exaggeration.}
+  \item Logic and wit.
   \item Didacticism\footnote{is a type of literature that aims to teach}
     and instruction.
   \item Refinement of the classics. 
 \end{itemize}
 
-\subsubsection*{John Donne x Ben Jonson}
 
-Unlike Ben's form which was simple and plain, Donne's form was complex, 
-scientific and included metaphysical element. \underLine{Donne was Ben 
-rival-artist}.
-
-\subsubsection*{Ben Jonson Poems} 
+\subsubhead{Ben Jonson Poems} 
 Ben favored the \hl{shorter forms} in his work, such as: \underLine{the epigram}
 , \underLine{the epitaph}, \underLine{the elegy} and 
 \underLine{the epistle}.\medbreak
@@ -260,10 +134,7 @@ to honor the dead.\medbreak
 
 \textbf{Epistle:} A short poem in the form of a letter.
 
-
-
-
-\poemtitle{On my First Son}
+\poemhead{On my First Son}
 \settowidth{\versewidth}{Farewell, thou child of my right hand, and joy}
 \begin{verse}[\versewidth]
 {\fontverse
@@ -324,12 +195,12 @@ As what he loves may never like too much.
 }
 \end{verse}
 
+
 That i promise you my child i will never love anything like you 
 again.\medbreak
 
-\attrib{Poem is from \textit{Epigrams} (1616)}
 
-\subsubsection*{\textit{On my First Son} Summary}
+\subsubhead{\textit{On my First Son} Summary}
 
 In his epigram Ben mourns the death of his favourite and only child, the best thing
 that ever happened to him. He says that fate \textit{lent him} his child
@@ -338,14 +209,14 @@ pain he envies the dead. He concludes by promising that he will never love
 anything like his child. \hl{This poem is an elegy to Ben's
 son}.
 
-\subsubsection*{What \textit{`On my First Son`} is about and what
+\subsubhead{What \textit{`On my First Son`} is about and what
 is the moral lesson?}
 
 The poem is about \hl{honoring the father}. The moral lesson
 is that \hl{nothing in life is ours}. Everything is given 
 (lent) to us by God, whether it is money, children, or health.\bigbreak
 
-\poemtitle{Song to Celia}
+\poemhead{Song to Celia}
 \settowidth{\versewidth}{Come, my Celia, let us prove}
 \begin{verse}[\versewidth]
 {\fontverse
@@ -388,6 +259,7 @@ we will face the night (death). The poet tries to warn
 his beloved about the importance of time.
 
 
+\newpage
 \begin{verse}[\versewidth]
 {\fontverse
 Why should we defer our joys?\\
@@ -420,25 +292,24 @@ These have crimes accounted been.
 }
 \end{verse}
 
+
 Its no sin to fall in love and act on it if it was in 
 private. It is only a crime if we are seen.
 
-\attrib{From \textbf{Volpone}, 1605}
 
-
-\subsubsection*{\textit{Song to Celia} Summary}
+\subsubhead{\textit{Song to Celia} Summary}
 
 In this poem Ben invite his beloved to enjoy love while 
-they have the time, it is a \hl{carpe diem} poem (sieze the day).
+they have the time, it is a \hl{carpe diem} poem (seize the day).
 He tries to convince her of the shortness of time and youth and how
-they should size it in private while they can. This poem is from the play Volpone.
+they should seize it in private while they can. This poem is from the play Volpone.
 
 
-\subsection*{Robert Herrick}
+\subhead{Robert Herrick}
 A Royalist and cavalier poet, part of the school of Ben Jonson,
 he is the \underLine{best representative of Ben's school}.
 
-\poemtitle{Delight in Disorder}
+\poemhead{Delight in Disorder}
 \settowidth{\versewidth}{A sweet disorder in the dress. }
 %i have some space here just to fix the width of the verse
 \begin{verse}[\versewidth]
@@ -460,7 +331,7 @@ Is too precise in every part.
 }
 \end{verse}
 
-\subsubsection*{\textit{Delight in Disorder} Summary}
+\subsubhead{\textit{Delight in Disorder} Summary}
 
 In this poem Robert tells his beloved that there is
 some joy in disorder. He tells her that she doesn't 
@@ -468,5 +339,207 @@ need to look perfect, that imperfection is charming and natural.
 He expresses this in \underLine{subject/predicate} manner where
 the first 12 lines is subject and the last two lines is the 
 predicate that describe the subject.
+
+\poemhead{To the Virgins, to Make Much of Time}
+\settowidth{\versewidth}{Gather ye rose-buds while ye may}
+\begin{verse}[\versewidth]
+{\fontverse
+Gather ye rose-buds while ye may,\\
+Old Time is still a-flying;\\
+And this same flower that smiles today\\
+Tomorrow will be dying.
+} 
+\end{verse}
+seize your youth days while you can, time passes quickly and the
+beautiful flower you see today will die tomorrow. \textbf{Metaphor} in \textit{"rose-buds"}
+to mean youth. \textbf{Personification} in \textit{"old time is still a-flying"}.
+
+\begin{verse}[\versewidth]
+{\fontverse
+The glorious lamp of heaven, the sun,\\
+The higher he’s a-getting,\\
+The sooner will his race be run,\\
+And nearer he’s to setting.
+} 
+\end{verse}
+
+The higher the sun gets, the nearer our death would be. Here the poet 
+uses metaphor to compare our life to one day; the sunrise 
+is when we are born, the noon is our youth, the afternoon is middle age and
+the sunset is death. \textbf{Hyperbole} in \textit{"the glorious lamp of heaven"}
+
+\begin{verse}[\versewidth]
+{\fontverse
+That age is best which is the first,\\
+When youth and blood are warmer;\\
+But being spent, the worse, and worst\\
+Times still succeed the former. 
+} 
+\end{verse}
+
+The best age to live is youth time, you are passionate and energetic
+but when it is spent it will become worse and worse (when you get older)
+and eventually time will surpass your youth. \textbf{Personification} in \textit{"time still succeed"}.
+
+\begin{verse}[\versewidth]
+{\fontverse
+Then be not coy, but use your time,\\
+And while ye may, go marry;\\
+For having lost but once your prime,\\
+You may forever tarry.
+} 
+\end{verse}
+
+Then do not be shy, marry while you can because if
+your prime years past, you may end up waiting forever.
+
+
+\subsubhead{\textit{To the Virgins, to Make Much of Time} Summary}
+
+In this poem Robert Herrick tries to encourage women to marry while they can
+because their prime (youth) will not last forever.
+Time is quick and when our youth passes we become worse because of old age. 
+Robert uses a metaphor to compare between our life to one day;
+it start by sunrise (being born) and end by sunset (death).
+\hl{The poem is about carpe diem philosophy}.
+
+\poemhead{To Daffodils}
+\settowidth{\versewidth}{Fair Daffodils, we weep to see}
+\begin{verse}[\versewidth]
+{\fontverse
+Fair Daffodils, we weep to see\\
+You haste away so soon;\\
+As yet the early-rising sun\\
+Has not attain'd his noon.
+} 
+\end{verse}
+
+Beautiful daffodil\footnote{a type of flower that blooms in the spring time.} we 
+are sad to see you die so soon, even before the arrival of noon. \textbf{Apostrophe}
+is used to addresses \textit{"daffodil"}.
+
+\begin{verse}[\versewidth]
+{\fontverse
+Stay, stay,\\
+Until the hasting day\\
+Has run\\
+But to the even-song;\\
+And, having pray'd together, we\\
+Will go with you along.
+} 
+\end{verse}
+
+Stay daffodil until the day that fades so quickly reaches noon. Wait until the evening 
+prayer so we can pray together and then we can go (die). 
+
+\begin{verse}[\versewidth]
+{\fontverse
+We have short time to stay, as you,\\
+We have as short a spring;\\
+As quick a growth to meet decay,\\
+As you, or anything.\\
+We die\\
+As your hours do, and dry\\
+Away,\\
+Like to the summer's rain;\\
+Or as the pearls of morning's dew,\\
+Ne'er to be found again.
+} 
+\end{verse}
+
+Here the poet uses simile\footnote{a figure of speech that compares between 
+two things directly using "as" and "like".} to compare human life to:
+
+\begin{itemize}
+  \item \textbf{Daffodil}, that our time is as short as daffodil's.
+  \item \textbf{Spring}, that our time is similar to spring; fleeing.
+  \item \textbf{Summer rain}, that our time is as quick as the rain in summer.
+  \item \textbf{Pearls of morning dew}, that our time is valuable.
+\end{itemize}
+
+The poet says that we have short time in this life and that we will eventually die. 
+He compares it to daffodil, spring, summer rain and pearls morning's dew. 
+
+\subsubhead{\textit{To Daffodils} Summary}
+In this poem Robert addresses daffodil using \hl{Apostrophe}. He compares
+our life to the daffodil's; short and fleeting, precious and beautiful.
+He says that we have short time in this life, and we are heading for our quick
+death that feels like hours. He uses simile repeatedly to emphasize his point.
+The poem is a \underLine{contemplation of life} using \hl{carpe diem} philosophy, its message is to
+\underLine{cherish the time we got}.
+
+
+\subhead{Edmund Waller}
+Edmund was part of the parliament and was against the king, he
+wrote a poem in praise of Oliver Cromwell. However he changed sides
+during the civil war and became part of the royalist (cavalier poets).
+
+\poemhead{Song: Go, Lovely Rose}
+\settowidth{\versewidth}{When I resemble her to thee}
+\begin{verse}[\versewidth]
+{\fontverse
+Go, lovely rose!\\
+Tell her that wastes her time and me,\\
+That now she knows,\\
+When I resemble her to thee,\\
+How sweet and fair she seems to be.
+} 
+\end{verse}
+
+The poet sends the rose as a messenger to tell his beloved; to stop wasting his and her time
+and that she is as beautiful as the rose.
+\textbf{Apostrophe} is used to address the rose in \textit{"Go, lovely rose"}.
+\textbf{Metaphor} in \textit{"resemble her to thee"} comparing a rose to a woman.
+
+\begin{verse}[\versewidth]
+{\fontverse
+Tell her that’s young,\\
+And shuns to have her graces spied,\\
+That hadst thou sprung\\
+In deserts, where no men abide,\\
+Thou must have uncommended died.
+} 
+\end{verse}
+
+The poet asks the rose to tell his beloved; that if she hides her beauty
+like a rose in a dessert she will die unnoticed and without anyone praising her beauty.
+
+\begin{verse}[\versewidth]
+{\fontverse
+Small is the worth\\
+Of beauty from the light retired;\\
+Bid her come forth,\\
+Suffer herself to be desired,\\
+And not blush so to be admired.
+} 
+\end{verse}
+
+If you have beauty and its not seen, then it has no worth. The poet
+tells the rose to invite his beloved to go out and show her beauty, she 
+should not be shy to be desired and admired.\footnote{because this poem was 
+written at the restoration time, it is a vulgar request for girls to show
+their beauty.}
+
+\begin{verse}[\versewidth]
+{\fontverse
+Then die! that she\\
+The common fate of all things rare\\
+May read in thee;\\
+How small a part of time they share\\
+That are so wondrous sweet and fair!
+} 
+\end{verse}
+
+The poet tell the rose to die so that his beloved may learn that 
+beauty only last for a brief time and is distend to fade.
+
+\subsubhead{\textit{Go, Lovely Rose} Summary}
+
+Edmund uses \hl{Apostrophe} to address the rose as 
+his messenger. He tell the rose to encourage his beloved and invite her to show her beauty and to not be
+shy to be admired, because beauty that is not seen has little worth. He tell the rose to die so 
+that his beloved may learn that all this is the destiny of all beautiful things. This poem 
+is \hl{carpe diem}.
+
 
 \end{document}
