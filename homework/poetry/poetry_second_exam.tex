@@ -1,0 +1,87 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{polyglossia}
+\usepackage{geometry}
+\usepackage{lua-ul}
+\usepackage{color,soul}
+\usepackage{verse}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\geometry{bottom=1in, top=1in}
+\setlength\parindent{0pt}
+\newcommand{\attrib}[1]{\nopagebreak{\raggedleft\footnotesize #1\par}}
+
+%fonts
+\setmainfont{Erode}
+\newfontfamily\fontverse{BespokeSerif}
+\newfontfamily\fonthead{Charmonman}
+
+
+%sections
+\newcommand{\head}[1]{
+  \phantomsection
+  \section*{\centering{#1}}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\subhead}[1]{
+  \phantomsection
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\newcommand{\subsubhead}[1]{
+  \phantomsection
+  \subsubsection*{#1}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+\newcommand{\poemhead}[1]{
+  \phantomsection
+  \subsubsection*{\centering{\large{#1}}}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+\begin{document}
+\newgeometry{top=0.3in,bottom=1in}
+{\fonthead
+\begin{center}
+\huge{\textbf{Seventeenth Century Poetry}}\\[0.2cm]
+\Large{By: Birdman \& Luffy \& Mohamed}\\[0.3cm]
+\end{center}
+}
+
+\head{The School of John Donne}
+
+Was not a real school but rather a group of poets whose poetry
+had certain features in common. \underLine{Samuel Johnson}\footnote{\, an eighteenth century critic}
+called them \textbf{Metaphysical poets} to indicate that these poets used scientific 
+images in their poetry. They lived in a period of scientific, intellectual, political, and religious 
+changes. Their poetry can be divided into parts: \underLine{the amatory}\footnote{\, relating to lovers or lovemaking.} 
+and \underLine{the religious}, though these two aspects are sometimes together.
+
+\subhead{Characteristics of Metaphysical Poetry}
+
+\begin{itemize}
+  \item Metaphysical conceit.
+  \item Scientific imagery.
+  \item Political and religious themes.
+  \item Fusion of mind and heart.
+  \item Intellect and Controlled Sentiment\footnote{\, avoiding exaggeration when expressing emotions.}
+  \item Wit and humor.
+  \item Epigrammatic conciseness\footnote{\, short, clever and memorable statement.}
+\end{itemize}
+
+\subsubhead{Metaphysical conceit}
+
+Is an extended metaphor that is intellectually complex, comparing two
+seemingly unrelated things to create a surprising resemblance, often to explore 
+abstract ideas (e.g., love, faith, death) through concrete (physical) imagery.
+This comparison is used to startle and intellectually challenge the reader.
+The \hl{most famous example is John Donne's comparison of
+two lovers to the legs of a mathematical compass} in \textit{"A Valediction: Forbidding Mourning"}.
+
+\subhead{John Donne}
+
+\end{document}
+
