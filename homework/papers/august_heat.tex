@@ -1,0 +1,77 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{polyglossia}
+\usepackage{geometry}
+\usepackage{lua-ul}
+\usepackage{color,soul}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\geometry{bottom=1in, top=1in}
+\setlength\parindent{0pt}
+
+%fonts
+\setmainfont{Alegreya}
+
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic, Scale=1]{ِFustat}
+\newfontfamily\arabichead[Script=Arabic, Scale=1]{Cairo}
+
+
+%sections
+\newcommand{\head}[1]{
+  \phantomsection
+  \section*{\centering{\arabichead{#1}}}
+  \addcontentsline{toc}{section}{#1}
+}
+
+
+\newcommand{\subhead}[1]{
+  \phantomsection
+  \subsection*{#1}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\newcommand{\subsubhead}[1]{
+  \phantomsection
+  \subsubsection*{#1}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+
+\begin{document}
+
+
+
+\begin{otherlanguage}{arabic}
+
+\head{حرارة اوغسطس}
+
+{\arabichead{\centerline{بقلم ويليم فراير هارفي (0191)}}\bigbreak
+
+طريق فينيستون، كلافام \bigbreak
+
+العشرين من اغسطس 0091
+}\bigbreak
+
+اظن انني مررتُ باكثر يوم استثنائي في حياتي, وبينما الاحداث لاتزال حية في ذاكرتي, اردت ان اضعهم على الورق بكل وضوح. \medbreak
+
+دعوني ابد بالقول ان اسمي جيمس كلارنس ويذرنكروفت. ابلغ اربعين من العمر, بكامل صحتي, لم اعرف قط المرض. 
+بسياق العمل انا فنان ليس بناجح جدا, ولكني اكسب المال الكافي باعمالي الفنية بالأبيض والأسود لتلبية حاجاتي الاساسية.
+اقرب الاقارب لدي هي اختي, ماتت قبل خمس سنوات, ولهذا السبب انا مستقل. \medbreak
+
+فطرت هذا الصباح عند التاسعة, وبعد القاء نظرة سريعة على جريدة الصباح اشعلت غليوني واستمررت لاعطاء عقلي 
+الفرصة ليجوم بالارجاء على امل ان احصل على موضوع لكتاتبه. الغرفة, على الرغم من ان الباب والنوافذ كانا مفتوحين, كانت 
+حارة بخنق, وكنت قد قررت ان اكثر الاماكن برودة وراحة في الحي هوة اعمق نقطة في المسبح العام, عندها خطرت لي فكرة. \medbreak
+
+
+
+
+
+
+\end{otherlanguage}
+
+
+
+
+  
+\end{document}

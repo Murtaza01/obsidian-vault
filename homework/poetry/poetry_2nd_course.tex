@@ -12,17 +12,18 @@
 \newcommand{\attrib}[1]{\nopagebreak{\raggedleft\footnotesize #1\par}}
 
 %fonts
-\setmainfont{Erode}
-\newfontfamily\fontverse{BespokeSerif}
-\newfontfamily\fonthead{Charmonman}
+\setmainfont{Alegreya}
+\newfontfamily\fontverse{Alegreya-Bold.otf} 
+\newfontfamily\fonthead{Cinzel Decorative}
 
 
 %sections
 \newcommand{\head}[1]{
   \phantomsection
-  \section*{\centering{#1}}
+  \section*{\centering{\fonthead{#1}}}
   \addcontentsline{toc}{section}{#1}
 }
+
 
 \newcommand{\subhead}[1]{
   \phantomsection
@@ -43,16 +44,16 @@
 }
 
 \begin{document}
-\newgeometry{top=0.3in,bottom=1in}
-{\fonthead
-\begin{center}
-\huge{\textbf{Poetry Second Course}}\\[0.2cm]
-\Large{By: Birdman \& Fried Potato \& Mohamed}\\[0.3cm]
-\end{center}
-}
+\newgeometry{top=0.7in,bottom=1in}
+%{\fonthead
+%\begin{center}
+%\huge{\textbf{Poetry Second Course}}\\[0.2cm]
+%\Large{By: Birdman \& Fried Potato \& Mohamed}\\[0.3cm]
+%\end{center}
+%}
 
 \phantomsection
-\subsection*{\centering{\Large{William Shakespeare}}}
+\subsection*{\centering{\fonthead{\Large{{William Shakespeare}}}}}\bigbreak
 \addcontentsline{toc}{subsection}{William Shakespeare}
 
 Was an English playwright, poet and actor. His work consisted
@@ -74,9 +75,7 @@ Or bends with the \underLine{r}emover to \underLine{r}emove.
 \end{verse}
 I do not accept that anything can come between 
 true lovers. Its not true love that changes when bad things
-happen.\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration}\footnote{
+happen. \textbf{Alliteration}\footnote{
 The repetition of the same letter in the beginning of words} 
 in first line (repetition of m) the third line (repetition of a) and 
 fourth line (repetition of r).  \textbf{Metaphor}\footnote{ comparing between
@@ -96,9 +95,7 @@ No, instead love is constant and never changing,
 like a lighthouse who is not moved by storms.
 It is the star that guides ships. Its value 
 is unmeasured. Here Shakespeare uses the images of the 
-sea and the star to describe love.\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration} in third and
+sea and the star to describe love. \textbf{Alliteration} in third and
 four line (repetition of w). \textbf{Hyperbole}\footnote{exaggeration for the sake of emphasis.}
 in \textit{"ever-fixed"} and \textit{"never shaken"} 
 exaggerate love.
@@ -114,16 +111,12 @@ But bears it out ev'n to the edge of doom
 Love is not a waste of time or a game. It is not only physical
 because youth is diminished by time. Love does not change or alter
 it stays to end of time. Shakespeare tries to separate between physical
-love which is temporary and spiritual love which is eternal.\smallbreak
-
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Personification}\footnote{
+love which is temporary and spiritual love which is eternal. \textbf{Personification}\footnote{
 describing a non-human entity with human attribute.} 
 in \textit{"Love's not time's fool"} love rejects the wasting of time, fool here means 
 jester (clown). \textbf{Hyperbole} in \textit{"edge of doom"} 
 exaggerate the eternal and unchanging nature of love.
 
-\restoregeometry
 
 \begin{verse}[\versewidth]
 {\fontverse
@@ -132,8 +125,10 @@ I never writ, nor no man ever lov'd.
 }
 \end{verse}
 If I'm wrong and it was proved, then i have 
-never written a poem, nor anyone had ever loved.Shakespeare shows his 
-confidence about the message of this poem.
+never written a poem, nor anyone had ever loved. the poet show his 
+confidence about the message of his poem.
+
+\restoregeometry
 
 \subsubhead{\textit{Sonnet 116} Summary}
 Shakespeare tries to separate between two kinds of love:
@@ -155,8 +150,8 @@ And summer’s lease hath all too short a date;
 \end{verse}
 Here Shakespeare asks a rhetorical question to 
 express his wonder. He compares his beloved to a lovelier and
-more mild summer day. He says that summer does not last too long.\medbreak
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Personification} in \textit{"Rough winds do shake the darling buds"}.
+more mild summer day. He says that summer does not last too long.\textbf{Personification} in
+\textit{"Rough winds do shake the darling buds"} given the wind human attribute.
 
 
 \begin{verse}[\versewidth]
@@ -170,9 +165,7 @@ By \underLine{ch}ance or nature’s \underLine{ch}anging course untrimm'd
 
 Shakespeare says that sometimes the sun is too hot in summer and his beloved 
 golden face is dimmed. Beauty disappears in time either by 
-chance (accidents) or by nature (age).\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration} in first line
+chance (accidents) or by nature (age). \textbf{Alliteration} in first line
 (the repetition of h) and fourth line (the repetition of ch). \textbf{Metaphor} in 
 \textit{"eye of the heaven"} meaning the sun. 
 
@@ -186,9 +179,7 @@ When in eternal lines to time thou grow’st:
 \end{verse}
 But your beauty and glow will not fade, not even death can
 kill your memory, you will live eternally because of these
-lines (poem).\medbreak
-
-\textbf{\textcolor{red}{Literary Devices:}} \textbf{Alliteration} in first and second line
+lines (poem). \textbf{Alliteration} in first and second line
 (repetition  of f) and third line (repetition of sh). \textbf{Personification} in
 \textit{"nor shall death brag"}. \textbf{Metaphor} in \textit{"thy eternal summer"} his 
 beloved compared to eternal summer. \textbf{Hyperbole} in \textit{"eternal summer shall not fade"}
@@ -211,7 +202,7 @@ lovelier and more temperate and does not fade, as long as
 people can see and read, this sonnet will make his beloved eternal. The 
 sonnet is \underLine{about Shakespeare patron}.
 
-\input{poetry_first_exam.tex}
+\input{poetry_first.tex}
 
 \subhead{Edmund Waller}
 Edmund was part of the parliament and was against the king, he
@@ -417,7 +408,9 @@ he talks about the sky and his love for Althea. In the second stanza
 he talks about the sea and his love for the king. In the final
 stanza he talks about his cell being like a Hermitage. He says that
 not \textit{The gods in the sky} nor \textit{The fishes in the deep sea} 
-are as free as he is but only the Angels that fly above.
+are as free as he, but only the Angels that fly above.
+
+\input{poetry_second.tex}
 
 
 \end{document}

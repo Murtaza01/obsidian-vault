@@ -1,0 +1,92 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage{polyglossia}
+\usepackage{geometry}
+\usepackage{lua-ul}
+\usepackage{color,soul}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage{hyperref}
+
+\geometry{top=1in, bottom=1in}
+\setlength\parindent{0pt}
+
+\setmainfont{Alegreya}
+\newfontfamily\fonthead{LobsterTwo}
+
+\setotherlanguage{arabic}
+\newfontfamily\arabicfont[Script=Arabic, Scale=1]{Amiri}
+
+%sections
+\newcommand{\head}[1]{
+  \phantomsection
+  \section*{\centering{\fonthead{#1}}}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\subhead}[1]{
+  \phantomsection
+  \subsection*{\centering{\fonthead{\Large{#1}}}}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\newcommand{\subsubhead}[1]{
+  \phantomsection
+  \subsubsection*{#1}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+\newcommand{\phon}[2]{
+  /{#1}/ $\Longrightarrow$ {#2}
+}
+
+\newcommand{\vphon}[5]{
+  /\textbf{#1}/ $\Longrightarrow$ {#2}, {#3}, {#4}, {#5}\bigbreak
+}
+\begin{document}
+
+\begin{center}
+
+\subhead{French Alphabet}\bigbreak
+  
+/a/ $\Longrightarrow$ ananas \hskip 4em /b/ $\Longrightarrow$ ballon \hskip 4em /c/ $\Longrightarrow$ carotte\bigbreak
+
+/d/ $\Longrightarrow$ dent \hskip 4em /e/ $\Longrightarrow$ cheval \hskip 4em /é/ $\Longrightarrow$ éléphant\bigbreak
+
+/f/ $\Longrightarrow$ fleur  \hskip 4em /g/ $\Longrightarrow$ guitare \hskip 4em /i/ $\Longrightarrow$ igloo \bigbreak
+
+/j/ $\Longrightarrow$ jongleur \hskip 4em /k/ $\Longrightarrow$ kangourou \hskip 4em /l/ $\Longrightarrow$ liver \bigbreak
+
+/m/ $\Longrightarrow$ musique \hskip 4em /n/ $\Longrightarrow$ neige \hskip 4em /o/ $\Longrightarrow$ orange \bigbreak
+
+\phon{p}{poir} \hskip 4em \phon{q}{question} \hskip 4em \phon{r}{robot}\bigbreak
+
+\phon{s}{sac} \hskip 4em \phon{t}{table} \hskip 4em \phon{u}{unifrome} \bigbreak
+
+\phon{v}{vélo} \hskip 4em \phon{w}{wifi} \hskip 4em \phon{x}{taxi} \bigbreak
+
+\phon{y}{yoyo} \hskip 4em \phon{z}{zébre}\bigbreak
+
+\subhead{Vowels combination}\bigbreak
+
+
+\end{center}
+
+\vphon{ai}{l\textcolor{red}{ai}t}{m\textcolor{red}{ai}son}{parf\textcolor{red}{ai}t}{fr\textcolor{red}{ai}se}
+\vphon{ui}{h\textcolor{red}{ui}t}{n\textcolor{red}{ui}t}{h\textcolor{red}{ui}le}{bisc\textcolor{red}{ui}t}
+\vphon{ei}{bel\textcolor{red}{ei}ne}{n\textcolor{red}{ei}ge}{s\textcolor{red}{ei}ze}{tr\textcolor{red}{ei}ze}
+\vphon{au}{\textcolor{red}{au}bregine}{ch\textcolor{red}{au}d}{s\textcolor{red}{au}ter}{\textcolor{red}{au}juord'hui}
+\vphon{ou}{r\textcolor{red}{ou}ge}{b\textcolor{red}{ou}gie}{l\textcolor{red}{ou}p}{hib\textcolor{red}{ou}}
+\vphon{oi}{p\textcolor{red}{oi}sson}{v\textcolor{red}{oi}true}{mir\textcolor{red}{oi}r}{ét\textcolor{red}{oi}le}
+\vphon{eu}{n\textcolor{red}{eu}f}{bl\textcolor{red}{eu}}{j\textcolor{red}{eu}}{fl\textcolor{red}{eu}r}
+\vphon{eau}{cad\textcolor{red}{eau}}{chap\textcolor{red}{eau}}{gât\textcolor{red}{eau}}{bat\textcolor{red}{eau}}
+\vphon{oeu}{\textcolor{red}{oeu}f}{b\textcolor{red}{eou}f}{c\textcolor{red}{oeu}r}{s\textcolor{red}{oeu}r}
+
+
+
+
+
+
+
+
+  
+\end{document}
