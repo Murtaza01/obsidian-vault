@@ -5,64 +5,59 @@
 \usepackage{color,soul}
 \usepackage{xcolor}
 \usepackage{pifont}
+\usepackage{hyperref}
 
 \geometry{top=1in, bottom=1in}
 \setlength\parindent{0pt}
 
-\setmainfont{Erode}
+\setmainfont{EB Garamond}
 \newfontfamily\fonthead{LobsterTwo}
 
 \setotherlanguage{arabic}
 \newfontfamily\arabicfont[Script=Arabic, Scale=1]{Amiri}
 
+%sections
+\newcommand{\head}[1]{
+  \phantomsection
+  \section*{\centering{\fonthead{#1}}}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\subhead}[1]{
+  \phantomsection
+  \subsection*{\centering{\fonthead{\Large{#1}}}}\bigbreak
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+\newcommand{\subsubhead}[1]{
+  \phantomsection
+  \subsubsection*{#1}
+  \addcontentsline{toc}{subsubsection}{#1}
+}
+
+\newcommand{\quotehead}[2]{
+  \phantomsection
+  \subsubsection*{
+    \texorpdfstring{#1}
+  }
+  \addcontentsline{toc}{subsubsection}{#2}
+}
+
 \begin{document}
 
 \newgeometry{top=0.3in,bottom=1in}
 
-\small{\textcolor{red}{*Pleaes do watch the vidoes on the classroom as 
-there is an explantion of the text.\smallbreak}}
-
-\begin{otherlanguage}{arabic}
-  \textcolor{red}{
-* الاقتباس الحادي عشر والثاني عشر اما يجن سؤال او اقتباس. السؤال مكتوب فوك الاقتباس.\smallbreak
-* الاقتباس الثامن والعاشر ممشروحات بلفيديوات. المكتوب شرحي.\smallbreak
-* تحليل الشخصيات بل اخير هي وصف شخصية من فم شخصية اخرى. 
-  }
-\end{otherlanguage}
-
 \begin{center}
 {\fonthead
-\huge{Twelfth Night}\\[0.2cm]
-\Large{Shakespeare}\\[0.5cm]
-\large{Done By: Birdman}
+\Huge{\textbf{Twelfth Night}}\\[0.2cm]
+\Large{Shakespeare}\\[0.2cm]
 }
 \end{center}
 
-\begin{otherlanguage}{arabic}
 
-\section*{\centering{ملخص القصة}}
-\textbf{قصة الدوق اورسينو:} الدوق يحب الدوقة اوليفيا ودائما يدزلها رسول من حاشيتة حتى يعترفلها بحبه 
-للدوقة اوليفا, الدوقة دائما ترفض.
+\subhead{Identify, comment and give the dramatic value of the following quotation.}
 
-\textbf{قصة فيولا:} فيولا واخوها سبايستين التؤام من جانوا يبحرون بسفينة تتعرض سفينتهم للغرق ويتفرقون, فيولا 
-ينقذها الكابتن الاول, الكابتن الاول يساعدها ويسولفلها على الدوق اورسينو وشلون الدوق يحب الدوقة, تقرر فيولا
-تتنكر بزي ولد (باسم سيساريو) حتى تشتغل يم الدوق.ورة متشتغل فيولا يم الدوق اورسينو تصير من المقربين وتوكع بحبة.
-
-\textbf{قصة الدوقة اوليفيا:} الدوقة اوليفيا يموت اخوها وتعلن الحداد لمدة سبع سنوات, تغطي وجه بوشاح 
-وتعتزل معشر الرجال وتسقي زرعها بدموع الحزن لاخوها. 
-
-يقرر  الدوق اورسينو انو يدز فيولا(متنكرة ك سيساريو) للدوقة اوليفيا حتى تكللها شكد الدوق يحبها, من 
-تشوف الدوقة اوليفيا فيولا وتحجي وياها, تخلف وعدها بلحداد وتوكع بحبها وتحاول ترجعها باختلاق قصة الخاتم.
-وهنا يصير مثلث الحب: \underLine{الدوق اورسينو يحب الدوقة اوليفيا, 
-الدوقة اوليفيا تحب فيولا,  وفيولا تحب الدوق اورسينو.}
-
-  
-\end{otherlanguage}
-
-\section*{\centering{Identify, comment and give the dramatic value of the following quotation.}}
-%\section*{\centering{Quotations}}
-
-\subsubsection*{Quote 1/
+\quotehead{Quote 1/
   If music be the food of love, play on;\\
 	Give me excess of it, that, surfeiting,\\
 	The appetite may sicken, and so die.\\
@@ -78,7 +73,7 @@ there is an explantion of the text.\smallbreak}}
 	But falls into abatement and low price,\\
 	Even in a minute: so full of shapes is fancy\\
 	That it alone is high fantastical.
-}
+}{Quote 1}
 
 These lines are said by Duke Orsino  in the opening speech. He suffers because
 his love to Countess Olivia is one sided. He depicts love as an "appetite" that
@@ -88,9 +83,8 @@ enjoy it like before because he is love sick. He uses apostrophe to address the 
 describing it as fresh, beautiful and quick but degrading, that when you
 love someone you must forget about your dignity.
 
-\restoregeometry
 
-\subsubsection*{Quote 2/ 
+\quotehead{Quote 2/
   So please my lord. I might not be addmited\\ 
   But from her handmaid do return this answer:\\
   The element itself, till seven years' heat, \\
@@ -100,7 +94,7 @@ love someone you must forget about your dignity.
   With eye-offending brine---all this to season\\
   A brother's dead love, which she would keep fresh\\
   And lasting in her sad remembrance.
-}
+}{Quote 2}
 
 These lines are said by Valentine (Orsino's messenger) after he went
 to Olivia. He bring a message from Olivia handmaiden that she will 
@@ -108,7 +102,9 @@ continue to mourn her dead brother and live like a nun without the
 society of men for seven years. Walking in veil and watering her 
 chamber once a day to keep her brother's memory.
 
-\subsubsection*{Quote 3/
+\restoregeometry
+
+\quotehead{Quote 3/
   O, she that hath a heart of that fine frame\\
   To pay this debt of love but to a brother,\\
 	How will she love, when the rich golden shaft\\
@@ -116,7 +112,7 @@ chamber once a day to keep her brother's memory.
 	That live in her; when liver, brain and heart,\\
 	These sovereign thrones, are all supplied, and fill'd\\
 	Her sweet perfections with one self king!
-}
+}{Quote 3}
 
 These lines are said by Orsino to Valentine when Valentine told him
 about Olivia decision to leave the society of men and mourn over her
@@ -125,7 +121,7 @@ loyalty and gets more attracted to Olivia. He wonders if she loves her
 dead brother this much, how much love she would give to a husband who 
 will sit like king on her three thrones: liver, brain and heart.
 
-\subsubsection*{Quote 4/
+\quotehead{Quote 4/
   True, Madam. And, to comfort you with chance,\\
   Assure yourself, after our ship did split,\\
 	When you and those poor number saved with you	\\
@@ -136,7 +132,7 @@ will sit like king on her three thrones: liver, brain and heart.
 	Where, like Arion on the dolphin's back,\\
 	I saw him hold acquaintance with the waves\\
 	So long as I could see.
-}
+}{Quote 4}
 
 These lines are said by the Captain who saved Viola after the shipwreck.
 He is loyal and native of Illyria, he gives Viola money and cloths and
@@ -146,7 +142,7 @@ him fighting the waves courageously like Arion. Arion is a poet in Greek
 mythology who was thrown in the sea and because of his lyre the dolphins
 were charmed and saved him.
 
-\subsubsection*{Quote 5/
+\quotehead{Quote 5/
 There is a fair behavior in thee, captain,\\
 And though that nature with a beauteous wall\\
 Doth oft close in pollution, yet of thee\\
@@ -156,7 +152,7 @@ I prithee—and I’ll pay thee bounteously—\\
 Conceal me what I am, and be my aid\\
 For such disguise as haply shall become\\
 The form of my intent. I’ll serve this duke.
-}
+}{Quote 5}
 
 These words are said by Viola to the captain of the ship who saved her
 from shipwreck and helped her find work. Viola praise the captain 
@@ -166,13 +162,14 @@ However she says that the captain is beautiful both inside and outside.
 Viola then offers to pay him in order to conceal her identity and be in
 disguise to be the Duke's servant.
 
-\subsubsection*{Quote 6/
+\newpage
+\quotehead{Quote 6/
 O, then unfold the passion of my love.\\
 Surprise her with discourse of my dear faith.\\
 It shall become thee well to act my woes.\\
 She will attend it better in thy youth\\
 Than in a nuncio’s of more grave aspect.
-}
+}{Quote 6}
 
 These words are said by Duke Orsino to Viola disguised as Cesario.
 Viola has earned the Duke's trust within few days, so he send her to 
@@ -180,11 +177,11 @@ Countess Olivia to confess his love for Olivia and how much he is
 suffering because of it. The Duke thinks that Viola feminine look and 
 her being young will help to persuade Olivia.
 
-\subsubsection*{Quote 7/
+\quotehead{Quote 7/
 I’ll do my best\\
 To woo your lady. [Aside]. Yet a barful strife!\\
 Whoe’er I woo, myself would be his wife.
-}
+}{Quote 7}
 
 These words are said by Viola (Cesario) after Duke Orsino asks her
 to confess his love for Olivia. She says she will do her best. However
@@ -193,13 +190,13 @@ her because she is in love with the Duke and has to convince another
 woman to marry him. This shows that Viola is a noble and loyal
 person to Orsino because he treated her as a friend not a servant.
 
-\subsubsection*{Quote 8/
+\quotehead{Quote 8/
 ’Tis beauty truly blent, whose red and white\\
 Nature’s own sweet and cunning hand laid on.\\
 Lady, you are the cruel’st she alive\\
 If you will lead these graces to the grave\\
 And leave the world no copy.
-}
+}{Quote 9}
 
 These words are said by Viola when she first saw Olivia's face.
 She was astonished by her beauty, saying that her red cheeks
@@ -207,7 +204,7 @@ and fair complexion was skilfully done by God. Viola tells her that
 she would be the cruelest person alive if she have all this 
 beauty to herself and die without having children.
 
-\subsubsection*{Quote 9/
+\quotehead{Quote 9/
 Your lord does know my mind. I cannot love him.\\
 Yet I suppose him virtuous, know him noble,\\
 Of great estate, of fresh and stainless youth;\\
@@ -215,7 +212,7 @@ In voices well divulged, free, learned, and valiant,\\
 And in dimension and the shape of nature\\
 A gracious person. But yet I cannot love him.\\
 He might have took his answer long ago.
-}
+}{Quote 9}
 
 These words are said by Countess Olivia to Viola disguised as Cesario.
 Olivia acknowledges that the Duke Orsino is rich, noble, educated, brave 
@@ -223,7 +220,8 @@ and attractive. Yet she cannot love him because love is connected with
 the souls. The Duke should have forgotten about her and stopped trying 
 to win her love.
 
-\subsubsection*{Quote 10/
+\newpage
+\quotehead{Quote 10/
 There is no woman's sides\\
 Can bide the beating of so strong a passion\\
 As love doth give my heart; no woman's heart\\
@@ -231,7 +229,7 @@ So big, to hold so much; they lack retention\\
 Alas, their love may be call'd appetite,\\
 No motion of the liver, but the palate,\\
 That suffer surfeit, cloyment and revolt;
-}
+}{Quote 10}
 
 These words are said by Orsino to Viola after she told him that
 Olivia cannot love him. He say he does not believe that, because 
@@ -239,10 +237,27 @@ no woman can withstand his strong passion. He tells her that women
 cannot love like men, their love is physical and temporary, like
 fleeting desire which they will eventually get bored of and reject.
 
+
+\quotehead{Quote 11/
+Why then methinks ’tis time to smile again.\\
+O world, how apt the poor are to be proud!\\
+If one should be a prey, how much the better\\
+To fall before the lion than the wolf \hskip 2em \textit{[Clock strikes]}.\\
+The clock upbraids me with the waste of time.
+}{Quote 11}
+
+These words are said by Olivia to Cesario (Viola) after he rejects her.
+She says that she is done mourning of her dead brother and wants to smile
+again. She tells Cesario that people who are poor are ready to reject 
+love out of pride. And that it is better to be rejected by someone 
+noble and of higher status (a lion) rather than a servant (a wolf). Then she
+laments the time she wasted on unrequited love.
+
+
 \subsubsection*{Q/ Discuss Countess Olivia's Soliloquy after she met
 Cesario and fell in his admiration.}
 
-\subsubsection*{Quote 11/
+\quotehead{Quote 12/
 “Above my fortunes, yet my state is well.\\
 I am a gentleman.” I’ll be sworn thou art.\\
 Thy tongue, thy face, thy limbs, actions, and spirit\\
@@ -251,9 +266,8 @@ Unless the master were the man. How now?\\
 Even so quickly may one catch the plague?\\
 Methinks I feel this youth’s perfections\\
 With an invisible and subtle stealth\\
-To creep in at mine eyes. Well, let it be.—\\
-What ho, Malvolio!
-}
+To creep in at mine eyes. Well, let it be.—
+}{Quote 12}
 
 These words are said by Countess Olivia to herself after she met Cesario
 and fell in his admiration. She asks him about his origin because she
@@ -266,8 +280,10 @@ against the tendency of sixteenth century belief that man can make his own
 fate. We see that her decision for mourning for seven years has gone
 with the wind. Then She invents the story of the ring and give it to 
 Malvolio to ensure Cesario coming back.
+
+
 \newpage
-\textbf{Short Answer:}
+\textbf{Short Answer:}\smallbreak
 
 These words are said by Olivia to herself. After she meets Cesario
 she concludes that he is a gentleman and fall in love with him.
@@ -275,12 +291,10 @@ She calls this love a plague because it have penetrated her heart so quickly
 and made her forget about her promise to leave the society of men. She 
 surrender to fate by saying "let it be".
 
-
-
 \subsubsection*{Q/ Discuss Viola's Soliloquy after she receives a ring
-from Countess Olivia given her by Malvolio.}
+from Olivia given her by Malvolio.}
 
-\subsubsection*{Quote 12/
+\quotehead{Quote 13/
 I left no ring with her. What means this lady?\\
 She picks up the ring.\\
 Fortune forbid my outside have not charmed her!\\
@@ -307,7 +321,7 @@ As I am woman (now, alas the day!),\\
 What thriftless sighs shall poor Olivia breathe!\\
 O Time, thou must untangle this, not I.\\
 It is too hard a knot for me t’ untie.
-}
+}{Quote 13}
 
 These words are said by Viola after she receives a ring from Countess 
 Olivia given to her by Malvolio. Viola shockingly says that she didn't leave 
@@ -321,17 +335,82 @@ Then she refers to the triangle of complication. She is in love with
 Orsino and Orsino loves Olivia and Olivia loves her. She say that 
 only fate can untie this.\medbreak
 
-\textbf{Short Answer:}\smallbreak
+\textbf{Short Answer:}
 
-These words are said by Viola after she receives a ring from Olivia. Voila
+These words are said by Viola after she receives a ring from Olivia. Viola
 wonders why would Olivia lie about her having a ring, she realize that 
 Olivia must have fallen in love with her and want her back, although
 she loves Orsino and Orsino loves Olivia. She blames  her disguise and 
 says that only fate can fix this triangle of love.
 
-\section*{\centering{{General Questions}}}\bigbreak
+\quotehead{Quote 14/
+But oh, how vile an idol proves this god!\\
+Thou hast, Sebastian, done good feature shame.\\
+In nature there's no blemish but the mind.\\
+None can be called deformed but the unkind.\\
+Virtue is beauty, but the beauteous evil\\
+Are empty trunks o'erflourished by the devil.}{Quote 14}
 
-\subsubsection*{Q1/Discuss Twelfth Night as a Romanic Comedy.}
+These lines are said by The Second Captain Antonio who 
+saved Sebastian from the Shipwreck. Antonio proves to 
+be loyal and devoted to Sebastian by providing him with 
+funds, caring for him and even defending him in a 
+duel. He mistook Cesario as Sebastian . Believing that his 
+young friend is denying him, Antonio is deeply wounded. 
+At this point; he speaks bitterly of love's betrayal and 
+ingratitude. Antonio says that he was adoring Sebastian 
+like a god but this god proved to be an idol that does not 
+deserve love nor kindness. He adds that 
+sometimes appearances are misleading and that deformity 
+lies in the qualities of people 
+and not in their bodies. Virtue is always beautiful but evil 
+sometimes disguise itself with beauty. He then compares 
+ungrateful people to empty and hollow trunks that are 
+flourished by the devil.
+
+\quotehead{Quote 15/
+a blank, my lord. she never told her love,\\
+but let concealinent, like a worm it the bud,\\
+feed on her damask cheek. she pined in thought.\\
+and with a green and yellow melancholy\\
+she sat like patience on a monument,\\
+smiling at grief. was not this love indeed?\\
+we men may say more, swear more, but indeed\\
+our shows are more than will, for still we prove\\
+much in our vows, but little in our love}{Quote 15}
+
+These lines are said by Cesario (Viola) as an answer to Orsino's 
+argument that men's love are greater than women's love .
+She tells him about her sister, who secretly loved a man but never 
+confessed her feelings. She kept that love inside until it destroyed 
+her beauty and made her complexion turn yellow and the redness of 
+her cheek fade away. Cesario say that men give vows and promises but
+sometimes without actions. That their love is mere words and it is not
+sincere. Whereas women can love for years without saying a word.
+
+
+\quotehead{Quote 16/
+“This fellow is wise enough to play the fool;\\
+And to do that well craves a kind of wit:\\
+He must observe their mood on whom he jests,\\
+The quality of persons, and the time,\\
+And, like the haggard, check at every feather\\
+That comes before his eye. This is a practise\\
+As full of labouras a wise man's art\\
+For folly that he wisely shows is fit; \\
+But wise men, folly-fallin, quite taint their wit.“}{Quote 16}
+
+These lines are said by Cesario (Viola) about Feste 
+when she had a conversation with him at Olivia's gate.
+Feste is a wise fool because he sees through people's lies and
+stupidity. He uses his wit and wisdom to revel the truth to other 
+characters. When Viola asked him if he is Olivia's fool, he tells 
+her that he is no fool. And that his role is to undermine the 
+stupidity of his Lady and show her the truth.
+
+\subhead{General Questions}\bigbreak
+
+\subsubhead{Q1/Discuss Twelfth Night as a Romanic Comedy.}
 
 Romantic comedy is a temporary hold on reality. It is a world of 
 celebration but at the end there is return to normality.There is 
@@ -357,7 +436,7 @@ in a funny way to deliver the moral lesson. Romantic comedy contains
 love relationships and obstacles that characters must overcome. As
 for the ending, it is happy.
 
-\subsubsection*{Q2/Comment on the love sick of Duke Orsino.}
+\subsubhead{Q2/Comment on the love sick of Duke Orsino.}
 
 Duke Orsino was in love with idea of love. He is in love with Olivia
 and keeps sending messengers of love to her, but she reject them, yet he 
@@ -366,7 +445,7 @@ rejected love and wants to satisfy his "appetite" of love but cannot.
 Although in the end it turns out that his love for Olivia is not genuine
 because he chooses Viola as his beloved.
 
-\subsubsection*{Q3/State the Significance of the First Captain in 
+\subsubhead{Q3/State the Significance of the First Captain in 
 \textit{Twelfth Night}.}
 
 The first captain is the one who saved Viola from ship wreck and 
@@ -384,115 +463,363 @@ Orsino's household.\medbreak
 \textbf{Short Answer:}\smallbreak
 
 The first captain is a native of Illyria who assures Viola about her
-brother being alive after the ship wreck and tells her about Duke Orsino
-love for Olivia and Olivia losing both her brother and father. 
+brother being alive after the ship wreck, he tells her about Duke Orsino's
+love for Olivia, and of Olivia losing both her brother and father. 
 He then helps her find a job in Duke Orsino's household.
 
 \newpage
-\section*{\centering{Give very short answers to the following question}}\bigbreak
+\subsubhead{Q4/ Trace what has happened to Sebastian in
+the play.}
 
-\subsubsection*{Q/Of what did Duke Orsino compare his desires to and why?}
+Sebastian was saved by Antonio from shipwreck. After that Antonio took
+care of him in his own home. At first Sebastian give him a false name,
+but after he trusts him, he tells him his true identity and the tale of
+his sister, who he assumes to be drowned in the shipwreck. Sebastian
+then decided to travel to Illyria to explore it. Antonio cannot go
+with him because he has a dispute with Duke Orsino. Out of care and
+admiration he gives Sebastian a purse full of money. However, after 
+Sebastian leave, Antonio decided to risk himself and follow him. When
+Antonio arrive at Illyria he sees Cesario (Viola) dueling with Sir Andrew.
+He mistakes him for Sebastian and defends him. Later on Sir Andrew 
+sees Sebastian (mistaken him for Cesario) and defies him, but he gets
+defeated by Sebastian. When Olivia encounter Sebastian she thinks 
+he is Cesario and asks him to marry her. Sebastian is surprised 
+since he never have seen her before. However, he sees that she is 
+wealthy and beautiful so he accept her proposal. In the end of the
+play the two twins are reunited and all complication gets resolved.
+The Duke marries Viola and Olivia marries Sebastian and Malvolio
+gets release from prison.
 
-Orsino compared his desires to cruel hounds because they are so intense 
-and painful.
+\subsubhead{Q5/ The Second captain whose name is
+Antonio plays an important role in the plot of Twelfth Night. Discuss.
+}
 
-\subsubsection*{Q/How did Viola Knew about Duke Orsino?}
+Antonio is the caption who saved Sebastian from shipwreck and took
+care of him in his own home. At first Sebastian gave him a false name,
+but later he reveled his true identity. When Sebastian wanted to go
+to Illyria, Antonio gave him a purse to buy some stuff. Antonio
+couldn't go with him because of his problems with Orsino. After that
+Antonio decides to follow Sebastian and meets Cesario (Viola) 
+when he was about to duel. He mistakes him for Sebastian and defends him.
+He then asks him for his purse back but Cesario
+deny ever taken it or knowing the caption. Antonio feels betrayed and 
+heartbroken. He accuses Cesario of being ungrateful and that he does not deserve 
+his devotion. After that Orsino's men
+arrest him and he is put in prison. However, the play ends happily and 
+Antonio is released from prison.
+
+\subsubhead{Q6/ Who is Malvolio and what was Maria, Feste Sir 
+Toby and others' plan to revenge from him?}
+
+Malvolio is Olivia's chief servant, a job he takes very seriously.
+He is proud and egoistic.
+He always gives bad reports about Sir Toby and Sir Andrew
+and both Maria and Feste hates him. They decide to revenge him by 
+writing a fake letter which Maria wrote imitating the hand writing
+of Olivia. The letter hints that Olivia is in love with Malvolio
+and that he needs to wear yellow stockings and cross garters 
+and smile all the time to proof that he loves Olivia. He swallows
+the bait and Olivia thinks he is mad and detain him.
+
+\subsubhead{Q7/ The role played by Maria in
+Twelfth Night.}
+
+Maria is the witty and cunning maid of Olivia. She is admired by Sir
+Toby. Maria wrote the fake letter and gave it Malvolio to make 
+a fool of him. She then tells Olivia that Malvolio is possessed and
+that she should be careful with him. She also tells Feste to disguise as
+Sir Topas (priest) and go to Malvolio in his prison.
+
+\subsubhead{Q8/ Discuss the theme of disguise and 
+mistaken identity in William Shakespeare's Twelfth 
+Night.}
+
+Many characters in Twelfth Night assume disguises, 
+for example Viola, who disguised herself as a male (Cesario)
+so that she can work as a servant to Duke Orsino. Malvolio,
+who puts on crossed garters and yellow stockings in the hope of 
+winning Olivia's affection. And Feste, who dresses up as a priest 
+to fool Malvolio when he was detained in a dark room, even though
+Malvolio were not able to see him. Also The instances of mistaken 
+identity between the two twins. For example when 
+Antonio mistakes Viola (Cesario) for Sebastian, Cesario does 
+not recognize Antonio and he feels betrayal and heartbroken. Or when 
+Viola is mistaken for Sebastian by Sir Andrew and Sir Toby and then
+by Olivia, who promptly marries him. However, in the end all 
+identities are reveled and the play ends happily.
+
+\subsubhead{Q9/ Discuss the role which is played by Feste 
+the clown in Twelfth Night.}
+
+Throughout history, jesters and fools have used their wits 
+to pretend stupidity and folly for the sake of
+enjoyment and social satire and to earn their living.
+Twelfth Night contains one of Shakespeare's wisest fools.
+Feste's role is to point out the truths other characters do
+not want to hear. For example Olivia, who is mourning over
+her dead brother. Feste asks her where is her brother and 
+she answers that he is in heaven, he then wonders why 
+should you mourn someone who is in heaven. Also when Cesario asks
+him if he is the fool of Olivia, he replies that Olivia has no fool
+because she is not married. Meaning that every husband is a fool.
+He uses \textit{pun} to play on the word "fool"
+which means either "idiot" or "clown".
+
+
+\subhead{Give very short answers to the following question}\bigbreak
+
+\subsubhead{Q/Of what did Duke Orsino compare his desires to and why?}
+
+To cruel hounds because they are so intense and painful.
+
+\subsubhead{Q/How did Viola Knew about Duke Orsino?}
 
 She knew about him from her father and the first captain.
 
-\subsubsection*{Q/What did the first captain told Viola about duke Orsino?}
+\subsubhead{Q/What did the first captain told Viola about duke Orsino?}
 
 He told her that he is noble in name and nature.
 
-\subsubsection*{Q/Of what did Olivia compared her love to Viola?}
+\subsubhead{Q/Of what did Olivia compared her love to Viola?}
 
 To a contagious plague that penetrated her heart.
 
-\subsubsection*{Q/What does Duke Orsino accuse women of?}
+\subsubhead{Q/What does Duke Orsino accuse women of?}
 
 He accuses their love lacking retention and coming from the palate.
 
-\subsubsection*{Q/What are the four Apostrophes?}
+\subsubhead{Q/What are the four Apostrophes?}
 
 The first when Orsino addresses the spirit of love, the second when Olivia addresses 
 fate, the third when Viola addresses her disguise and the fourth when Viola addresses time (fate).
 
-\subsubsection*{Q/What does Olivia do when she fall in love with Viola?}
+\subsubhead{Q/What does Olivia do when she fall in love with Viola?}
 
 She surrender to fate saying \textit{"let it be"}.
 
-\subsubsection*{Q/What does Olivia do to ensure Viola getting back?}
+\subsubhead{Q/What does Olivia do to ensure Viola getting back?}
 
 She invented the story of the ring and told her to come back again to hear
 Orsino's response.
 
-\subsubsection*{Q/What is the significance of the play’s title, Twelfth Night?}
+\subsubhead{Q/What is the significance of the play’s title, Twelfth Night?}
 
 It symbolizes the last night of the Christmas celebrations, known for misrule and revelry.
 
-\subsubsection*{Q/Why does Olivia send Malvolio after Cesario?}
+\subsubhead{Q/Why does Olivia send Malvolio after Cesario?}
 
 To return a ring that Cesario supposedly left behind.
  
-\subsubsection*{Q/Why is Olivia unwilling to receive any visitors?}
+\subsubhead{Q/Why is Olivia unwilling to receive any visitors?}
 
 She is in mourning for her dead brother.
 
-\subsubsection*{Q/After her brother's death, Olivia decided to?}
+\subsubhead{Q/After her brother's death, Olivia decided to?}
 
 Abjure the society and sight of men, water her chamber once a day with her tears and walk veiled for seven years.
 
-\newpage
-\section*{\centering{Answer with one word only}}
+\subsubhead{Q/How does Olivia react when she realizes she married Sebastian instead of Cesario?}
+
+She is confused but accepts it.
+
+\subsubhead{Q/How does Sebastian react to Olivia’s affection?}
+
+He is confused but accepts her love.
+
+\subsubhead{Q/Why is Antonio arrested in act 3?}
+
+He is a wanted enemy of Orsino's.
+
+\subsubhead{Q/Why does Sir Andrew challenge Cesario to a duel?}
+
+To win Olivia's love.
+
+\subsubhead{Q/What does sir Toby tell sir Andrew to do to impress Olivia?}
+
+Challenge Cesario in a duel.
+
+\subsubhead{Q/what does Olivia do after meeting Sebastian?}
+
+She asks him to marry her.
+
+\subsubhead{Q/Give one feature of Malvolio?}
+
+Very proud of himself.
+
+\subsubhead{Q/How does Malvolio react after reading the letter?}
+
+He believes every word and follows its instructions.
+
+\subsubhead{Q/What phrase does the fake letter tell Malvolio to remember?}
+
+\textit{"be not afraid of greatness"}.
+
+\subsubhead{Q/How does Malvolio act after reading maria’s fake letter?}
+
+He dresses in yellow stockings and smiles constantly.
+
+\subsubhead{Q/What is the main purpose of the fake letter written for Malvolio?}
+
+To make Malvolio look foolish and humiliate him.
+
+\subsubhead{Q/How does Maria make the letter look convincing?}
+
+She writes it in Olivia’s handwriting.
+
+\subsubhead{Q/What happens to Malvolio in act 4 when he did exactly the instructions mentioned in the letter?}
+
+He is locked in a dark room as punishment.
+
+\subsubhead{Q/How does Olivia react when Malvolio follows the letter’s instructions?}
+
+She is confused and thinks he has gone mad.
+
+\subsubhead{Q/How did Viola knew that her brother Sebastian was alive?}
+
+When the second captain mistakenly calls her Sebastian.
+
+\subsubhead{Q/What kind of comedy twelfth night is?}
+
+Romantic comedy.
+
+\subsubhead{Q/Who takes care of Sebastian after he is shipwrecked?}
+
+The Second Captain Antonio.
+
+\subsubhead{Q/Who is "Jove" which is mentioned in maria's letter?}
+
+A name for god.
+
+\subsubhead{Q/What does Orsino decide to do after learning viola is a woman?}
+
+He asks her to marry him.
+
+\subsubhead{Q/Why Feste calls Olivia a fool?}
+
+Because She mourns her brother, when he's in heaven.
+
+\subsubhead{Q/What is the name of the place that Antonio told Sebastian to meet him at when he
+comes back form the city?}
+
+The Elephant inn.
+
+\subsubhead{Q/What are the two animals that Olivia referred to when talking about falling
+a prey after Cesario humiliated her?}
+
+The lion and the wolf.
+
+\subsubhead{Q/Why did Viola describes Olivia as the cruelest she alive?}
+
+Because she did not want to marry and would leave the world without children.
+
+\subsubhead{Q/At what point does Viola know that her brother is alive?}
+
+When Antonio mistakenly calls her Sebastian.
+
+\subsubhead{Q/Romantic Comedy concentrates on?}
+
+Delivering a moral lesson through laughing.
+
+\subhead{Fill the blank}
 
 \begin{itemize}
-  \item[\ding{99}] In the opening speech , Duke Orsino tries to find consolation for his pain through \underLine{music}.
 
-  \item[\ding{99}] Countess Olivia give Malvolio \underLine{a ring} to give to Cesario to ensure his coming back.
+  \item[\ding{109}] In the opening speech , Duke Orsino tries to find consolation for his pain through \underLine{music}.
 
-  \item[\ding{99}] \underLine{The first captain} saved Viola from shipwreck.
+  \item[\ding{109}] Countess Olivia give Malvolio \underLine{a ring} to give to Cesario to ensure his coming back.
 
-  \item[\ding{99}] The literary device that is used when Duke Orsino addresses the "Spirit of Love" is\\ \underLine{Apostrophe}.
+  \item[\ding{109}] \underLine{The first captain} saved Viola from shipwreck.
 
-  \item[\ding{99}] After Viola is saved from the shipwreck, she thinks that her brother Sabastien is in \\ \underLine{Elysium (Paradise)}.
+  \item[\ding{109}] The literary device that is used when Duke Orsino addresses the "Spirit of Love" is \underLine{Apostrophe}.
 
-  \item[\ding{99}] The three sovereign thrones are \underLine{liver}, \underLine{brain} and \underLine{heart}.
+  \item[\ding{109}] After Viola is saved from the shipwreck, she thinks that her brother Sebastian is in  \\ 
+    \underLine{Elysium (Paradise)}.
 
-  \item[\ding{99}] In the opening speech of Duke Orsino he compares music to \underLine{soft wind}.
+  \item[\ding{109}] The three sovereign thrones are \underLine{liver}, \underLine{brain} and \underLine{heart}.
 
-  \item[\ding{99}] Arion the mythological figure who is mentioned by the first captain was \underLine{musician}.
+  \item[\ding{109}] In the opening speech of Duke Orsino he compares music to \underLine{soft wind}.
 
-  \item[\ding{99}] When Valentine could not find an access to Olivia's palace, he was told about her mourning by \underLine{Olivi'a maids}.
+  \item[\ding{109}] \underLine{Viola} describes \underLine{the First Captain} as being both beautiful outside and inside.
 
-  \item[\ding{99}] in her soliloquy after she met Olivia for first time, Viola used the word \underLine{frailty}  to refer to women's weak and emotional nature
+  \item[\ding{109}] Arion the mythological figure who is mentioned by the first captain was \underLine{musician}.
 
-  \item[\ding{99}] In her speech to answers Duke Orsino's accusations of women's love, Viola mentions 
+  \item[\ding{109}] When Valentine couldn't find an access to Olivia's palace, he was told about her mourning by \underLine{Olivia's maids}.
+
+  \item[\ding{109}] in her soliloquy after she met Olivia for first time, Viola used the word \underLine{frailty}  to refer to women's weak and emotional nature
+
+  \item[\ding{109}] In her speech to answers Duke Orsino's accusations of women's love, Viola mentions 
     a story of a woman who concealed her love, she is her \underLine{sister}.
 
-  \item[\ding{99}] Countess Olivia surrendered to \underLine {fate} at the end of her Soliloquy after she has met Cesario for the first time.
+  \item[\ding{109}] Countess Olivia surrendered to \underLine {fate} at the end of her Soliloquy after she has met Cesario for the first time.
 
-  \item[\ding{99}] When the first captain told Viola about Duke Orsino she told him that she has heard about him from her \underLine{father}.
+  \item[\ding{109}] When the first captain told Viola about Duke Orsino she told him that she has heard about him from her \underLine{father}.
 
-  \item[\ding{99}] In his speech about women's love, Duke Orsino accuses women of having a love which comes through \underLine{Palate} and not the \underLine{liver}.
+  \item[\ding{109}] In his speech about women's love, Duke Orsino accuses women of having a love which comes through \underLine{palate} and not the \underLine{liver}.
 
-  \item[\ding{99}] in her soliloquy, Viola described women as having \underLine{Waxen hearts}.
+  \item[\ding{109}] in her soliloquy, Viola described women as having \underLine{waxen hearts}.
 
-  \item[\ding{99}] in her soliloquy, Countess Olivia compare falling in love from fist sight to catching \underLine{plague}.
+  \item[\ding{109}] in her soliloquy, Countess Olivia compare falling in love from fist sight to catching \underLine{plague}.
 
-  \item[\ding{99}] The other name for Twelfth Night is \underLine{What you Will}.
+  \item[\ding{109}] The other name for Twelfth Night is \underLine{What you Will}.
+
+  \item[\ding{109}]  The second captain ask Cesario to give him \underLine{a purse} when he was arrested.
+                                                                                                       
+  \item[\ding{109}]  Olivia give \underLine{a jewel} to Cesario (Viola) as a token of love.
+                                                                                                       
+  \item[\ding{109}]  Viola is saved from the duel with Sir Andrew by \underLine{Antonio}.
+                                                                                                       
+  \item[\ding{109}]  Olivia called a \underLine{priest} to arrange a secret \underLine{marriage} with Sebastian.
+                                                                                                       
+  \item[\ding{109}]  Malvolio believes that the phrase “Be not afraid of \underLine{greatness}“ is a message from Olivia.  
+                                                                                                       
+  \item[\ding{109}]  The letter that was written by Maria was composed of \underLine{poetry} and \underLine{prose}.
+                                                                                                       
+  \item[\ding{109}]  Viola says to the second captain that she hates \underLine{ingratitude} the most.
+
+  \item[\ding{109}] Olivia brought \underLine{a priest} to testify to her marriage with Sebastian.
+
+
+  \item[\ding{109}] Malvolio is visited by Feste disguised as \underLine{a priest (Sir Topas)} when he was locked away.
+
+  \item[\ding{109}] Antonio saved Sebastian from the jaws of \underLine{death}.
+
+  \item[\ding{109}] The title of the letter that was written by Maria to Malvilio was \underLine{To the beloved unknown}.
+
+  \item[\ding{109}] Antonio was arrested by \underLine{Orsino's men}.
+
+    
+  \item[\ding{109}] Duke Orsino marries \underLine{Viola} in the end of the play.
+  \item[\ding{109}] \underLine{Orsino} thought that men's love is greater than women's love.
+  \item[\ding{109}] Malvolio was locked in \underLine{a dark room} when Olivia thought he went mad.
+
+  
+  \item[\ding{109}] The letters that were written in the fake letter to Malvolio were \underLine{M.O.A.I}.
+  \item[\ding{109}] The idea to write a fake letter and trick \underLine{Malvolio} came from \underLine{Maria}.
+  \item[\ding{109}] The priest that was disguised by  \underLine{Feste} to visit Malvolio in the dark room was 
+    called \underLine{Sir Topas}.
+
+  \item[\ding{109}] \underLine{Sir Andrew Aguecheek} challenges Cesario to a duel.
+  \item[\ding{109}]  the Jewel given to Cesario by Countess Olivia contain \underLine{Olivia's picture}.
+  \item[\ding{109}] in his speech about his love for Olivia and men's love, Duke Orsino compares his
+    love for Olivia to \underLine{sea}.
+  \item[\ding{109}] In Act III, Viola says that Feste is \underLine{a wise fool}.
+
+  \item[\ding{109}] Sebastian gets mistaken and invited into the palace by \underLine{Olivia}.
 
 \end{itemize}
 
-\section*{\centering{Character Sketch}}
+\subhead{Characters Sketch}
 
-\subsection*{Duke Orsino}
+\subsubhead{Duke Orsino}
 
 Duke Orsino is in love with the idea of love, he suffers from love sick because
 his love to Olivia is one sided, he thinks that love is degrading and painful.
 He says that his love for Olivia is so great that it cannot be matched by women
-because they are moody and their love is from the palate (mouth).
+because they are moody and their love is from the palate (mouth). He is noble, virtuous 
+and of great estate yet Olivia does not love him.
 
-\subsection*{Countess Olivia}
+
+\subsubhead{Countess Olivia}
 
 Countess Olivia is beautiful, prideful and delicate woman. When her brother 
 dies she decide to mourn him by leaving the society of men, water 
@@ -500,37 +827,12 @@ her chamber once a day with her tears and walk veiled for seven years. However
 she quickly forgets about her promise after she meets Cesario and fall in love
 with him, saying that his love is like a plague then she surrenders completely to fate.
 
+\subsubhead{Viola (Cesario)}
 
-\subsection*{Character describes other characters}
+Viola is a noble and loyal woman. Her youthful spirit, noble character and the way of speaking
+made Olivia fall in love with her after the first meeting. She falls in love with Orsino because
+he treated her as friend not a servant. Even though she loves him she still try to confess Orsino's
+love to Olivia which shows her loyalty and good character.
 
-\begin{description}
-  \item[The first captain description of Duke Orsino:] The first captain describes Orsino as noble in name and nature
-and says that he want to seek the love of Olivia.
-
-  \item[Viola's father description of Duke Orsino:] Viola says that she remember her father once\\mentions Orsino and said that 
-    he is a bachelor.
-
-  \item[Olivia description of Duke Orsino:] Olivia describes Orsino as learned, virtuous, noble,\\ gracious 
-    and of great estate. Yet she cannot love him.
-
-  \item[Duke Orsino description of himself:] Orsino describes himself as having strong passion that women cannot match,
-    he compares his love for Olivia to cruel hounds that keep on pursuing him.
-
-  \item[Duke Orsino description of Olivia:] Duke Orsino describes Countess Olivia as beautiful both in body and soul.
-    He admires her love and mourning to her brother and wonders if she mourns like this for a brother what
-    would she do for a husband?
-
-  \item[Viola description of The first captain:] Viola describes the first captain as
-    being both beautiful by his looks and by his character (outside and inside).
-
-  \item[Viola description of Olivia:] Viola describes Olivia as having beauty that is perfectly balanced
-    and that she would be the cruelest person alive if she leave the world without having any children.
-    Viola also tells her that she is too proud to love Orsino.
-
-  \item[Olivia description of Viola:] Olivia describes Viola as being a gentleman and
-    admires her noble character, youth, the way of speaking and her spirit.
-    She falls in love with her after the first meeting.
-
-\end{description}
 
 \end{document}
