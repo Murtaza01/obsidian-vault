@@ -2,9 +2,6 @@
 \usepackage{polyglossia}
 \usepackage{geometry}
 \usepackage{lua-ul}
-\usepackage{color,soul}
-\usepackage[dvipsnames, HTML]{xcolor}
-\usepackage{pifont}
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{enumitem}
@@ -36,6 +33,13 @@
   \addcontentsline{toc}{subsection}{#1}
 }
 
+\newcommand{\subheadfootb}[2]{
+  \phantomsection
+  \subsection*{\texorpdfstring{\fontsub{#1\protect\footnote{#2}}}{#1}}\vspace{1em}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+
 
 \newcommand{\subsubhead}[1]{
   \phantomsection
@@ -51,9 +55,6 @@
 }
 
 \newcounter{quotenum}
-
-%\subhead{Less Important Quotes}
-%\setcounter{quotenum}{0}
 
 
 \newcommand{\quotehead}[1]{
@@ -79,24 +80,23 @@
 
 \begin{document}
 
-\newgeometry{top=0.5in,bottom=0.7in}
+\newgeometry{top=0.5in,bottom=0.8in}
 
 \titlehead{Emma}{Jane Austen}
 
 
 \subhead{Overview \& Plot}
 
-\ind Emma, a \underLine{comedy of manners} set in \underLine{Highbury} about Emma's 
+\ind \textit{Emma}, written in \underLine{1815}, is a \underLine{comedy of manners} 
+set in \underLine{Highbury} about Emma's 
 struggle with blindness and her fear of confronting her own feelings which leads
 her to meddle harmfully in the lives of others. The novel uses free indirect discourse
 where the narrator\footnote{\, an anonymous who tells the reader how characters feel and think,
 and who also provides insight and commentary.}
 steps in and out of Emma’s thoughts. It is narrated in the third person and 
-the immediate past tense. It sometimes uses flashbacks,\footnote{\, is when the linear
-sequence of narration is cut and it goes back to the past events.} to provide information about
-earlier events, and foreshadowing,\footnote{\, a narrative device where a writer hints at 
-events that will occur later in the story.} to provide hints about the future. The below 
-diagram shows the structre of the plot:
+the immediate past tense. It sometimes uses flashbacks, to provide information about
+earlier events, and foreshadowing, to provide hints about the future. The below 
+diagram shows the structure of the plot:
 
 
 \begin{figure}[ht]
@@ -105,24 +105,27 @@ diagram shows the structre of the plot:
 \end{figure}
 
 \newpage
-\subhead{Characters \& Estates}
+\subhead{Characters \& Techniques}
 
+\subsubhead{Foreshadowing} 
 
-\begin{itemize}
-  
-\item \textbf{Hartfield}, where Mr. Woodhouse (Henry) and Emma live.
+A narrative technique where a writer hints at events 
+that will occur later in the story. Almost every chapter includes 
+a foreshadowing, below are some examples:\medbreak
 
-\item \textbf{Randalls}, where the Westons live.
+Example from Chapter 1: “The real evils indeed, of Emma’s situation were the power of 
+having rather too much her own way, and a disposition to think 
+a little too well of herself.”\medbreak
 
-\item \textbf{Enscombe}, where the Churchills  live.
+Example from Chapter 27: “felt as if the spring would not pass without bringing a crisis,
+an event, a something to alter her present composed and tranquil state.”
 
-\item \textbf{Donwell Abbey} where Mr. George Knightley live.
+\subsubhead{Flashback}
 
-\item \textbf{Abbey-Mill Farm} where the Martins live, it is part of Downwell Abbey.
-  
-\item \textbf{Brunswick Square:} where John Knightley and Isabella\footnote{\, Emma's sister.} live.
+Is when the linear sequence of narration is 
+cut and it goes back to the past events. A good example is the story 
+of Mr. Weston's first marriage in Chapter 2.
 
-\end{itemize}
 
 
 
@@ -135,432 +138,83 @@ diagram shows the structre of the plot:
 
 
 
-\subhead{Emma: Important Quotes}
 
+\subhead{Plot Diagram}
 
-\quotehead{
-"Emma Woodhouse, handsome,
-clever, and rich, with a comfortable
-home and happy disposition,
-seemed to unite the best
-blessings of existence; and had
-lived nearly twenty one years in
-the world with very little to
-distress or vex her." 
-}
+\subsubhead{Exposition}
 
-\, — Chapter 1, Exposition \medbreak
+\ind Or the introduction, is the part of the story where we are given an idea about some of the major 
+characters, themes and settings. In \textit{Emma}, the exposition includes both chapter 1 and 2. In
+the exposition we are told about Emma merits and demerits, we are also introduced to the main
+characters and Emma's relationship with them.
 
-These words are said by the narrator in the exposition about the hero of the novel, Emma.
-She is described as having the best that life can offer. However, the narrator uses an ironic tone
-which makes us wonder; is Emma going to make use of her merits? 
 
+\subsubhead{Rising Action}
 
-\quotehead{
-"The real evils, indeed, of Emma’s situation were the power of having rather too much her
-own way, and a disposition to think a little too well of herself: these were the disadvantages
-which threatened alloy to her many enjoyments. The danger, however, was at present so
-unperceived, that they did not by any means rank as misfortunes with her."
-}
+\ind The part of the story where the conflict begins and the main character 
+seeks to overcome their struggles. In \textit{Emma}, the rising action starts after
+chapter 2, beginning when Emma takes Harriet under her wing.
+At this point, Emma begins to project her own feelings and desires onto Harriet. 
+Convinced that Mr. Elton 
+is a better match for Harriet, Emma convinces her to refuse Robert Martin’s proposal.
+This marks the start of the rising action.
 
+\subsubhead{Climax}
 
-\, — Chapter 1, Exposition \medbreak
-
-These words are said by the narrator in the exposition about Emma's demerits. The narrator foreshadows the novel’s
-structure as a whole: Emma having too much of her way and her vanity makes her blind to her
-feelings and the feelings of others. This causes her to meddle in the life of others, harming both them and herself.
-
-\quotehead{
-"A young farmer ... is the very last
-sort of person to raise my
-curiosity. The yeomanry are
-precisely the order of people with
-whom I feel I can have nothing to
-do."
-}
-
-\, — Chapter 3, Rising Action\medbreak
-
-These words are said by Emma about Robert Martin when she was talking with Harriet.
-She reveals a shocking degree of snobbery in her desire to distance herself from Martin.
-As a result, she tries to make Harriet lose interest in Martin.
-
-\quotehead{
-“Of this great intimacy between Emma and Harriet Smith , but I think it a bad thing“
-}
-
-\, — Chapter 5, Rising Action\medbreak
-
-These words are said by Mr. Knightley to Mrs. Weston about Emma and Harriet relationship.
-He explains that Emma is a bad influence on Harriet, projecting her own desires and needs
-onto Harriet and making her think that she is the daughter of a gentleman.
-
-
-
-\quotehead{
-“She always declares she will never marry which of course, means just no thing at all “ 
-}
-
-\, — Chapter 5, Rising Action\medbreak
-
-These words are said by Mrs. Weston to Mr. Knightley when they were talking about Emma. 
-She says that Emma's refusal of marriage is not serious, and eventually she
-will find someone whom she could love and marry.
-
-\quotehead{
-“This man is almost too gallant to be in love“
-}
-
-\, — Chapter 5, Rising Action\medbreak
-
-These words are said by Emma to herself about Mr. Elton. She thinks that
-Mr. Elton is not genuine about his feelings for Harriet. However, she dismisses
-this doubt because of her high confidence as a match-maker, which blinds her to
-the fact that she is wrong in her judgement about other people.
-
-\quotehead{
-"I confess that I have seldom seen
-a face or figure more pleasing to
-me that hers. But I am a partial old
-friend."
-}
-
-\, — Chapter 5, Rising Action\medbreak
-
-These words are said by Mr. Knightley about Emma when he was talking to Mrs. Weston.
-She pushes him to acknowledge Emma's physical beauty, but he hardly wants to
-admit his attraction, undercutting his statement by saying he may be partial because he is an old friend.
-
-
-\quotehead{
-“Not Harriet equal !! No he is not her equal he is as much her superior in sense as in situation“
-}
-
-
-\, — Chapter 8, Rising Action\medbreak
-
-These words are said by Mr. Knightley to Emma after she tells him that Robert Martin is not Harriet's
-equal because he is a farmer while she is supposedly a gentleman's daughter. Mr. Knightley counters
-that Harriet is a foundling girl with no family background, and that Martin is better suited than her in
-both social standing and intelligence.
-
-
-\quotehead{
-“Upon my word Emma to hear you abusing the reason you have , is almost enough to make me think so too , better be without sense than misapply it as you do “
-}
-
-
-\, — Chapter 8, Rising Action\medbreak
-
-These words are said by Mr. Knightley to Emma after she claims that Harriet's
-beauty entitles her to pick and choose between men, and that Robert Martin is inferior to her
-in rank. Knowing Emma to be intelligent, Mr. Knightley reflects that lacking reason would be 
-better than having it and misusing it.
-
-
-\quotehead{
-"Then she is greater simpleton than i ever believed her, what is the foolish girl about?"
-}
-
-\, — Chapter 8, Rising Action\medbreak
-
-
-These words are said by Mr. Knightley to Emma about Harriet after Emma tells him that she 
-refused Robert Martin's proposal. He is enraged by this because he thinks that
-Robert is a good match for Harriet.
-
-\quotehead{
-"Till it appears that men are much
-more philosophic on the subject of
-beauty than they are generally
-supposed; till they do fall in love
-with well-informed minds instead
-of handsome faces, a girl, with
-such loveliness as Harriet, has a
-certainty of being admired and
-sought after, of having the power
-of choosing from among many."
-}
-
-
-\, — Chapter 8, Rising Action\medbreak
-
-These words are said by Emma when she was arguing with Mr. Knightley about
-whether Martin is a good fit for Harriet. She responds that Harriet's
-beauty give her the privilege to choose, and that men only care about
-beauty when looking for a wife.
-
-\quotehead{
-"Harriet Smith may not find offers of marriage flow in so
-fast, though she is a very pretty girl. Men of sense, whatever 
-you may choose to say, do not want silly wives. Men of 
-family would not be very fond of connecting themselves with a girl of such obscurity—and most prudent men would
-be afraid of the inconvenience and disgrace they might be
-involved in, When the mystery of her parentage came to be reveled."
-}
-
-\, — Chapter 8, Rising Action\medbreak
-
-These words are said by Mr. Knightley to Emma after she tells him that Harriet's beauty gives 
-her the power to choose. Mr. Knightley tells her that because Harriet is a foundling girl, men
-would not want to associate with her.
-
-\quotehead{
-“But then to be an old maid at last, like Miss Bates!"\\
-"That is as formidable an image as you could present,
-Harriet; and if I though I should ever be like Miss Bates—so silly, so satisfied, so smiling
-so prosing, so undistinguishing and unfastidious, and so apt 
-to tell everything relative to everybody about me, I would marry to-morrow."
-}
-
-\, — Chapter 10, Rising Action\medbreak
-
-These lines are said by Emma when Harriet compares her to Miss Bates. Emma shows her snobbery,
-telling Harriet that she is nothing like Miss Bates and listing all the things
-she despises about her.
-
-
-\quotehead{
-“Never mind, Harriet, I shall not be a poor old maid and it is
-poverty only which makes celibacy contemptible to a generous
-public! A single woman with a very narrow income must be a
-ridiculous, disagreeable old maid! the proper sport of boys and girls 
-but a single woman of good fortune is always respectable,"
-}
-
-\, — Chapter 10, Rising Action\medbreak
-
-These lines are said by Emma during a conversation with Harriet about Miss Bates. Harriet triggers 
-Emma's fears about the future by suggesting that she will become just like Miss Bates--old and single. 
-However, Emma rationalizes this fear by arguing that only poverty that makes celibacy undesirable.
-
-\quotehead{
-"The first error, and the worst, lay at her door. It was foolish, it was wrong, to take so active a
-part in bringing any two people together. It was adventuring too far, assuming too much,
-making light of what ought to be serious—a trick of what ought to be simple. She was quite
-concerned and ashamed, and resolved to do such things no more."
-}
-
-\, — Chapter 16, Rising Action\medbreak
-
-These words are said by the narrator about Emma's reflections after Mr. Elton proposes to her.
-She realize how wrong she was in thinking him attached to Harriet. 
-She understands what is wrong with matchmaking: that courtship should
-be serious and simple; it should flow naturally between two people.
-
-\quotehead{
-"You are very fond of bending little
-minds; but where little minds
-belong to rich people in authority, I
-think they have a knack of swelling
-out, till they are quite as
-unmanageable as great ones."
-}
-
-\, — Chapter 18, Rising Action\medbreak
-
-These words are said by Emma to Mr. Knightley when they were talking about Frank Chur\-chill.
-After Knightley criticizes Frank for not fulfilling his duty as a son, Emma defends him saying
-that he lives under the influence of his aunt who keeps him away from Highbury. In this dialogue she shows her great
-use of wit and metaphor.
-
-\quotehead{
-"And no great harm if it does, said
-Mr. Woodhouse. 'The sooner every
-party breaks up, the better."
-}
-
-\, — Chapter 25, Rising Action\medbreak
-
-These words are said by Mr. Woodhouse to Mr. Weston when the latter was trying to persuade him
-to allow Emma to stay out late when she attends the Coles' dinner party. Mr. Woodhouse comment
-show his self-centeredness and selfishness.
-
-
-
-\quotehead{
-"She did ... regret the inferiority of
-her own playing and singing. She
-did most heartily grieve over the
-idleness of her childhood—and sat
-down and practiced vigorously an
-hour and a half."
-}
-
-\, — Chapter 27, Rising Action\medbreak
-
-These words are said by the narrator about Emma when she felt jealous
-of Jane Fairfax's piano playing. Emma feels inferior and blames herself for her lack
-of discipline in cultivating her own talents.
-
-\quotehead{
-"Why really, dear Emma, I say that
-he is so very much occupied by
-the idea of not being in love with
-her, that I should not wonder if it
-were to end in his being so at last."
-}
-
-\, — Chapter 33, Rising Action\medbreak
-
-These words are said by Mrs. Weston to Emma about Mr. Knightley. Mrs. Weston
-believes that Mr. Knightley has feelings for Jane Fairfax, even after Mr. Knightley
-admits otherwise. This is an example of perverse blindness in the face of facts.
-
-
-\quotehead{
-“Ah! ma’am, but there may be a difficulty. Pardon me, but you will be limited as to
-number—\- only three at once.”
-}
-
-\, — Chapter 43, Climax\medbreak
-
-These words are said by Emma to Miss Bates during the Box Hill picnic. Emma tells 
-Miss Bates that she is capable of coming up with more than plenty of dull ideas and 
-comments, and that it would be best to limit her before she starts – Insulting her
-in front of everyone. 
-
-\quotehead{
-"How could you be so unfeeling to Miss Bates? How could you be so insolent to a woman of her character, 
-age, and situation ? Emma i had not though it possible."
-}
-
-
-\, — Chapter 43, Climax \medbreak
-
-These lines are said by Mr.knightley to Emma after the picnic to Box Hill chiding her for what she said to miss Bates and embarrassing her in front of everyone, calling her unfeeling and rude for saying such things. therefore, Emma couldn't digest such hard words which led her to cry
-
-\quotehead{
-"I assure you she did. She felt your full meaning. She has
-talked of it since. I wish you could have heard how she talked of it"
-}
-
-\, — Chapter 43, Climax \medbreak
-
-\quotehead{
-"She was vexed beyond what could have been expressed—almost beyond what she could
-conceal. Never had she felt so agitated, so mortified, grieved, at any circumstance in her life.
-She was most forcibly struck. The truth of his representation there was no denying. She felt it
-at her heart. How could she have been so brutal, so cruel to Miss Bates! How could she have
-exposed herself to such ill opinion in any one she valued! And how suffer him to leave her
-without saying one word of gratitude, of concurrence, of common kindness!"
-}{Quote 19}
-
-
-\, — Chapter 43, Climax\medbreak
-
-These words are said by the narrator about Emma after Mr. Knightley scolds her for
-insulating Miss Bates at the Box Hill picnic. As she realize the cruelty of her action,
-she experiences intense remorse. This mark the point where Emma grow and understand 
-how wrongly she has treated Miss Bates. This moment is also Emma’s most emotional in the novel.
-
-
-\quotehead{
-"She is poor; she has sunk from
-the comforts she was born to; and,
-if she live to old age, must
-probably sink more. Her situation
-should secure your compassion. It
-was badly done, indeed!"
-}
-
-\, — Chapter 43, Climax\medbreak
-
-These words are said by Mr. Knightley to Emma after she insults Miss Bates in front of everyone
-in the Box Hill picnic. Mr. Knightley scolds her for lack of feeling, and shows himself to be
-the moral compass of the story and the judge of Emma's actions.
-
-\quotehead{
-"Emma’s eyes were instantly withdrawn; and she sat silently meditating, in a fixed attitude,
-for a few minutes. A few minutes were sufficient for making her acquainted with her own
-heart. A mind like hers, once opening to suspicion, made rapid progress; she touched, she
-admitted, she acknowledged the whole truth. Why was it so much worse that Harriet should
-be in love with Mr. Knightley than with Frank Churchill? Why was the evil so dreadfully
-increased by Harriet’s having some hope of a return? It darted through her with the speed of
-an arrow that Mr. Knightley must marry no one but herself!"
-}
-
-\, — Chapter 47, Falling Action\medbreak
-
-These words are said by the narrator about Emma when she was having a conversation with Harriet,
-in which Harriet confesses her feelings for Mr. Knightley. Emma's jealousy of Harriet makes her
-realize that she is in love with Mr. Knightley. For the majority of the novel she is blind 
-because her attention was misdirected towards matchmaking.
-
-\quotehead{
-"Seldom, very seldom, does
-complete truth belong to any
-human disclosure; seldom can it
-happen that something is not a
-little disguised, or a little mistaken;
-but where, as in this case, though
-the conduct be mistaken, the
-feelings are not, it may not be very
-material."
-}{Quote 22}
-
-
-\, — Chapter 47, Falling Action\medbreak
-
-These words are said by the narrator in chapter 49 after Mr. Knightley and Emma betrothal.
-The quotation explains that it is often difficult to tell the whole, literal truth, and at
-times to do so would actually hinder human relations. In such
-instances the ends may justify the means.
-
-\quotehead{
-"Marriage, in fact, would not do for her. It would be
-incompatible with what she owed to her father, and
-with what she felt for him. Nothing should separate her from her father.
-She would not marry, even if she were asked by Mr Knightley."
-}{Quote 22}
-
-\, — Chapter 48, Falling Action\medbreak
-
-
-This is what Emma thinks to herself As we know before that Emma never thinks to marry because she is very attached to her father therefore this is a kind of consolation for her she is deceiving herself again she is actually so much attracted to Mr. Knightley and she thinks now of him as her future husband but she’s trying to justify the fact that she’s attached to her father that is why it would be better for her not to marry Mr.Knightley
-
-
-
-\quotehead{
-"I have never had a high opinion of Frank Churchill. I can
-suppose, however, that I may have underrated him. 
-—My acquaintance with him has been but trifling. 
-And even if have
-not underrated him hitherto, he may yet turn out well.
-With such a woman he has a chance. I have no motive for wishing
-him ill—and for her sake, whose happiness will be involved in his good character and conduct, I shall certainly wish him
-well.”
-}{Quote 22}
-
-\, — Chapter 49, Falling Action\medbreak
-
-\quotehead{
-“If I loved you less, I might be able to talk
-about it more. But you know what I am. You hear nothing but
-truth from me. I have blamed you, and lectured you, and you 
-have borne it as no other woman  in England would have 
-borne it. Bear with the truths I would tell you now, dearest Emma,
-as well as you borne with them. The manner, perhaps, may
-have as little to recommend them.
-}{Quote 22}
-
-\, — Chapter 49, Falling Action\medbreak
-
-\subhead{Diagram \& Types of Irony}
-
-\textbf{Rising Action}: After Emma takes Harriet under her wing,
-she begins to project her own feelings and desires onto her. Convinced Mr. Elton 
-is a superior match for Harriet, Emma persuades her to refuse Robert Martin’s proposal.
-This is where complications start to emerge.\medbreak
-
-\textbf{Climax}: Emma insults Miss Bates, and then she is scolded by Mr. Knightley. 
+\ind The part of the story of the most intense moment, marking the turning point of the main
+character. In \textit{Emma} we see this in Chapter 43, when Emma insults Miss Bates in the Box 
+Hill picnic, and then she is scolded by Mr. Knightley. 
 She realizes she is in love with him after being jealous of Harriet’s 
-feelings for Mr. Knightley. \medbreak
+feelings for Mr. Knightley. 
 
-\textbf{Falling Action}: Emma and Mr. Knightley confess their feelings for one another, and Mr. Knightley proposes to
+\subsubhead{Falling Action}
+
+\ind The part of the story that follows the climax, clarifies the narrative,
+and leads toward the resolution. In \textit{Emma}, the resolution happens when Emma 
+and Mr. Knightley confess their feelings for one another, and Mr. Knightley proposes to
 Emma. Harriet accepts Mr. Martin’s proposal and Jane and Frank prepare to marry.
 
-t comes immediately after the climax it consists of a number of events in which some of the characters start rethinking and correcting their style of life exemplified when Emma becomes aware of what she had done with Harriet because she has made her think highly of herself now Harriet Smith looking forward to be with Mr. Knightley and now Emma is afraid of losing Mr. Knightley essentially after what she has done with Miss, Bates and this is one of the consequences of what Emma done with the other characters .
+\enlargethispage{\baselineskip}
+\subhead{Estates}
+
+\begin{itemize}[itemsep=3pt]
+  
+\item \textbf{Hartfield}, where Mr. Woodhouse (Henry) and Emma live.
+
+\item \textbf{Randalls}, where the Westons live.
+
+\item \textbf{Enscombe}, where the Churchills live.
+
+\item \textbf{Donwell Abbey}, where Mr. George Knightley live.
+
+\item \textbf{Abbey-Mill Farm}, where the Martins live, it is part of Downwell Abbey.
+  
+\item \textbf{Brunswick Square}, where Mr. John Knightley and Isabella\footnote{\, Emma's sister.} live.
+
+\end{itemize}
+
+
+\subhead{Forms Of Irony}
+
+\subsubhead{Situational Irony}
+
+When the outcome of an event is the opposite of what the character expect.
+A good example is when Emma discourages Harriet
+from accepting Robert Martin's proposal because she thinks he is not fit for her.
+However, in the end it is revealed that Mr. Martin is the best match for Harriet.
+
+\subsubhead{Dramatic Irony}
+
+When the reader knows something that the character does not know. A good example is
+when Emma thinks that Mr. Elton is a good match to Harriet, while the reader knows
+that Mr. Martins is the better match. 
+
+\subsubhead{Verbal Irony}
+
+Or sarcasm, is saying the opposite of what you mean. A good example is when 
+Mr. Knightley says,"A worthy employment for a young lady's mind!" during 
+his conversation with Emma about matchmaking. What he really means is that
+she is wasting her merits on matchmaking.
 
 
 \subhead{Draw a Character Sketch of the Following}
@@ -646,38 +300,6 @@ which makes Emma envy her.
 
 
 
-
-
-\subhead{Provide short answer for each of the following questions}
-
-\subsubhead{What Emma's merits ?}
-
-\subsubhead{What are Emma's demerits ?}
-
-\subsubhead{Who was suffering from intellectual solitude and why ?}
-
-\subsubhead{Who was described as suffering from blank solitude and Why ?}
-
-\subsubhead{Why is Miss Bates considered Emma’s foil ? }
-
-\subsubhead{Who are The Martins and why Emma wanted Harriet to cut her relationship with them ?}
-
-\subsubhead{Why Emma thinks Elton as a suitable future husband to Harriet ?}
-
-Hello world this is some text.
-
-
-\subhead{Fill in the Blank}
-
-\begin{itemize}
-
-\item The new vicar that comes to Highbury after the death of Mrs. Bates' husband is \underLine{Mr. Elton}.
-
-\item \underLine{Mr. George Knightley} considered as the moral compass in Emma's life.
-
-\item Emma take place in a village called \underLine{Highbury}.
-  
-\end{itemize}
 
 
 
@@ -811,6 +433,503 @@ Emma’s portrait of Harriet as a symbol of affection for her, though Emma misun
 of affection for Harriet. Harriet keeps court plaster and a pencil stub as souvenirs of Mr. Elton. When the
 engagement between Jane and Frank is briefly called off, she returns his letters to symbolize her
 renunciation of his affection.
+
+\subhead{Emma: Important Quotes}
+
+
+\quotehead{
+"Emma Woodhouse, handsome,
+clever, and rich, with a comfortable
+home and happy disposition,
+seemed to unite the best
+blessings of existence; and had
+lived nearly twenty one years in
+the world with very little to
+distress or vex her." 
+}
+
+\, — Chapter 1, Exposition \medbreak
+
+These words are said by the narrator in the exposition about the hero of the novel, Emma.
+She is described as having the best that life can offer. However, the narrator uses an ironic tone
+which makes us wonder; is Emma going to make use of her merits? 
+
+
+\quotehead{
+"The real evils, indeed, of Emma’s situation were the power of having rather too much her
+own way, and a disposition to think a little too well of herself: these were the disadvantages
+which threatened alloy to her many enjoyments. The danger, however, was at present so
+unperceived, that they did not by any means rank as misfortunes with her."
+}
+
+
+\, — Chapter 1, Exposition \medbreak
+
+These words are said by the narrator in the exposition about Emma's demerits. The narrator foreshadows the novel’s
+structure as a whole: Emma having too much of her way and her vanity makes her blind to her
+feelings and the feelings of others. This causes her to meddle in the life of others, harming both them and herself.
+
+
+\quotehead{
+“Of this great intimacy between Emma and Harriet Smith , but I think it a bad thing“
+}
+
+\, — Chapter 5, Rising Action\medbreak
+
+These words are said by Mr. Knightley to Mrs. Weston about Emma and Harriet relationship.
+He explains that Emma is a bad influence on Harriet, projecting her own desires and needs
+onto Harriet and making her think that she is the daughter of a gentleman.
+
+
+
+\quotehead{
+“She always declares she will never marry which of course, means just no thing at all “ 
+}
+
+\, — Chapter 5, Rising Action\medbreak
+
+These words are said by Mrs. Weston to Mr. Knightley when they were talking about Emma. 
+She says that Emma's refusal of marriage is not serious, and eventually she
+will find someone whom she could love and marry.
+
+\quotehead{
+“This man is almost too gallant to be in love“
+}
+
+\, — Chapter 5, Rising Action\medbreak
+
+These words are said by Emma to herself about Mr. Elton. She thinks that
+Mr. Elton is not genuine about his feelings for Harriet. However, she dismisses
+this doubt because of her high confidence as a match-maker, which blinds her to
+the fact that she is wrong in her judgement about other people.
+
+\quotehead{
+“Not Harriet equal!! No he is not her equal he is as much her superior in sense as in situation“
+}
+
+
+\, — Chapter 8, Rising Action\medbreak
+
+These words are said by Mr. Knightley to Emma after she tells him that Robert Martin is not Harriet's
+equal because he is a farmer while she is supposedly a gentleman's daughter. Mr. Knightley counters
+that Harriet is a foundling girl with no family background, and that Martin is better suited than her in
+both social standing and intelligence.
+
+
+\quotehead{
+“Upon my word Emma to hear you abusing the reason you have, is almost enough to make me think so too, 
+better be without sense than misapply it as you do.“
+}
+
+
+\, — Chapter 8, Rising Action\medbreak
+
+These words are said by Mr. Knightley to Emma after she claims that Harriet's
+beauty entitles her to pick and choose between men, and that Robert Martin is inferior to her
+in rank. Knowing Emma to be intelligent, Mr. Knightley reflects that lacking reason would be 
+better than having it and misusing it.
+
+
+\quotehead{
+"Then she is greater simpleton than i ever believed her, what is the foolish girl about?"
+}
+
+\, — Chapter 8, Rising Action\medbreak
+
+
+These words are said by Mr. Knightley to Emma about Harriet after Emma tells him that she 
+refused Robert Martin's proposal. He is enraged by this because he thinks that
+Robert is a good match for Harriet.
+
+
+\quotehead{
+"Harriet Smith may not find offers of marriage flow in so
+fast, though she is a very pretty girl. Men of sense, whatever 
+you may choose to say, do not want silly wives. Men of 
+family would not be very fond of connecting themselves with a girl 
+of such obscurity—and most prudent men would
+be afraid of the inconvenience and disgrace they might be
+involved in, When the mystery of her parentage came to be reveled."
+}
+
+\, — Chapter 8, Rising Action\medbreak
+
+These words are said by Mr. Knightley to Emma after she tells him that Harriet's beauty gives 
+her the power to choose. Mr. Knightley tells her that because Harriet is a foundling girl, men
+would not want to associate with her.
+
+\quotehead{
+“But then to be an old maid at last, like Miss Bates!"\\
+"That is as formidable an image as you could present,
+Harriet; and if I though I should ever be like Miss Bates—so silly, so satisfied, so smiling
+so prosing, so undistinguishing and unfastidious, and so apt 
+to tell everything relative to everybody about me, I would marry to-morrow."
+}
+
+\, — Chapter 10, Rising Action\medbreak
+
+These words are said by Emma when Harriet compares her to Miss Bates. Emma tells her
+that she is nothing like Miss Bates, saying that Miss Bates is chatty and naive. This reveals
+Emma's snobbery and her strong sense of class status.
+
+
+
+\quotehead{
+“Never mind, Harriet, I shall not be a poor old maid and it is
+poverty only which makes celibacy contemptible to a generous
+public! A single woman with a very narrow income must be a
+ridiculous, disagreeable old maid! the proper sport of boys and girls 
+but a single woman of good fortune is always respectable,"
+}
+
+\, — Chapter 10, Rising Action\medbreak
+
+These words are said by Emma during a conversation with Harriet about Miss Bates. Harriet triggers 
+Emma's fears about the future by suggesting that she will become just like Miss Bates--old and single. 
+However, Emma rationalizes this fear by arguing that only poverty that makes celibacy undesirable.
+
+
+
+\quotehead{
+“Ah! ma’am, but there may be a difficulty. Pardon me, but you will be limited as to
+number—\- only three at once.”
+}
+
+\, — Chapter 43, Climax\medbreak
+
+These words are said by Emma to Miss Bates during the Box Hill picnic. Emma tells 
+Miss Bates that she is capable of coming up with more than plenty of dull ideas and 
+comments, and that it would be best to limit her before she starts – Insulting her
+in front of everyone. 
+
+\quotehead{
+"How could you be so unfeeling to Miss Bates? How could you be so insolent to a woman of her character, 
+age, and situation ? Emma i had not though it possible."
+}
+
+
+\, — Chapter 43, Climax \medbreak
+
+These words are said by Mr. Knightley to Emma after she insulted Miss Bates in the Box Hill picnic.
+He scolds Emma for being rude to Miss Bates and embarrassing her in front of everyone, reminding 
+her that she should sympathize with Miss Bates because of her unfortunate situation.
+
+
+\quotehead{
+"I assure you she did. She felt your full meaning. She has
+talked of it since. I wish you could have heard how she talked of it"
+}
+
+\, — Chapter 43, Climax \medbreak
+
+These words are said by Mr. Knightley to Emma after she insulted Miss Bates in the Box Hill picnic. Emma thinks that
+Miss Bates is not smart enough to understand her insult, but Mr. Knightley assures her that
+Miss Bates did.
+
+
+\quotehead{
+"She was vexed beyond what could have been expressed—almost beyond what she could
+conceal. Never had she felt so agitated, so mortified, grieved, at any circumstance in her life.
+She was most forcibly struck. The truth of his representation there was no denying. She felt it
+at her heart. How could she have been so brutal, so cruel to Miss Bates! How could she have
+exposed herself to such ill opinion in any one she valued! And how suffer him to leave her
+without saying one word of gratitude, of concurrence, of common kindness!"
+}
+
+
+\, — Chapter 43, Climax\medbreak
+
+These words are said by the narrator about Emma after Mr. Knightley scolds her for
+insulating Miss Bates at the Box Hill picnic. As she realize the cruelty of her action,
+she experiences intense remorse. This mark the point where Emma grow and understand 
+how wrongly she has treated Miss Bates. This moment is also Emma’s most emotional in the novel.
+
+
+\quotehead{
+"She is poor; she has sunk from
+the comforts she was born to; and,
+if she live to old age, must
+probably sink more. Her situation
+should secure your compassion. It
+was badly done, indeed!"
+}
+
+\, — Chapter 43, Climax\medbreak
+
+These words are said by Mr. Knightley to Emma after she insults Miss Bates in front of everyone
+in the Box Hill picnic. Mr. Knightley scolds her for lack of feeling, and shows himself to be
+the moral compass of the story and the judge of Emma's actions.
+
+\enlargethispage{\baselineskip}
+\quotehead{
+"Emma’s eyes were instantly withdrawn; and she sat silently meditating, in a fixed attitude,
+for a few minutes. A few minutes were sufficient for making her acquainted with her own
+heart. A mind like hers, once opening to suspicion, made rapid progress; she touched, she
+admitted, she acknowledged the whole truth. Why was it so much worse that Harriet should
+be in love with Mr. Knightley than with Frank Churchill? Why was the evil so dreadfully
+increased by Harriet’s having some hope of a return? It darted through her with the speed of
+an arrow that Mr. Knightley must marry no one but herself!"
+}
+
+\, — Chapter 47, Falling Action\medbreak
+
+These words are said by the narrator about Emma when she was having a conversation with Harriet,
+in which Harriet confesses her feelings for Mr. Knightley. Emma's jealousy of Harriet makes her
+realize that she is in love with Mr. Knightley. For the majority of the novel she is blind 
+because her attention was misdirected towards matchmaking.
+
+\quotehead{
+"Seldom, very seldom, does
+complete truth belong to any
+human disclosure; seldom can it
+happen that something is not a
+little disguised, or a little mistaken;
+but where, as in this case, though
+the conduct be mistaken, the
+feelings are not, it may not be very
+material."
+}
+
+
+\, — Chapter 47, Falling Action\medbreak
+
+These words are said by the narrator in chapter 49 after Mr. Knightley and Emma betrothal.
+The quotation explains that it is often difficult to tell the whole, literal truth, and at
+times to do so would actually hinder human relations. In such
+instances the ends may justify the means.
+
+\quotehead{
+"Marriage, in fact, would not do for her. It would be
+incompatible with what she owed to her father, and
+with what she felt for him. Nothing should separate her from her father.
+She would not marry, even if she were asked by Mr Knightley."
+}
+
+\, — Chapter 48, Falling Action\medbreak
+
+These words are said by the narrator about Emma's thoughts after she realizes her feelings for Mr. Knightley.
+Because of her attachment to her father, Emma tries to push away any thoughts of marriage, even to Mr. Knightley.
+
+
+\quotehead{
+"I have never had a high opinion of Frank Churchill. I can
+suppose, however, that I may have underrated him. 
+—My acquaintance with him has been but trifling. 
+And even if have
+not underrated him hitherto, he may yet turn out well.
+With such a woman he has a chance. I have no motive for wishing
+him ill—and for her sake, whose happiness will be involved in his good character and conduct, I shall certainly wish him
+well.”
+}
+
+\, — Chapter 49, Falling Action\medbreak
+
+These words are said by Mr. Knightley to Emma about the relationship between 
+Jane Fairfax and Frank Churchill. He admits that he may have misjudged Frank and 
+expresses how lucky Frank is to be engaged to a woman like Jane.
+
+\quotehead{
+“If I loved you less, I might be able to talk
+about it more. But you know what I am. You hear nothing but
+truth from me. I have blamed you, and lectured you, and you 
+have borne it as no other woman  in England would have 
+borne it. Bear with the truths I would tell you now, dearest Emma,
+as well as you borne with them. The manner, perhaps, may
+have as little to recommend them.
+}
+
+\, — Chapter 49, Falling Action\medbreak
+
+These words are said by Mr. Knightley to Emma during his declaration of love.
+He tells her that she has endured his scolding and blame as no other woman would have.
+This is the most critical moment in the novel.
+
+\subheadfoot{Less Important Quotes}{\, these quotes are seen in the 'Abridged Notes' 
+and are less likey to be in the first and second exam, they only matter in the final exam.}
+
+\setcounter{quotenum}{0}
+
+\quotehead{
+"A young farmer ... is the very last
+sort of person to raise my
+curiosity. The yeomanry are
+precisely the order of people with
+whom I feel I can have nothing to
+do."
+}
+
+\, — Chapter 3, Rising Action\medbreak
+
+These words are said by Emma about Robert Martin when she was talking with Harriet.
+She reveals a shocking degree of snobbery in her desire to distance herself from Martin.
+As a result, she tries to make Harriet lose interest in Martin.
+
+
+\quotehead{
+"I confess that I have seldom seen
+a face or figure more pleasing to
+me that hers. But I am a partial old
+friend."
+}
+
+\, — Chapter 5, Rising Action\medbreak
+
+These words are said by Mr. Knightley about Emma when he was talking to Mrs. Weston.
+She pushes him to acknowledge Emma's physical beauty, but he hardly wants to
+admit his attraction, undercutting his statement by saying he may be partial because he is an old friend.
+
+\quotehead{
+"Till it appears that men are much
+more philosophic on the subject of
+beauty than they are generally
+supposed; till they do fall in love
+with well-informed minds instead
+of handsome faces, a girl, with
+such loveliness as Harriet, has a
+certainty of being admired and
+sought after, of having the power
+of choosing from among many."
+}
+
+\, — Chapter 8, Rising Action\medbreak
+
+These words are said by Emma when she was arguing with Mr. Knightley about
+whether Martin is a good fit for Harriet. She responds that Harriet's
+beauty give her the privilege to choose, and that men only care about
+beauty when looking for a wife.
+
+\quotehead{
+"The first error, and the worst, lay at her door. It was foolish, it was wrong, to take so active a
+part in bringing any two people together. It was adventuring too far, assuming too much,
+making light of what ought to be serious—a trick of what ought to be simple. She was quite
+concerned and ashamed, and resolved to do such things no more."
+}
+
+\, — Chapter 16, Rising Action\medbreak
+
+These words are said by the narrator about Emma's reflections after Mr. Elton proposes to her.
+She realize how wrong she was in thinking him attached to Harriet. 
+She understands what is wrong with matchmaking: that courtship should
+be serious and simple; it should flow naturally between two people.
+
+
+
+\quotehead{
+"You are very fond of bending little
+minds; but where little minds
+belong to rich people in authority, I
+think they have a knack of swelling
+out, till they are quite as
+unmanageable as great ones."
+}
+
+\, — Chapter 18, Rising Action\medbreak
+
+These words are said by Emma to Mr. Knightley when they were talking about Frank Chur\-chill.
+After Knightley criticizes Frank for not fulfilling his duty as a son, Emma defends him saying
+that he lives under the influence of his aunt who keeps him away from Highbury. In this dialogue she shows her great
+use of wit and metaphor.
+
+
+
+\quotehead{
+"And no great harm if it does, said
+Mr. Woodhouse. 'The sooner every
+party breaks up, the better."
+}
+
+\, — Chapter 25, Rising Action\medbreak
+
+These words are said by Mr. Woodhouse to Mr. Weston when the latter was trying to persuade him
+to allow Emma to stay out late when she attends the Coles' dinner party. Mr. Woodhouse comment
+show his self-centeredness and selfishness.
+
+\quotehead{
+"She did ... regret the inferiority of
+her own playing and singing. She
+did most heartily grieve over the
+idleness of her childhood—and sat
+down and practiced vigorously an
+hour and a half."
+}
+
+\, — Chapter 27, Rising Action\medbreak
+
+These words are said by the narrator about Emma when she felt jealous
+of Jane Fairfax's piano playing. Emma feels inferior and blames herself for her lack
+of discipline in cultivating her own talents.
+
+\quotehead{
+"Why really, dear Emma, I say that
+he is so very much occupied by
+the idea of not being in love with
+her, that I should not wonder if it
+were to end in his being so at last."
+}
+
+\, — Chapter 33, Rising Action\medbreak
+
+These words are said by Mrs. Weston to Emma about Mr. Knightley. Mrs. Weston
+believes that Mr. Knightley has feelings for Jane Fairfax, even after Mr. Knightley
+admits otherwise. This is an example of perverse blindness in the face of facts.
+
+
+
+
+\phantomsection
+\section*{\centering{\fontsub{\large Provide short answer for each of the following questions}}}
+\addcontentsline{toc}{section}{Provide short answer for each of the following questions}
+
+\subheadfootb{Chapter 1-10}{\, first exam question.}
+
+\subsubhead{What are Emma's merits?}
+
+Handsome, clever, and rich with a conferable home and happy disposition.
+
+\subsubhead{What are Emma's demerits?}
+
+The power of having too much her own way, and a disposition to think a little too well of herself.
+
+\subsubhead{Who was suffering from intellectual solitude and why?}
+
+Emma, because of the marriage of Miss Taylor.
+
+\subsubhead{Who was described as suffering from blank solitude and Why?}
+
+Elton, because he lived alone without liking it.
+
+\subsubhead{Why is Miss Bates considered Emma’s foil?}
+
+Because Miss Bates lacks all the merits that Emma has.
+
+\subsubhead{Who are The Martins and why Emma wanted Harriet to cut her relationship with them?}
+
+They are farmers who work at Abbey-Mill Farm. Because Emma considers them a bad 
+company to Harriet.
+
+\subsubhead{Why Emma thinks Elton as a suitable future husband to Harriet?}
+
+Because he is a gentleman with a comfortable house and money. He also
+does not have parents that can prevent such marriage.
+
+\subsubhead{Why Emma chooses Harriet in particular as her project to marry her up with Elton? }
+
+Because she is naive and ignorant and she has no parents that can object to such marriage.
+
+
+\phantomsection
+\section*{\centering{\fontsub{\large Fill in the Blank}}}
+\addcontentsline{toc}{section}{Fill in the Blank}
+
+\begin{itemize}
+
+\item The new vicar that comes to Highbury after the death of Mrs. Bates' husband is \underLine{Mr. Elton}.
+
+\item \underLine{Mr. George Knightley} considered as the moral compass in Emma's life.
+
+\item Emma take place in a village called \underLine{Highbury}.
+  
+\end{itemize}
 
 
 \end{document}
