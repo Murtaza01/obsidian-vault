@@ -5,7 +5,7 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{enumitem}
-
+\usepackage{color,soul}
 
 \setlength\parindent{0pt}
 
@@ -38,7 +38,6 @@
   \subsection*{\texorpdfstring{\fontsub{#1\protect\footnote{#2}}}{#1}}\vspace{1em}
   \addcontentsline{toc}{subsection}{#1}
 }
-
 
 
 \newcommand{\subsubhead}[1]{
@@ -80,7 +79,11 @@
 
 \begin{document}
 
-\newgeometry{top=0.5in,bottom=0.8in}
+\newgeometry{top=0.4in,bottom=0.8in}
+
+{\small{\textcolor{red}{*For first and second exam read: page 1,2,3, quotes, short questions and 
+characters.}}}
+
 
 \titlehead{Emma}{Jane Austen}
 
@@ -128,7 +131,6 @@ of Mr. Weston's first marriage in Chapter 2.
 
 
 
-
 \begin{figure}[ht]
   \centering
   \includegraphics[width=0.9\textwidth]{characters.pdf}
@@ -163,9 +165,8 @@ This marks the start of the rising action.
 
 \ind The part of the story of the most intense moment, marking the turning point of the main
 character. In \textit{Emma} we see this in Chapter 43, when Emma insults Miss Bates in the Box 
-Hill picnic, and then she is scolded by Mr. Knightley. 
-She realizes she is in love with him after being jealous of Harriet’s 
-feelings for Mr. Knightley. 
+Hill picnic, and then she is scolded by Mr. Knightley. She realizes she is in love with him after 
+being jealous of Harriet’s feelings for Mr. Knightley. 
 
 \subsubhead{Falling Action}
 
@@ -175,9 +176,9 @@ and Mr. Knightley confess their feelings for one another, and Mr. Knightley prop
 Emma. Harriet accepts Mr. Martin’s proposal and Jane and Frank prepare to marry.
 
 \enlargethispage{\baselineskip}
-\subhead{Estates}
+\subhead{Estates}\vspace{-3mm}
 
-\begin{itemize}[itemsep=3pt]
+\begin{itemize}
   
 \item \textbf{Hartfield}, where Mr. Woodhouse (Henry) and Emma live.
 
@@ -226,15 +227,16 @@ Her mother died when she was five, after that Miss Taylor became her governess.
 She has been mistress of the house since her older sister got married. Although smart, 
 she lacks the discipline to practise or study anything in depth. She is
 portrayed as compassionate to the poor, but at the same time has a
-strong sense of class status (snobbish). Being spoiled and vain makes her blind to 
-her feelings and the feelings of others, and she ends up hurting both.
+strong sense of class status (\hl{snobbish}). Being spoiled and vain makes her \hl{blind} to 
+her feelings and the feelings of others, and she ends up hurting both. She suffers from 
+\hl{intellectual solitude} after Miss Taylor marries Mr. Weston.
 
-\subsubhead{Mr. Knightley}
+\subsubhead{Mr. George Knightley}
 
 George Knightley is a gentleman and a longtime family friend of the Woodhouse family.
 He is considerate, aware of the feelings of the other characters, and 
 always exhibits good behaviour and judgment.
-He is the moral compass of the story and Emma's only critic. He owns Donwell Abbey where the Martins
+He is the \hl{moral compass} of the story and Emma's only critic. He owns Donwell Abbey where the Martins
 have a farm. He is thirty-seven when the story opens and the elder brother 
 of Mr. John Knightley, the husband of Emma's elder sister Isabella.
 
@@ -242,26 +244,30 @@ of Mr. John Knightley, the husband of Emma's elder sister Isabella.
 
 Beautiful, naive, and fair, with a fine bloom, blue eyes, light hair,
 regular feature, and a look of great sweetness. She was seventeen when the story opens.
-She is the illegitimate daughter of somebody. She lived with Mrs. Goddard. Emma
+She is the illegitimate daughter of somebody. She lived with Mrs. Goddard, who introduce her
+to Emma. Emma
 becomes her friend and takes her under her wing. However, she turns out to be a bad influence
-on Harriet because she projects her own desires and beliefs onto her. 
+on Harriet because she projects her own desires and beliefs onto her. Harriet is described as 
+a \hl{simpleton} by Mr. Knightley because she refuses Robert Martin's proposal.
 
 \subsubhead{Mr. Elton}
 
 Good-looking, well-mannered, and ambitious. Twenty seven years old and unmarried when the story opens.
-He gets his living by being the vicar of Highbury and he lives alone in the vicarage. He
-is a social climber, he wants to marry a wealthy woman so he go up the social ladder. After Emma
+He gets his living by being the \hl{vicar} of Highbury and he lives alone in the vicarage where he suffers
+from \hl{blank solitude}. He is a \hl{social climber}, he wants to marry a wealthy woman so he go up 
+the social ladder. After Emma
 rejects him, he soon marries Miss Hawkins, proving he never truly cared for Emma.
 
 \subsubhead{Mr. Henry Woodhouse}
 
 Is the father of Emma and the owner of Hartfiled. He is generous and well mannered,
-although his hypochondriac\footnote{\,
-a person who is abnormally anxious about their health.} nature and his hate for change
+although his fastidious nature and his hate for change
 make it a somewhat difficult for others to get along with him. He enjoys keeping a small circle of 
 people around him and only invites them to his own house on his own terms. He is the reason Emma does not consider marriage, 
 because marriage is the origin of change. Despite being self-centered and unable to see beyond his own feelings,
-he is kind and well-respected by others.
+he is kind and well-respected by others. He is associated with the term \hl{gentle selfishness} and
+\hl{fastidious}, \hl{valetudinarian} or \hl{hypochondriac}\footnote{\, all three have the same meaning; a person that is 
+very concerned about his health and hateful of the idea of change.}.
 
 \subsubhead{Miss Bates}
 
@@ -269,8 +275,10 @@ Is an old, alright looking, poor spinster who lived with her mother
 and spent most of her youth caring for her. She was simple 
 and cheerful which made her popular in Highbury. She loved everybody and was 
 interested in everybody's happiness. She was full of trivial communications
-and harmless gossip. She is considered to be Emma's foil because she lack all the
+and harmless gossip. She is considered to be \hl{Emma's foil} because she lack all the
 merits Emma has.
+
+\enlargethispage{\baselineskip}
 
 \subsubhead{Mr. Weston}
 
@@ -287,7 +295,7 @@ was raised by his wealthy aunt and uncle, the Churchills, at the family estate o
 in Yorkshire. He is revealed over the course
 of the novel to be a scheming, insincere, and somewhat cowardly man. 
 He manipulates and plays games with the other characters to ensure his secret engagement 
-to Jane remains concealed.
+to Jane remains concealed that is why he is considered to be a \hl{comic villain}.
 
 \subsubhead{Jane Fairfax}
 
@@ -295,10 +303,8 @@ Is an orphan whose only family is her aunt, Miss Bates, and her grandmother, Mrs
 Though a native of Highbury, she was educated and nurtured by the
 Campbells, who had been friends of her father. She is a beautiful, bright, and elegant woman
 but because of her unpleasant situation, she is destined to be a governess. She is secretly 
-engaged to Frank Churchill. She is considered as Emma’s rival though she is far more accomplished,
+engaged to Frank Churchill. She is considered as \hl{Emma’s rival} though she is far more accomplished,
 which makes Emma envy her.
-
-
 
 
 
@@ -347,61 +353,8 @@ Inn, the morning party at Donwell Abbey, and the picnic at Box Hill. Each occasi
 with opportunities to observe one another and witness social interactions.
 
 
-\subheadfoot{Emma Major Themes}{\, themes are the fundamental and often universal ideas explored in a literary work.}
-
-\subsubhead{Marriage and Social Status}
-
-\ind \textit{Emma} is structured around marriage, which was one of the
-main ways to raise one’s social status, especially for women, 
-who were denied the possibility of improving their status through hard
-work or personal achievement. In Austen’s time, social status was
-determined by a combination of family background, reputation, and wealth-marriage.
-Yet, the novel suggests that marrying too far above oneself leads to strife.
-This is shown in the marriage of Mr. Weston to Miss Churchill where the inequality 
-of the relationship causes hardship to both. Another example is Emma’s attempt to match Harriet with
-Mr. Elton who shows disinterest in Harriet because she is a foundling daughter of nobody.
-The novel present equal marriage as ideal, which is shown in the marriage of Emma to Mr. Knightley
-and Harriet to Robert Martin.
-
-\subsubhead{The Confined Nature of Women’s Existence}
-
-\ind The novel gives a strong sense of the confined nature of a woman’s existence in 
-early-nineteenth-century rural England. Emma possesses a great deal of intelligence and 
-energy, but the best use she can make of these is matchmaking, something that 
-gets her into trouble. The alternative pastimes shown in
-the novel such as social visits, charity visits, music, artistic endeavors seem relatively trivial.
-There were not many options for women back then: they could become governesses or marry.
-If, however, a woman was fortunate enough to be financially independent, she could remain a spinster. 
-Marriage offered women power and affect over their own destinies. 
-Participating in the rituals of courtship and accepting or
-rejecting proposals is perhaps the most active role that women are permitted to play in Emma’s world.
-
-\subsubheadfoot{The Blinding Power of Imagination}{\, similar to the motif of blindness.}
-
-\ind The novel illustrates the ways in which personal biases and desires blind
-objective judgment. Emma’s desire to match Harriet to Mr. Elton blinds her to the
-fact that Mr. Elton had feelings for her all along. Mr. Knightley's judgment of Frank Churchill 
-is biased because he is jealous of Frank’s relationship with Emma, and Emma speaks cruelly of
-Jane because her vanity makes her jealous of Jane’s accomplishments. Emma’s biases cause her to
-invent an attachment between Harriet and Frank and blind her to the fact that Harriet actually has
-feelings for Knightley. The detachment of the narrator allows us to see many of these
-misunderstandings before the characters do. And the plot is powered by a series of realizations 
-that permit each character to make fuller, more objective judgments.
-
-\subsubhead{The Obstacles to Open Expression}
-
-\ind The misunderstandings happening  in the novel are created, in part, by the conventions of
-social decency. As a result characters are unable to express their feelings directly and openly,
-and their feelings are therefore mistaken. In the novel we see two ways of expression:
-the first is the natural, warm, and direct manner of both Mr. Knightley and
-Mr. Martin; The second is the overly clever and complex speech of 
-Mr. Elton, Frank Churchill, and Emma. Austen seems to prefer the first kind while condemning 
-the second as misleading and deserving censure. We see the second kind when Emma cruelly insults Miss Bates.
-The novel by no means suggests that the manners and rituals of social interaction should be eliminated,
-but rather handling them with tactful tacitness.
-
 \subheadfoot{Emma Major Symbols}{
-Symbols are objects, characters, figures, or colors used to represent abstract ideas or concepts.}
+\, symbols are objects, characters, figures, or colors used to represent abstract ideas or concepts.}
 
 \subsubhead{The Word Game}
 
@@ -434,7 +387,63 @@ of affection for Harriet. Harriet keeps court plaster and a pencil stub as souve
 engagement between Jane and Frank is briefly called off, she returns his letters to symbolize her
 renunciation of his affection.
 
-\subhead{Emma: Important Quotes}
+\subheadfoot{Emma Major Themes}{\, themes are the fundamental ideas explored in a literary work.}
+
+\subsubhead{Marriage and Social Status}
+
+\ind \textit{Emma} is structured around marriage, which was one of the
+main ways to raise one’s social status, especially for women, 
+who were denied the possibility of improving their status through hard
+work or personal achievement. In Austen’s time, social status was
+determined by a combination of family background, reputation, and wealth-marriage.
+Yet, the novel suggests that marrying too far above oneself leads to strife.
+This is shown in the marriage of Mr. Weston to Miss Churchill where the inequality 
+of the relationship causes hardship to both. Another example is Emma’s attempt to match Harriet with
+Mr. Elton who shows disinterest in Harriet because she is a foundling daughter of nobody.
+The novel present equal marriage as ideal, which is shown in the marriage of Emma to Mr. Knightley
+and Harriet to Robert Martin.
+
+\subsubhead{The Confined Nature of Women’s Existence}
+
+\ind The novel gives a strong sense of the confined nature of a woman’s existence in 
+early-nineteenth-century rural England. Emma possesses a great deal of intelligence and 
+energy, but the best use she can make of these is matchmaking, something that 
+gets her into trouble. The alternative pastimes shown in
+the novel such as social visits, charity visits, music, artistic endeavors seem relatively trivial.
+There were not many options for women back then: they could become governesses or marry.
+If, however, a woman was fortunate enough to be financially independent, she could remain a spinster. 
+Marriage offered women power and affect over their own destinies. 
+Participating in the rituals of courtship and accepting or
+rejecting proposals is perhaps the most active role that women are permitted to play in Emma’s world.
+
+\newpage
+\subsubheadfoot{The Blinding Power of Imagination}{\, similar to the motif of blindness.}
+
+\ind The novel illustrates the ways in which personal biases and desires blind
+objective judgment. Emma’s desire to match Harriet to Mr. Elton blinds her to the
+fact that Mr. Elton had feelings for her all along. Mr. Knightley's judgment of Frank Churchill 
+is biased because he is jealous of Frank’s relationship with Emma, and Emma speaks cruelly of
+Jane because her vanity makes her jealous of Jane’s accomplishments. Emma’s biases cause her to
+invent an attachment between Harriet and Frank and blind her to the fact that Harriet actually has
+feelings for Knightley. The detachment of the narrator allows us to see many of these
+misunderstandings before the characters do. And the plot is powered by a series of realizations 
+that permit each character to make fuller, more objective judgments.
+
+\subsubhead{The Obstacles to Open Expression}
+
+\ind The misunderstandings happening  in the novel are created, in part, by the conventions of
+social decency. As a result characters are unable to express their feelings directly and openly,
+and their feelings are therefore mistaken. In the novel we see two ways of expression:
+the first is the natural, warm, and direct manner of both Mr. Knightley and
+Mr. Martin; The second is the overly clever and complex speech of 
+Mr. Elton, Frank Churchill, and Emma. Austen seems to prefer the first kind while condemning 
+the second as misleading and deserving censure. We see the second kind when Emma cruelly insults Miss Bates.
+The novel by no means suggests that the manners and rituals of social interaction should be eliminated,
+but rather handling them with tactful tacitness.
+
+
+
+\subhead{Emma: Important Quotes}\vspace{-3mm}
 
 
 \quotehead{
@@ -454,6 +463,18 @@ These words are said by the narrator in the exposition about the hero of the nov
 She is described as having the best that life can offer. However, the narrator uses an ironic tone
 which makes us wonder; is Emma going to make use of her merits? 
 
+\enlargethispage{\baselineskip}
+
+\quotehead{
+"And have you never known the pleasures and triumph of 
+a lucky guess? I pity you."
+}
+
+\, — Chapter 1, Exposition \medbreak
+
+These words are said by Emma during a conversation with Mr. Knightley about matchmaking.
+Emma believes she is the reason why Miss Taylor and Mr. Weston were married, while Mr. Knightley 
+tells her it was merely a matter of guessing.
 
 \quotehead{
 "The real evils, indeed, of Emma’s situation were the power of having rather too much her
@@ -573,7 +594,7 @@ that she is nothing like Miss Bates, saying that Miss Bates is chatty and naive.
 Emma's snobbery and her strong sense of class status.
 
 
-
+\newpage
 \quotehead{
 “Never mind, Harriet, I shall not be a poor old maid and it is
 poverty only which makes celibacy contemptible to a generous
@@ -614,19 +635,6 @@ These words are said by Mr. Knightley to Emma after she insulted Miss Bates in t
 He scolds Emma for being rude to Miss Bates and embarrassing her in front of everyone, reminding 
 her that she should sympathize with Miss Bates because of her unfortunate situation.
 
-
-\quotehead{
-"I assure you she did. She felt your full meaning. She has
-talked of it since. I wish you could have heard how she talked of it"
-}
-
-\, — Chapter 43, Climax \medbreak
-
-These words are said by Mr. Knightley to Emma after she insulted Miss Bates in the Box Hill picnic. Emma thinks that
-Miss Bates is not smart enough to understand her insult, but Mr. Knightley assures her that
-Miss Bates did.
-
-
 \quotehead{
 "She was vexed beyond what could have been expressed—almost beyond what she could
 conceal. Never had she felt so agitated, so mortified, grieved, at any circumstance in her life.
@@ -645,6 +653,7 @@ she experiences intense remorse. This mark the point where Emma grow and underst
 how wrongly she has treated Miss Bates. This moment is also Emma’s most emotional in the novel.
 
 
+\newpage
 \quotehead{
 "She is poor; she has sunk from
 the comforts she was born to; and,
@@ -659,6 +668,21 @@ was badly done, indeed!"
 These words are said by Mr. Knightley to Emma after she insults Miss Bates in front of everyone
 in the Box Hill picnic. Mr. Knightley scolds her for lack of feeling, and shows himself to be
 the moral compass of the story and the judge of Emma's actions.
+
+
+\quotehead{
+"I assure you she did. She felt your full meaning. She has
+talked of it since. I wish you could have heard how she talked of it"
+}
+
+\, — Chapter 43, Climax \medbreak
+
+These words are said by Mr. Knightley to Emma after she insulted Miss Bates in the Box Hill picnic. Emma thinks that
+Miss Bates is not smart enough to understand her insult, but Mr. Knightley assures her that
+Miss Bates did.
+
+
+
 
 \enlargethispage{\baselineskip}
 \quotehead{
@@ -698,6 +722,7 @@ The quotation explains that it is often difficult to tell the whole, literal tru
 times to do so would actually hinder human relations. In such
 instances the ends may justify the means.
 
+\newpage
 \quotehead{
 "Marriage, in fact, would not do for her. It would be
 incompatible with what she owed to her father, and
@@ -744,8 +769,9 @@ These words are said by Mr. Knightley to Emma during his declaration of love.
 He tells her that she has endured his scolding and blame as no other woman would have.
 This is the most critical moment in the novel.
 
-\subheadfoot{Less Important Quotes}{\, these quotes are seen in the 'Abridged Notes' 
-and are less likey to be in the first and second exam, they only matter in the final exam.}
+\enlargethispage{\baselineskip}
+\subheadfoot{Less Important Quotes}{\, these quotes are seen in the \textbf{Abridged Notes}
+and are less likely to be in the first and second exam, they only matter in the final exam.}
 
 \setcounter{quotenum}{0}
 
@@ -880,7 +906,7 @@ admits otherwise. This is an example of perverse blindness in the face of facts.
 \section*{\centering{\fontsub{\large Provide short answer for each of the following questions}}}
 \addcontentsline{toc}{section}{Provide short answer for each of the following questions}
 
-\subheadfootb{Chapter 1-10}{\, first exam question.}
+\subheadfootb{Chapter 1-5}{\, first exam questions.}
 
 \subsubhead{What are Emma's merits?}
 
@@ -890,6 +916,10 @@ Handsome, clever, and rich with a conferable home and happy disposition.
 
 The power of having too much her own way, and a disposition to think a little too well of herself.
 
+\subsubhead{What is the importance  of the opening lines of the novel \textit{Emma}?}
+
+The opening lines, known as the exposition, introduce the characters, setting, and themes of the novel.
+
 \subsubhead{Who was suffering from intellectual solitude and why?}
 
 Emma, because of the marriage of Miss Taylor.
@@ -898,9 +928,6 @@ Emma, because of the marriage of Miss Taylor.
 
 Elton, because he lived alone without liking it.
 
-\subsubhead{Why is Miss Bates considered Emma’s foil?}
-
-Because Miss Bates lacks all the merits that Emma has.
 
 \subsubhead{Who are The Martins and why Emma wanted Harriet to cut her relationship with them?}
 
@@ -916,20 +943,60 @@ does not have parents that can prevent such marriage.
 
 Because she is naive and ignorant and she has no parents that can object to such marriage.
 
+\subsubhead{Who is "little Frank"? And why he was raised by his mother's family?}
 
-\phantomsection
-\section*{\centering{\fontsub{\large Fill in the Blank}}}
-\addcontentsline{toc}{section}{Fill in the Blank}
+He is the son of Mr. Weston. He was brought up by his mother's family because his father 
+was not able to afford to raise him.
 
-\begin{itemize}
+\subsubhead{What is the important of visits in \textit{Emma}?}
 
-\item The new vicar that comes to Highbury after the death of Mrs. Bates' husband is \underLine{Mr. Elton}.
+It offers the chance for other characters to meet and interact with each other.
 
-\item \underLine{Mr. George Knightley} considered as the moral compass in Emma's life.
+\subsubhead{Define and exemplify the term foreshadowing.}
 
-\item Emma take place in a village called \underLine{Highbury}.
-  
-\end{itemize}
+Answer on page 2.
+
+\subsubhead{Who else is Emma planning to marry up after she made the match of Miss. Taylor and 
+Mr. Weston?}
+
+Mr. Elton to Harriet Smith.
+
+\subsubhead{What is the motif of blindness in Emma?}
+
+One example of Emma's blindness occurs when she  misreads Mr. Elton's motives. 
+She believes he is in love with Harriet, while he actually has feelings for Emma herself. 
+Her desire to match Mr. Elton with Harriet blinds her to the reality of his feelings.
+
+
+
+
+\subheadfootb{Chapter 5-49}{\, second exam questions}
+
+\subsubhead{Why is Miss Bates considered Emma’s foil?}
+
+Because Miss Bates lacks all the merits that Emma has.
+
+\subsubhead{Which character is considered Emma’s rival, and why?}
+
+Jane Fairfax, because she possesses all of Emma's merits except wealth, and she makes better use of them.
+
+\subsubhead{Which character is described as being "simpleton", and why?}
+
+Harriet, for refusing Robert Martin's proposal.
+
+
+\subsubhead{Which character does Mr. Knightley feel jealous of, and why?}
+
+Mr. Knightley feels jealous of Frank Churchill. Because of Frank relationship with Emma.
+
+\subsubhead{Define and exemplify the term "falling action" in Emma?}
+
+Answer on page 3
+
+\subsubhead{Given the Box Hill episode, do you think that Emma has made use of her advantages?}
+
+No she does not, her rude remark to Miss Bates reflects her lack of consideration for others and
+snobbery.
 
 
 \end{document}
